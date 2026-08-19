@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Static export: Netlify's Next.js Runtime plugin targets SSR/ISR and can
+# fight with `output: "export"`. This site is plain static HTML, so no
+# plugins are declared and none should be enabled in the dashboard either.
