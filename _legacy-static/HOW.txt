@@ -1,0 +1,13 @@
+BUILD v32
+Packaged 07 August 2026 at 09:26
+Stylesheet guide.min.a0d3f6c139.css
+
+DRAG THIS WHOLE FOLDER ONTO netlify.com/drop
+
+Or open your existing Netlify site, go to Deploys, and drag it onto the
+deploy area there to keep the same URL.
+
+The stylesheet and script filenames carry a content hash, so returning
+visitors always get the build they are looking at rather than a cached
+older one. If two builds share a stylesheet name, nothing visual changed
+between them.

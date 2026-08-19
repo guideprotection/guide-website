@@ -1,0 +1,2917 @@
+# Guide, full site text
+
+Generated 2026-08-07 from guideprotection.com. Body copy only, chrome removed.
+
+
+======================================================================
+URL: https://guideprotection.com/
+======================================================================
+
+Guide | The post-purchase OS for Shopify 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ The post-purchase OS 
+
+## Every surface your shopper touches .
+
+ One operating layer for protection, returns, exchanges, order tracking
+ and fraud detection. Engineered for serious commerce.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Checkout+
+
+ Drag to explore
+
+ The whole idea 
+
+## The moment it goes wrong is the moment you win them.
+
+ A parcel that never arrived. The wrong size. A delivery that slipped a week. Every one of
+ those is a customer quietly deciding whether to order from you again. Guide takes the worst
+ moment in the journey and turns it into the reason they come back.
+
+## A recovery, not an apology
+
+ The shopper resolves it where they already were, in your brand, without writing an email
+ or waiting on a reply. What would have been a complaint becomes the story they tell about
+ how well you handled it.
+
+## Fewer tickets reaching your team
+
+ Where is my order. How do I send this back. It arrived damaged. Guide answers all three
+ before they become a conversation, so your agents spend their day on the questions that
+ genuinely need a person.
+
+## A bigger basket at checkout
+
+ Free returns and protection remove the hesitation that quietly caps cart size. When the
+ risk of buying comes down, shoppers commit to the order they actually wanted rather than
+ the safe version of it.
+
+## Where to start, depending on what hurts.
+
+ View all products 
+
+ Checkout+ 
+ Shipping protection and free returns, offered cleanly at the moment shoppers decide. 
+
+ Returns & Exchanges 
+ A self-service portal with smart routing, instant resolutions and policy enforcement. 
+
+ Order Tracking 
+ Carrier-agnostic tracking on your own brand, with proactive delivery updates. 
+
+ Claims 
+ Lost, stolen and damaged orders resolved end to end, in your voice, at our cost. 
+
+ Analytics 
+ Live dashboards across protection, claims, returns and tracking in one place. 
+
+ Fraud Detection 
+ Abuse signals scored across the network, applied before a claim or exchange is approved. 
+
+ One record 
+
+## What "one system" actually buys you, in one customer.
+
+ Every vendor in this category says the modules are connected. Here is what that sentence
+ is worth. One shopper, one record, four months. Watch what March changes about June.
+
+ JM 
+ 
+ Jamie M. 
+ Customer since March &middot; 6 orders &middot; 1 claim &middot; 2 exchanges 
+
+ Live customer record 
+
+ 04 MAR 
+
+ Adds protection at checkout 
+ Opts in on a $248 order. Guide now has a record for this customer, not just this order. 
+ Checkout+ 
+
+ 12 MAR 
+
+ Parcel marked delivered. It was not. 
+ Tracking sees the scan, the customer does not see the box. She opens a claim from the tracking page she was already looking at. 
+ Tracking Claims 
+
+ 12 MAR 
+
+ Resolved without a ticket 
+ First claim, clean carrier history, low risk. Auto-approved inside your rules, replacement drafted in Shopify, your CX team never sees it. 
+ Recovery Zero tickets 
+
+ 21 JUN 
+
+ Requests an exchange, wrong size 
+ Three months later, different module, same record. 
+ Returns 
+
+ 21 JUN 
+
+ This is the part five separate apps cannot do 
+ Guide already knows she had one genuine delivery failure that was not her fault, and no pattern of abuse. So she is offered an instant exchange that ships before the return lands, rather than being asked to post the item back first. A standalone returns app would have treated her like a stranger. 
+ Context applied Instant exchange 
+
+ 21 JUN 
+
+ Registers the product, becomes a first-party contact 
+ Six orders in. The thing that could have lost her in March is the reason she is still here. 
+ Confirmations 
+
+ Risk travels. Generosity travels. That's the whole argument for one system, and it's
+ the only part a competitor can't copy by shipping another module.
+ 
+ See the platform 
+
+ Illustrative journey built from the product's actual rule behavior. Not a customer record.
+
+ The deal 
+
+## Guide carries the risk. You keep the customer.
+
+ The parcel wasn't your fault. The fix still has to look like it came from you.
+
+ Free to you No platform fee, and nothing
+ charged to you per order. The shopper who adds protection is the one who pays for it, at
+ checkout, on the orders they choose.
+
+ Fewer tickets Claims are worked by the
+ Guide Team, in your brand and on your policies. Most of them don't reach your inbox at all,
+ and the ones that do have already been through a person.
+
+ A better ending The replacement, the
+ freight and the argument with the carrier are ours. What you keep is a customer who watched
+ you fix something that was never your fault.
+
+ At checkout 
+
+## The hesitation happens before they pay.
+
+ A clean, on-brand checkout experience that lets customers add shipping protection and get free returns thrown in, before they commit to the order. Take the risk out of the decision and shoppers stop trimming their basket to play it safe.
+
+- One-click protection upsell 
+- Branded to match your store 
+- No redirects or pop-ups 
+
+ Returns 
+
+## A refund is not the only thing they would accept.
+
+ Customers start a return or exchange in seconds, and the portal offers the swap before it offers the money back. Your team gets smart routing and full visibility without a ticket ever being opened, on your policies and your branding.
+
+- One-tap return initiation 
+- Smart eligibility and policy checks 
+- Instant exchange recommendations 
+- Prepaid labels generated the moment a return is approved 
+- Custom resolutions: refund, exchange, or store credit 
+
+ Tracking 
+
+## Nobody should have to visit a carrier's website.
+
+ Give customers a single, beautifully branded place to track every shipment. Integrate with any carrier or merchant and deliver proactive updates from dispatch to doorstep, so nobody has to write in and ask.
+
+- Unified tracking across all carriers 
+- Automated delivery notifications 
+- Branded tracking page that drives repeat visits 
+
+ Analytics 
+
+## Four exports that disagree, or one that does not.
+
+ Real-time dashboards give your team the numbers that matter: protected orders, claim rates, resolution trends and revenue recovered, all in one place.
+
+- Live KPIs across protection, returns and tracking 
+- Filter by carrier, reason code or cohort 
+- Compare protected vs. total order performance 
+- Drill into every claim and customer in seconds 
+
+ Livva Energy's claim lookup, running on their own domain. The support address at the foot of the form is a setting, not a limitation. 
+ 
+ White label 
+
+## Front to back, it stays your brand.
+
+ Guide is built to disappear. Every surface a shopper touches carries your logo, your type, your photography and your domain. This is a live claim lookup on a customer's storefront. There's nothing of ours on it.
+
+- Checkout, returns and tracking, all on your domain 
+- Email and SMS sent from your address through your own provider 
+- Replies written in your voice, by people trained on your policies 
+- Merchant dashboard themable for agencies and multi-brand groups 
+
+ Integrations 
+
+## Plays nicely with your stack.
+
+ Connect the tools you already use. One keystroke and you're live.
+
+ Plus a public REST API, webhooks on every event, and a partner team that will build the
+ connector you need. See all integrations 
+
+ From the Shopify App Store 
+
+## Merchants, in their own words.
+
+ &#9733;&#9733;&#9733;&#9733;&#9733;
+
+ &ldquo;They are always willing to collaborate with us to find the best possible solutions, especially when navigating complex situations such as fraudulent claims. Fast, fair, and effective resolutions.&rdquo;
+
+ N NRML 2 years using Guide 
+
+ &#9733;&#9733;&#9733;&#9733;&#9733;
+
+ &ldquo;It offers new customers another layer of order assurance and confidence when ordering, which helps strengthen conversion rate.&rdquo;
+
+ EA Elva's All Naturals Over 18 months using Guide 
+
+ &#9733;&#9733;&#9733;&#9733;&#9733;
+
+ &ldquo;The customer support has been the best I've worked with, bar none. This app has taken a lot of shipping-related stress off our company's shoulders.&rdquo;
+
+ MM Morrocco Method International Over 2 years using Guide 
+
+## Every surface, on your brand.
+
+ See Guide running on your own catalogue. Thirty minutes, your ops lead in the room, and an honest read on what it would change for your customers and your team.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/products
+======================================================================
+
+The Guide platform | One post-purchase layer 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ The platform 
+
+## One system behind every post-purchase moment.
+
+ Guide isn't a bundle of apps sold together. It's one operating layer with one record of the customer, so what happened on a claim in March informs how an exchange is handled in June.
+
+ Book a Demo (opens in a new tab) 
+ See pricing 
+
+## Six modules. One record.
+
+ See pricing 
+
+ Checkout+ Protection and free returns offered at the moment shoppers decide, in your brand, with no dark patterns. Learn more 
+ Returns & Exchanges Self-service portal, exchange-first flows, instant resolutions and automated policy enforcement. Learn more 
+ Order Tracking Carrier-agnostic tracking on your own domain with proactive updates from dispatch to doorstep. Learn more 
+ Claims Lost, stolen, damaged and missing items resolved end to end by our team, in your voice, at our cost. Learn more 
+ Analytics Live dashboards across protection, claims, returns and tracking, with drill-down to any order. Learn more 
+ Fraud Detection Abuse signals scored across the network, applied before a claim or an exchange is approved. 
+
+ Fraud detection is the one that works differently. It is not a surface a shopper meets; it runs underneath the other five and decides what they are offered.
+
+ One record
+ Protection, claims, returns and tracking all write to the same customer, so context follows them between modules.
+
+ One install
+ A Shopify app and a checkout extension toggle. Brand assets and policy rules are configured once and apply everywhere.
+
+ One team
+ A named account lead owns the whole surface. There's nobody to point at when something breaks.
+
+ Why one system 
+
+## The context is the product.
+ Anyone can sell you six features. What changes the outcome is what happens when they share a database, and it's the one thing a competitor can't copy by shipping another module.
+
+## Risk travels
+ A shopper with a pattern of suspicious claims doesn't get an instant exchange. Six separate apps would never know, because none of them can see the other five.
+
+## Generosity travels
+ A loyal customer who has had two genuinely bad deliveries gets treated better, automatically, without an agent having to notice and decide.
+
+## One portal to learn
+ Claims, returns and tracking behind a single experience on your domain, rather than four vendors' interfaces with four different ideas about buttons.
+
+## One implementation
+ Brand assets, policies and integrations configured once and applied across every module. Change your return window in one place.
+
+## One set of numbers
+ Protected orders, claim rate, resolution trend and recovered revenue reconcile, because they come from one source rather than four exports that disagree.
+
+## One team accountable
+ Nobody to point at when something breaks. A named lead owns the whole surface, in your Slack.
+
+ See how that plays out across one customer over four months 
+
+ Implementation 
+
+## You install it. We build it.
+ The work is mostly decisions, not engineering, and the engineering that does exist is ours. Bring someone who can approve a returns policy.
+
+## You install the app
+ One install from the Shopify App Store. No developer, no theme edits, and nothing you've got to configure yourself.
+
+## We implement it for you
+ The Guide Team does the build: brand assets, policy thresholds, disclosure copy, ESP and helpdesk connections, all set up against your live theme. You make the decisions, we do the work. This isn't a self-serve app you're left alone with.
+
+## We extend it across the surfaces
+ Tracking page and returns portal built and QA'd on your own domain, in your brand. A shopper doesn't ever see ours.
+
+## You change what you want, when you want
+ Policy, branding, thresholds, copy and exclusions are yours to adjust from the dashboard afterwards. No ticket, no call, and you don't wait on us.
+
+ Integrations 
+
+## Reads your stack. Doesn't replace it.
+
+ Plus a public REST API, webhooks on every event, and a partner team that will build the connector you need.
+
+## Better for your customer. Lighter for your team.
+
+ Thirty minutes across every module, configured against your own catalogue and policies.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/pricing
+======================================================================
+
+Pricing | No platform fee | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Pricing 
+
+## No platform fee. No contract .
+
+ Guide is funded by the protection offer your shoppers choose to add at checkout. That
+ revenue covers the software, the claims team and the replacements we ship. What is left
+ is shared with you. The commercial detail sits in the
+ terms of service , and the
+ vocabulary used on this page is defined in the
+ glossary .
+
+ Book a Demo (opens in a new tab) 
+ How the model works 
+
+ Core 
+
+## Checkout+ & Claims
+
+ $0 /month 
+
+ Everything needed to stop absorbing delivery problems and start earning on them.
+
+- Checkout, cart and post-purchase protection offer 
+ 
+- Dynamic per-order pricing engine 
+ 
+- Claims worked end to end by Guide 
+ 
+- Branded claims portal on your domain 
+ 
+- Rules engine and fraud network 
+ 
+- Revenue share for qualifying brands 
+ 
+ Install on Shopify 
+
+ Most merchants 
+
+## Post-purchase OS
+
+ $0 /month 
+
+ The full platform on one data model. Still funded entirely by protection revenue.
+
+- Everything in Core 
+ 
+- Returns & exchanges with instant-exchange rules 
+ 
+- Carrier-agnostic branded tracking 
+ 
+- Order confirmation pages and emails 
+ 
+- Analytics across every module 
+ 
+- Named account lead in a shared Slack channel 
+ 
+ Book a Demo (opens in a new tab) 
+
+ Enterprise 
+
+## Custom
+
+ Talk to us 
+
+ Multi-region, multi-storefront, or wholesale and retail channels to cover.
+
+- Everything in Post-purchase OS 
+ 
+- Multi-storefront and multi-currency 
+ 
+- Custom underwriting and coverage terms 
+ 
+- Dedicated implementation team 
+ 
+- SSO, audit logging, custom DPA 
+ 
+- Quarterly review with your ops leadership 
+ 
+ Talk to sales 
+
+ How the model works 
+
+## Four steps, nothing hidden in a footnote.
+
+ Step 01 
+
+## Shoppers opt in, per order
+ Customers choose to add protection and free returns at checkout, and pay a fee on that order. It is charged to them, not to you, and only on the orders they choose to protect.
+
+ Step 02 
+
+## Guide carries the risk
+ Replacements, refunds, freight, the claims team and the software are all funded from that pool.
+
+ Step 03 
+
+## Qualifying brands share it
+ Your customers pay the protection fee to you, not to us. Each month Guide takes its share through a Shopify usage charge, and for qualifying brands the rest simply stays in the store. There's no payout to wait for, because the money never leaves. Qualification depends on volume and claim profile, and we will tell you plainly where you stand rather than implying every merchant qualifies.
+
+ Step 04 
+
+## You will see one line, and it is not a fee
+ Guide charges no platform fee and doesn't send an invoice, but you'll see a Guide line on your Shopify statement. That is the usage charge collecting the protection fees your customers already paid you, and nothing more. Returns, tracking and analytics are included. If protection stops covering the cost, that's our problem to solve, not a bill we pass on.
+
+## Guide sets the price. You set the frame.
+
+ The offer price responds to cart value, destination, carrier and season, so a small basket is not overcharged and a large one is not underpriced. That pricing is ours to get right and ours to carry if we get it wrong. What you set is the frame it runs inside: a floor, a ceiling, excluded categories and where the offer appears. Those are changeable on any given day without a call.
+
+ Published The same rate card applies whatever your volume 
+
+ None Platform fees, per-claim fees, onboarding fees or overage 
+
+ None Annual contract. Cancel any time by uninstalling the app. 
+
+ Honest If protection is structurally weak in your category, we will say so before you sign 
+
+ Book a demo 
+
+## Thirty minutes, on your own catalogue.
+
+ We'll configure Checkout+ against your live theme, load your products into the returns
+ portal, and mock your tracking page on your own brand. You'll see the actual thing your
+ shoppers would, not a slide about it.
+
+- Bring your ops or CX lead 
+ 
+- Live walkthrough of the claim console and rules engine 
+ 
+- We'll configure it against your live theme beforehand 
+ 
+- An honest read on whether Guide fits your category 
+
+ Live calendar 
+
+## Pick a time that suits you.
+
+ The link opens the same calendar our solutions team works from, so whatever slot you
+ take is confirmed the moment you take it. No qualification call before the real one.
+
+ Book your demo (opens in a new tab) 
+
+- You'll get a calendar invite straight away, with the join link on it 
+ 
+- Bring your store URL and we'll have it loaded before you join 
+ 
+- If nothing on the calendar works, email us and we'll find a time 
+
+ Prefer to write first?
+ hello@guideprotection.com 
+ reaches a person, not a queue.
+
+## Bring us your last ninety days.
+
+ We'll walk the platform on your own catalogue and give you an honest read on whether it fits.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/protection
+======================================================================
+
+Checkout+ | Shipping protection and free returns 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Checkout+ 
+
+## Add returns & protection where shoppers already decide.
+
+ A clean, on-brand checkout experience that lets customers add shipping protection and get free returns thrown in, before they commit to the order, which is exactly where hesitation costs you basket size.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ What Checkout+ is 
+ Checkout+ is a shipping protection and free returns offer that Guide presents as a single line in the cart, rendered as a native checkout extension rather than an injected script. The shopper accepts or declines it before paying, and the copy, colors and typography are the merchant's own. When a protected order is later lost, stolen or damaged, Guide resolves the claim and covers the replacement, which is what funds the free returns program without a platform fee.
+
+ At checkout 
+
+## One line in the cart. Nothing else changes.
+
+ Guide renders as a native Shopify checkout extension, not an injected script and not an iframe. It inherits your type, your colors and your spacing, and it survives every platform and theme update.
+
+- One-click protection upsell 
+- Branded to match your store 
+- No redirects or pop-ups 
+
+ How it works 
+
+## From install to first protected order.
+ There's no development work in this. The longest part is deciding your policy.
+
+## Install the app
+ A Shopify app install from the App Store. No theme edits, no code, no developer, and nothing you have to configure yourself.
+
+## We implement it for you
+ The Guide Team sets up the checkout element, your branding and your policy rules against your live theme. You approve the decisions, we do the work.
+
+## The engine prices each order
+ Cart value and composition, destination loss history, carrier and service level, season, and whether this shopper has ordered from you before. Every offer is a decision the engine can explain.
+
+## The shopper decides
+ Clear opt-in, honest coverage language, a visible decline path. Whatever they choose is written to the order record so it is auditable later.
+
+ Where it appears 
+
+## Cart, checkout, or both.
+ Guide renders wherever it converts best for your funnel. You choose which surfaces are live, and reporting is broken out by surface so you can tell what is working.
+
+## Checkout extension
+ For Shopify Plus. A native app block inside checkout, which is the highest-intent moment and the surface that survives platform updates.
+
+## Cart drawer and cart page
+ For every other plan. Drop-in components for any theme with no code, matching your existing cart styling.
+
+## Post-purchase offer
+ A second chance for shoppers who declined the first time, shown on the order status page. Additive, since it only reaches people who already said no.
+
+ Your rules 
+
+## We price it. You govern it.
+ Guide sets the protection price, so you are never guessing at a number or carrying the risk of getting it wrong. Everything around the offer is yours, and changeable on any given day without a call.
+
+ Branding Wording, colors, placement and the look of every surface a shopper sees. Yours, not ours. 
+ Price floor and ceiling Cap what the engine may ever charge, in absolute terms or as a share of cart value. 
+ Category rules Exclude products, collections or destinations from the offer entirely. 
+ Copy and disclosure Your wording, within the reviewed disclosure language for each market you sell into. 
+ Placement Which surfaces render the offer, and in what order. 
+
+ Coverage 
+
+## What a protected order covers.
+
+ Written in plain language, because the person reading it at 11pm is deciding
+ whether to trust your brand.
+
+## Lost in transit
+ No scan movement past the carrier's window. Replaced or refunded, the shopper chooses.
+
+## Stolen after delivery
+ Marked delivered, never received. No police report, no notarized affidavit, no theatre.
+
+## Damaged on arrival
+ A single photo starts it. Most damage claims resolve without a further request.
+
+## Wrong or missing item
+ Even when it was a pick-and-pack error on your side. Guide covers it and flags the SKU.
+
+ Coverage terms, limits and exclusions are set out in full in the
+ terms of use , including per-order value limits and excluded categories. Some categories, including perishables, custom
+ fabrication and high-value jewellery, carry specific conditions we will walk through before launch.
+
+ Works with 
+
+## It does not stop at this module.
+ Every part of Guide writes to the same record, so what happens here changes how the next thing is handled.
+
+ Returns & Exchanges Self-service portal with exchange-first routing. Learn more Order Tracking Carrier-agnostic tracking on your own brand. Learn more Claims Lost, stolen and damaged orders resolved end to end. Learn more Analytics Live dashboards across every module. Learn more Fraud Detection Abuse signals scored across the network. Learn more 
+
+## Put it in the cart and watch what happens.
+
+ We will configure Checkout+ against your live theme during the demo so you can see the exact element your shoppers would.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/returns
+======================================================================
+
+Returns and exchanges portal | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Returns & Exchanges 
+
+## An exchange-first returns module that keeps the revenue .
+
+ A refund sends the money back. An exchange keeps it with the brand and keeps the customer. The portal offers the swap before it offers the money, so a return stops being a loss by default.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ What the returns portal is 
+ Guide's returns portal is a self-service flow, hosted on the merchant's own brand, where a shopper starts a return without emailing anyone. Before it offers a refund it offers a suitable exchange or store credit, which is what keeps the revenue in the business. Routing rules decide which items are eligible, where they should be sent, and which returns are not worth shipping back at all.
+
+ Exchange first 
+
+## The swap is offered before the refund.
+
+ The portal leads with what the customer can have instead: the right size, a different color, or store credit at a bonus rate. A refund is still there for anyone who wants it, but it stops being the default path, and revenue that would have left the brand stays with it.
+
+- Instant exchange recommendations from live inventory 
+- One-tap return initiation 
+- Smart eligibility and policy checks 
+- Store credit at a bonus rate, if you offer it 
+- Refund still available, never hidden 
+
+ How it works 
+
+## Four screens. No email thread.
+ The order of these screens is the entire product. Put refund first and most people press refund.
+
+## Identify the order
+ Order number and email, or a single tap from the tracking page they were already looking at. No account, no password.
+
+## Say what happened
+ Structured reasons at the variant level rather than a free-text box nobody reads. Too small, wrong color, not as pictured, arrived damaged.
+
+## See what you would rather have
+ The right size, a close alternative, or bonus store credit. In stock, with any price difference already calculated. Refund is available, it is just not first.
+
+## Ship it back, or do not
+ Label issued, exchange drafted in Shopify, your warehouse gets a clean instruction. On low-value items where freight exceeds recovery, Guide can simply tell them to keep it.
+
+ Exchanges 
+
+## Show them what they actually wanted.
+
+ Before a refund button appears, the portal offers the right size, a close alternative or bonus store credit. The shopper isn't being talked out of their money, they are being offered something better.
+
+- Instant exchanges that ship before the return lands 
+- Bonus store credit at a rate you set 
+- Keep-it resolutions where freight exceeds recovery 
+
+ Your rules 
+
+## Your policy, enforced the same way every time.
+ Guide doesn't impose a returns policy. It applies the one you already have, consistently, which is usually the part that breaks when a human is doing it.
+
+ Windows and eligibility Return windows by product, collection, customer tier or order value. Final sale rules that actually hold. 
+ Fees Return fees, restocking fees, or free returns for everyone. Waivable per customer tier. 
+ Exchange risk Which customers get an instant exchange that ships before the return arrives, and which wait. 
+ Store credit bonus The rate you offer above face value, if any. 
+ Fraud thresholds What happens when a shopper's behavior scores high across the network. Extra evidence, manual queue, or decline. 
+
+ Beyond logistics 
+
+## Every return is a product review you did not have to ask for.
+ Structured return reasons at the variant level, routed to the people who can act on them.
+
+## Sizing intelligence
+ A consistent "runs small" signal on a specific variant, surfaced back to the product page once it's statistically meaningful rather than after one complaint.
+
+## Defect clustering
+ Damage claims and return reasons grouped by SKU, batch and vendor, so a manufacturing problem surfaces in weeks rather than seasons.
+
+## Contribution by SKU
+ True margin after returns, freight and processing. Some of your bestsellers are not bestsellers.
+
+ Works with 
+
+## It does not stop at this module.
+ Every part of Guide writes to the same record, so what happens here changes how the next thing is handled.
+
+ Checkout+ Protection and free returns, offered where shoppers decide. Learn more Order Tracking Carrier-agnostic tracking on your own brand. Learn more Claims Lost, stolen and damaged orders resolved end to end. Learn more Analytics Live dashboards across every module. Learn more Fraud Detection Abuse signals scored across the network. Learn more 
+
+## See the portal on your own catalogue.
+
+ We'll load your products and policies into a working returns portal during the demo.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/tracking
+======================================================================
+
+Branded order tracking | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Order Tracking 
+
+## Carrier-agnostic tracking that stays on brand .
+
+ Give customers a single, beautifully branded place to track every shipment. Integrate with any carrier or merchant and deliver proactive updates from dispatch to doorstep, so nobody has to write in and ask.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ What branded order tracking is 
+ Guide replaces the carrier's tracking page with one on the merchant's own domain, carrying the merchant's brand. It's carrier-agnostic, so the experience doesn't change when a merchant switches carrier or runs several at once, and it pushes proactive updates when a delivery slips rather than waiting for the shopper to check. That's what removes the reason most where-is-my-order tickets get written.
+
+ Tracking 
+
+## The page they refresh four times a day should be yours.
+
+ Tracking lives on your own domain, with your navigation and your merchandising. No third-party redirect, no competitor placements, no carrier page from 1998.
+
+- Unified tracking across all carriers 
+- Automated delivery notifications 
+- One page whichever carrier moved the parcel 
+- Branded tracking page that drives repeat visits 
+
+ How it works 
+
+## From label to doorstep, in your voice.
+ Where is my order is the largest ticket category in most ecommerce inboxes. It's an information problem, not a staffing problem.
+
+## The label is created
+ Guide picks up the shipment from Shopify or your fulfillment platform the moment it exists, whichever carrier it's going with.
+
+## Scans become sentences
+ "Arrived at facility" means nothing to a shopper. Guide translates carrier status codes into plain language with a real delivery estimate attached.
+
+## Delays get announced, not discovered
+ When a scan stalls or a delivery window is missed, the customer hears it from you first. This one message does more work than the rest of the sequence combined and almost nobody sends it.
+
+## Problems resolve on the same page
+ If the parcel is genuinely lost or damaged, the claim starts from the page they are already looking at, at the exact moment they realize something is wrong.
+
+ What it does 
+
+## Three things a carrier page will never do.
+
+## Every carrier, one view
+ Domestic, international, freight and regional carriers normalised into a single status model, so the customer never has to interpret a carrier code or visit a site that doesn't know your brand exists.
+
+## Proactive, not reactive
+ Guide watches for stalled scans and missed delivery windows and messages the customer before they message you. Silence is what turns a delay into a ticket, and then into a refund request.
+
+## Merchandised properly
+ Recommendations driven by what they just bought, with real inventory awareness. It is the most-visited page you own between purchase and delivery.
+
+ Your rules 
+
+## Your domain, your sender, your words.
+ The tracking experience is a surface you own. Guide supplies the data and the logic, and stays out of the way of everything the customer can see.
+
+ Domain track.yourbrand.com, with your navigation and footer. Not a page on our site. 
+ Notification channel Email and SMS through your own Klaviyo, Postscript or Attentive account, from your sending address. 
+ Trigger points Which events send a message, and which stay silent. Dispatch, out for delivery, delayed, delivered, exception. 
+ Delay threshold How long a scan may stall before the customer hears about it. 
+ Merchandising What appears below the timeline, and whether it appears at all. 
+
+ Works with 
+
+## It does not stop at this module.
+ Every part of Guide writes to the same record, so what happens here changes how the next thing is handled.
+
+ Checkout+ Protection and free returns, offered where shoppers decide. Learn more Returns & Exchanges Self-service portal with exchange-first routing. Learn more Claims Lost, stolen and damaged orders resolved end to end. Learn more Analytics Live dashboards across every module. Learn more Fraud Detection Abuse signals scored across the network. Learn more 
+
+## Take back the most-visited page you don't own.
+
+ We'll mock your tracking page on your own brand before the call so you can see it rather than imagine it.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/claims
+======================================================================
+
+Claims resolution, handled for you | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Claims 
+
+## Resolution, handled end to end .
+
+ A shopper reports a problem in a portal that lives on your domain. Guide verifies it, applies your policy and resolves it, without a ticket ever reaching your team. The customer gets an answer in minutes instead of an apology in a day.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ What claims resolution means here 
+ When a shopper reports an order lost, stolen or damaged, they file the claim on the merchant's brand and Guide's team resolves it end to end: assessment, decision, and the reship or refund. The merchant's support queue doesn't see the ticket. Guide isn't an insurer, it resolves claims on the merchant's behalf and carries the cost of approved ones.
+
+ Claims 
+
+## Most claims never need a human. The ones that do get a good one.
+
+ Guide scores every claim the moment it lands. Clean claims resolve automatically inside
+ your rules. Ambiguous ones route to a specialist who opens the case with the carrier
+ data, the order history and the risk assessment already in front of them.
+
+- Auto-approve thresholds you define 
+ 
+- Evidence requirements by value and claim type 
+ 
+- Replacement orders drafted straight into Shopify 
+ 
+- Every message to your customer readable in your dashboard 
+
+ How it works 
+
+## Filed, verified, resolved.
+ The customer sees four fields and an outcome. This is what happens behind them.
+
+## The shopper files
+ From a portal on your domain, linked from tracking and from your own returns page. Four fields, about forty seconds, no account required.
+
+## Evidence is gathered automatically
+ Carrier scan history, delivery geocode, weather and service disruptions on the lane, and this shopper's full order and claim history across the Guide network.
+
+## Risk is scored, not guessed
+ A model trained on resolved claims across the network. It knows the difference between a genuinely unlucky customer and the fourteenth stolen package to the same address.
+
+## It resolves, or it escalates
+ Clean claims inside your thresholds resolve immediately and the replacement is drafted in Shopify. Anything ambiguous reaches a specialist who already has the full picture rather than starting with a blank ticket.
+
+ Control 
+
+## Generous where it builds loyalty. Firm where it does not.
+ Blanket approval is expensive and teaches a small group exactly how to exploit you. Blanket suspicion costs you good customers. The rules engine is precise enough to be both.
+
+## Thresholds
+ Approve instantly under a value you set, optionally scoped by category, customer value or first-versus-repeat claim.
+
+## Evidence
+ Require photos over a threshold or for damage specifically. Guide validates the photo shows the product before anyone reviews it.
+
+## Network signals
+ Addresses, devices and payment fingerprints flagged across every Guide merchant, so abuse arriving from elsewhere is already known.
+
+## Override
+ Any claim can be pulled into your own queue with one click. Some brands take every VIP claim manually. Most take none.
+
+ Your brand, not ours 
+
+## The customer never learns our name.
+
+ The claim portal sits on your domain. The emails come from your sending address in your
+ template. Our specialists are trained on your voice, your policy and your catalogue
+ before they take a single case. When a shopper posts about the resolution, your brand
+ gets the credit.
+
+ In-house specialists Employed, trained and measured by Guide, not a rotating outsourced bench. 
+
+ Seven-day coverage Weekends are when shoppers notice a package is missing. 
+
+ Named account lead In your Slack channel, not behind a support form. 
+
+ Weekly claim digest Volume, cost, failing lanes and problem SKUs, sent to your ops lead. 
+
+ Our customers who have had to file claims have the easiest experience. Their service is top notch.
+
+ Phoenician Grinders, over 2 years using Guide
+
+ Works with 
+
+## It does not stop at this module.
+ Every part of Guide writes to the same record, so what happens here changes how the next thing is handled.
+
+ Checkout+ Protection and free returns, offered where shoppers decide. Learn more Returns & Exchanges Self-service portal with exchange-first routing. Learn more Order Tracking Carrier-agnostic tracking on your own brand. Learn more Analytics Live dashboards across every module. Learn more Fraud Detection Abuse signals scored across the network. Learn more 
+
+## Take the queue off your team.
+
+ We'll show you the claim console, the rules engine and how a real claim moves through it.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/analytics
+======================================================================
+
+Post-purchase analytics | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Analytics 
+
+## A full view of claims, returns, and every order in between .
+
+ Real-time dashboards give your team the numbers that matter: protected orders, claim rates, resolution trends and revenue recovered, all in one place.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ What Guide's analytics show 
+ Because every Guide module writes to the same record of the customer, the analytics show claims, returns, exchanges and delivery performance as one picture rather than four exports that have to be reconciled. The useful part is the reason data underneath: which products come back, which carriers generate claims, and which cohorts do both.
+
+ Analytics 
+
+## Numbers that reconcile, because they come from one source.
+
+ When protection, claims, returns and tracking share a database, reporting stops being an
+ exercise in matching four exports that disagree. Ask a question, get an answer, drill to
+ the individual order.
+
+- Live KPIs across protection, returns and tracking 
+ 
+- Compare protected vs. total order performance 
+ 
+- Drill into every claim and customer in seconds 
+
+ How it works 
+
+## From event to answer.
+ Nothing here is a nightly batch. The dashboard is reading the same records the claims team is working from.
+
+## Every module writes to one record
+ A protected order, a scan, a claim and an exchange are all events against the same customer. That's what makes the reporting agree with itself.
+
+## Dashboards update in near real time
+ You're not waiting for a sync. What the console shows is what the operations team can see.
+
+## Ask in plain English
+ Which lanes are failing this month. Which SKU drives the most damage claims. Which cohort exchanges rather than refunds. No report builder, no dashboard to configure first.
+
+## Reconcile at month end
+ Order-level CSV that ties line by line to Shopify, so finance can check the Shopify usage charge line by line, where you qualify for revenue share, rather than taking it on trust.
+
+ What you get 
+
+## Built for the person who has to explain it.
+
+## Plain-English questions
+ Ask which lanes are failing or which SKU drives the most damage claims, and get the answer without building a report first.
+
+## Exports finance trusts
+ Order-level CSV that ties back to Shopify, so protection revenue and claim cost can be reconciled line by line rather than argued about.
+
+## Alerts, not dashboards
+ Guide tells your ops lead when a metric moves outside its normal range, rather than waiting for somebody to remember to check.
+
+ Access 
+
+## Who sees what, and where it goes.
+ The console isn't the only destination. Most teams want this data somewhere else too, and it's yours to move.
+
+ Roles Role-based access per user. Finance sees settlement, CX sees claims, agencies see only their client. 
+ Single sign-on SSO and audit logging on enterprise accounts. 
+ Public API REST, documented, with webhooks on every event so you can push into a warehouse. 
+ Scheduled exports CSV on a schedule to wherever your BI stack expects it. 
+ Portability Your full claim, return and warranty history exported on request, including if you leave. 
+
+ In practice 
+
+## What a team actually does with this.
+ Dashboards are only worth building if somebody changes something because of them. These are the three loops the console is designed to close.
+
+## Weekly: failing lanes
+ Which carrier and destination combinations are producing claims. Enough signal in a fortnight to change a shipping rule, and it is usually one lane doing most of the damage.
+
+## Monthly: policy fit
+ The mix between replaced, refunded, exchanged and declined. If it drifts from what you intended, the thresholds are wrong rather than the customers.
+
+## Quarterly: SKU truth
+ Contribution after returns, freight and processing. This is where a product that looks like a bestseller turns out to be funding its own returns.
+
+ Works with 
+
+## It does not stop at this module.
+ Every part of Guide writes to the same record, so what happens here changes how the next thing is handled.
+
+ Checkout+ Protection and free returns, offered where shoppers decide. Learn more Returns & Exchanges Self-service portal with exchange-first routing. Learn more Order Tracking Carrier-agnostic tracking on your own brand. Learn more Claims Lost, stolen and damaged orders resolved end to end. Learn more Fraud Detection Abuse signals scored across the network. Learn more 
+
+## See your own numbers in the console.
+
+ Connect a sandbox store during the demo and we'll populate the dashboards with real structure.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/fraud
+======================================================================
+
+Fraud and abuse detection | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Fraud Detection 
+
+## Catch the pattern before it becomes a policy .
+
+ Most claim and return abuse isn't clever. It's repetitive. Guide scores behavior across the whole merchant network so the pattern is visible on the first claim rather than the fifth.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ How fraud detection works 
+ Guide scores claim and return abuse across the whole network rather than within one merchant's data. A serial claimant filing across several stores, or a reshipping ring using the same address pattern, is visible at network level long before any single merchant would have enough history to spot it. Signals are advisory: the merchant sets the thresholds.
+
+ How it works 
+
+## Three layers, none of them aimed at your honest customers.
+ Each layer runs before a specialist spends time on a case, and each one is explainable after the fact.
+
+## Network-level signals
+ Addresses, devices and payment fingerprints associated with abuse at one merchant are known at every other. Behavior that migrates arrives already flagged, which is the whole advantage of a network.
+
+## Evidence validation
+ Submitted photos are checked for reuse, manipulation and whether they actually show the product claimed, before a person spends time on them.
+
+## Rules you control
+ You decide what a high score does: extra evidence, a manual queue, or a decline. Guide surfaces the signal, the policy stays yours.
+
+ What happens to a suspicious claim 
+
+## Scored, not judged.
+ A score is an input to your policy, not a verdict. Nothing declines on its own unless you configure it to.
+
+## The claim arrives
+ Same portal, same four fields. Nothing about the shopper experience changes based on their score, because telling someone they look suspicious is how you lose an honest customer.
+
+## Signals are matched
+ Address, device and payment fingerprints checked against network history. Claim frequency, order history and the specific pattern of what is being claimed.
+
+## A score is produced, with reasons
+ Not a black box. The dashboard shows which signals contributed, so a decision can be defended to the customer or to a chargeback provider.
+
+## Your rule fires
+ Auto-approve, request evidence, route to your queue, or decline. You set the thresholds and you can override any outcome in either direction.
+
+ Proportionality 
+
+## Most people telling you their package vanished are telling the truth.
+
+ Fraud tooling that treats every claim as suspect costs more in lost customers than it
+ saves in prevented payouts. Guide is built to clear the honest majority instantly and
+ spend its scrutiny on the small number of cases that warrant it.
+
+- Genuine customers are not asked for paperwork 
+ 
+- Scores are explainable, so a decision can be defended 
+ 
+- You can always override, in either direction 
+
+ Your rules 
+
+## Where the line sits is your decision.
+ Two merchants in the same category will draw this differently, and both can be right. Guide doesn't have an opinion about your risk appetite.
+
+ Score thresholds What counts as high, and what happens at each level. 
+ Actions Request evidence, route to a manual queue, decline, or approve anyway and absorb it. 
+ Customer exemptions Lifetime value or tier can override a score, so your best customers are never treated as suspects. 
+ Category rules Higher scrutiny on the products that actually attract abuse, rather than across the board. 
+ Review and appeal Every decision is reopenable, and the reasons behind the score stay visible. 
+
+ The honest part 
+
+## What this doesn't do.
+ Every fraud product oversells itself, so here is the boundary. Knowing where the tool stops is what lets you staff the rest properly.
+
+## It won't catch everything
+ A first-time, well-executed claim from a clean address looks exactly like a genuine one, because at that moment there's no difference in the data. The network catches the repeat, which is where the volume actually is.
+
+## It's not a substitute for a policy
+ A score tells you how unusual something is. Only you can decide what you're willing to absorb to keep a customer, and that decision is a commercial one.
+
+## It won't police your team
+ Internal loss, mis-picks and warehouse error look like claims but are not fraud. Guide flags the pattern by SKU and location so you can see it, then it's yours.
+
+ Works with 
+
+## It does not stop at this module.
+ Every part of Guide writes to the same record, so what happens here changes how the next thing is handled.
+
+ Checkout+ Protection and free returns, offered where shoppers decide. Learn more Returns & Exchanges Self-service portal with exchange-first routing. Learn more Order Tracking Carrier-agnostic tracking on your own brand. Learn more Claims Lost, stolen and damaged orders resolved end to end. Learn more Analytics Live dashboards across every module. Learn more 
+
+## See what the network already knows.
+
+ We'll run a look-back against a sample of your historical claims and show you the patterns in them.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/glossary
+======================================================================
+
+Post-purchase glossary | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Glossary 
+
+## The post-purchase vocabulary, without the padding .
+
+ Plain definitions of the terms that get used loosely in this category. No vendor spin, no invented benchmarks, and nothing here that Guide cannot stand behind.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ Post-purchase
+ Everything that happens after a shopper clicks buy: the confirmation, the delivery, the tracking updates, and any return, exchange or claim that follows. It is the longest stretch of the customer relationship and usually the least designed.
+
+ Post-purchase OS
+ A single operating layer that handles every post-purchase event on one record of the customer, rather than separate apps for protection, returns, tracking and claims that cannot see each other's data.
+
+ Shipping protection
+ An option presented at checkout that covers the shopper if their order is lost, stolen or damaged in transit. When a claim is approved the item is reshipped or refunded without the merchant absorbing the cost.
+
+ Checkout+
+ Guide's name for the checkout offer that bundles shipping protection with free returns into one line item, presented in the merchant's brand with a clear decline path.
+
+ Exchange-first returns
+ A returns flow that shows the shopper a suitable exchange or store credit before it shows them a refund. It keeps revenue in the business without tightening the return policy or making a refund harder to reach.
+
+ WISMO
+ Where is my order. The most common support ticket in ecommerce, generated when a shopper cannot tell what is happening to a delivery. WISMO volume is a symptom of tracking visibility, not of understaffed support.
+
+ Delivery exception
+ Any event that stops a parcel completing its journey as scheduled: a failed delivery attempt, a customs hold, a misroute, or a carrier marking an order delivered when the shopper has not received it.
+
+ Claim
+ A shopper's report that an order was lost, stolen, damaged or never arrived. Under Guide the claim is filed on the merchant's brand and resolved by Guide's team rather than by the merchant's support queue.
+
+ Return fraud
+ Abuse of a return or claim policy, including serial claimants, wardrobing, and reshipping rings that file repeat claims across multiple merchants. It is detectable at network level long before it is visible to one merchant.
+
+ White label
+ Software that carries the merchant's brand rather than the vendor's, front to back. A genuinely white-labelled post-purchase flow means the shopper never learns that a third party is involved.
+
+ Attach rate
+ The share of orders where a shopper accepts an optional offer at checkout, such as shipping protection. It is the number that determines whether a protection-funded model works for a given catalogue.
+
+ Carrier-agnostic
+ Working the same way regardless of which carrier moves the parcel, so tracking and claims do not change shape when a merchant switches carrier or runs several at once.
+
+ Working definitions rather than industry standards. Where a term is
+ contested we have said what Guide means by it, which is the only
+ definition we can speak for. See the
+ blog for the
+ longer arguments behind several of these, or the
+ platform overview 
+ for how the pieces fit together. How Guide handles the data behind these terms
+ is set out in the privacy policy ,
+ and the commercial side sits in the
+ terms of service . For how
+ teams put these into practice, see
+ resource center .
+
+## Want this applied to your catalogue?
+
+ Thirty minutes on your own store beats another page of definitions.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/resources
+======================================================================
+
+Resources for Shopify merchants | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Resources 
+
+## Everything you need to run this well .
+
+ Setup guides, policy templates, operator playbooks and the shopper-facing claim portal.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ File a claim For shoppers. Report a lost, stolen or damaged order and check the status of an existing claim. Go to claims 
+ Returns policy design How to structure a returns policy that retains revenue without tightening the rules. Read the guide 
+ Operator writing Notes on claim thresholds, exchange-first returns and cutting where-is-my-order volume. Read the blog 
+ Glossary Plain definitions of the terms this category uses loosely, from attach rate to WISMO. Read the glossary 
+ For shoppers What coverage includes, how a claim is resolved, and what to expect once you have filed one. See how it works 
+
+ Integrations 
+
+## Plays nicely with your stack.
+
+ Connect the tools you already use. One keystroke and you're live.
+
+ Don't see yours? The public API and webhooks cover it, and our partner team will build the connector. Unfamiliar with a term on this page? The glossary defines them plainly.
+
+## Still have a question?
+
+ Talk to someone who has implemented this a few hundred times rather than reading another page about it.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/for-shoppers
+======================================================================
+
+File a claim on your order | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ For shoppers 
+
+## Something went wrong with your order?
+
+ If the store you bought from uses Guide, this is the right place. Filing takes about a
+ minute, and the Guide Team takes it from there.
+
+ File a claim 
+ What happens next 
+
+ What to do 
+
+## Three steps, and you are done.
+
+## Find your order number
+
+ It is in your order confirmation email from the store, usually near the top and starting with a hash. If you cannot find the email, search your inbox for the store name.
+
+## Tell us what happened
+
+ Lost, never arrived, marked delivered but missing, arrived damaged, or the wrong item. Four fields, about forty seconds. If it arrived damaged, one photo helps and usually settles it immediately.
+
+## Choose how you want it fixed
+
+ A replacement or a refund, depending on what the store offers and what is in stock. Most claims resolve without anyone needing to email you back.
+
+ To resolve a claim we use the order details the store shares with us. Our privacy policy sets out what is collected, how it is used, and who it may be disclosed to.
+
+ After you file 
+
+## A person is looking at it.
+
+ Straightforward claims resolve on their own, often before you have closed the tab.
+ Anything that needs judgement goes to the Guide Team, who handle it on
+ behalf of the store you bought from and under that store's policies.
+
+ You will hear about every stage by email, sent from the store's own address rather
+ than ours. You do not need to chase it, and you do not need to contact the store
+ separately. If we need something from you, such as a photograph of damage, we will
+ ask for that one thing rather than sending you back to the start.
+
+ You will not be asked for 
+
+- A police report for a parcel marked delivered 
+ 
+- The original packaging, unless the claim is for damage 
+ 
+- A phone call, or a place in a queue 
+
+ File a claim 
+
+## Still stuck?
+
+ Email hello@guideprotection.com with your order number and we will pick it up from there.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog
+======================================================================
+
+Blog | Notes on post-purchase operations 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Blog 
+
+## Notes from the post-purchase weeds .
+
+ Operational writing for people who run this for a living. No thought leadership, no predictions, no reheated statistics.
+
+ Book a Demo (opens in a new tab) 
+ View all products 
+
+ Customer experience 6 min read 
+ The carrier lost it. You take the blame 
+ Shoppers do not separate a carrier's failure from a merchant's. The parcel has your name on it, so the disappointment does too. What to do about that. 
+ Read 
+
+ Retention 6 min read 
+ The customer you nearly lost 
+ A delivery that goes wrong is one of the few moments a brand gets a customer's full attention. Most brands spend it arguing. Here is the better use. 
+ Read 
+
+ Brand 5 min read 
+ Whose brand is the apology in? 
+ When a third party fixes a delivery problem in its own name, the customer thanks the third party. The recovery happens and none of it lands on the brand. 
+ Read 
+
+ Operations 6 min read 
+ The second inbox nobody staffs for 
+ Where-is-my-order is the loud ticket category. Claims and returns are the expensive one, because every single one of them needs a human to make a decision. 
+ Read 
+
+ Operations 7 min read 
+ Cut where-is-my-order tickets without hiring 
+ WISMO is usually the largest single ticket category in ecommerce support. Most of it is preventable with three changes that cost nothing to make. 
+ Read 
+
+ Returns 6 min read 
+ Exchange-first returns that actually work 
+ Most returns policies are written to control cost. The ones that retain revenue are written to change what the customer chooses. 
+ Read 
+
+ Checkout 6 min read 
+ What shipping protection should actually cost 
+ Flat-rate protection overcharges small baskets and underprices large ones. Here is what the price should actually respond to. 
+ Read 
+
+ Claims 6 min read 
+ Delivered, but not received 
+ The most common claim in ecommerce is also the hardest to prove, the easiest to abuse and the one most likely to lose you a customer. How to handle it. 
+ Read 
+
+ Economics 6 min read 
+ Should you just absorb it yourself? 
+ Plenty of merchants replace lost parcels out of margin and skip protection. Sometimes that's right. How to work out whether it is right for you. 
+ Read 
+
+ Compliance 5 min read 
+ Shipping protection is not insurance 
+ The distinction sounds like a technicality until a regulator asks. What shipping protection actually is, and why merchants should know the difference. 
+ Read 
+
+## Rather talk than read?
+
+ Thirty minutes on your own catalogue, with an honest read on whether Guide fits your category.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-wismo
+======================================================================
+
+Cut where-is-my-order tickets without hiring 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Operations · July 2026 · 7 min read 
+
+## Cut where-is-my-order tickets without hiring
+
+ WISMO is usually the largest single ticket category in ecommerce support. Most of it is preventable with three changes that cost nothing to make.
+
+ Where is my order is almost always the biggest single category in an ecommerce support inbox. It is also the least interesting work your team does, because the answer is nearly always the same: it is in transit, and here is the scan.
+
+ The instinct is to answer faster. The better move is to make the question unnecessary.
+
+## Why the question gets asked at all
+
+ A shopper asks where their order is for one of three reasons. They cannot find the tracking link. The tracking link tells them nothing useful. Or the tracking has not moved and nobody has explained why.
+
+ All three are information problems, not staffing problems. Hiring another agent does not fix any of them. It just answers the same question more times.
+
+## Three changes that remove most of it
+
+## 1. Put tracking somewhere the customer will actually look
+
+ Most brands send a tracking link in an email and then hand the customer to a carrier page. The email gets buried. The carrier page is designed for logistics staff, not shoppers, and it tells them the parcel is at a sort facility in a town they have never heard of.
+
+ A tracking page on your own domain, linked from the order confirmation and reachable from your site navigation, removes the first cause entirely. The customer knows where to look because it is where everything else about your brand lives.
+
+## 2. Translate carrier language into human language
+
+ "Arrived at facility" means nothing. "On its way, arriving Thursday" means something. The underlying data is the same. The difference is whether anyone did the work of turning a scan code into a sentence.
+
+ The same applies to the difficult cases. A parcel that has not moved in three days needs a message that says so, in plain terms, with what happens next. Silence is what turns a delay into a support ticket, and then into a refund request.
+
+## 3. Message before they have to ask
+
+ This is the one most teams skip, because it feels like inviting complaints. It does the opposite. A shopper who receives "your parcel is running a day late, here is why" does not write in. A shopper who discovers it themselves does, and they arrive annoyed.
+
+ A proactive delay notification is the one message in the whole post-purchase sequence that earns its keep, and almost nobody sends them.
+
+## What is left after that
+
+ Once tracking is findable, legible and proactive, the residual where-is-my-order volume is mostly genuine failures: parcels that are actually lost, actually stolen, or actually damaged. That is a much smaller number, and it is real work worth doing properly.
+
+ It is also work that does not have to sit with your team at all. If the resolution path lives on the same page as the tracking, the customer can start it themselves at the moment they realize something is wrong, which is the moment they are most likely to act.
+
+## The order to do this in
+
+- Move tracking onto your own domain and link it from the confirmation email. 
+
+- Rewrite the status language so a person can understand it. 
+
+- Turn on delay detection and send the message nobody wants to send. 
+
+- Put a one-click path from the tracking page into a claim, so the failure cases resolve themselves. 
+ 
+ None of this requires more people. It requires the information to be in the right place at the right time, which is a design problem, not a headcount problem.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ Exchange-first returns that actually work 
+ Most returns policies are written to control cost. The ones that retain revenue are written to change what the customer chooses.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-exchange-first
+======================================================================
+
+Exchange-first returns that actually work 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Returns · July 2026 · 6 min read 
+
+## Exchange-first returns that actually work
+
+ Most returns policies are written to control cost. The ones that retain revenue are written to change what the customer chooses.
+
+ Most returns policies are written by someone trying to reduce a cost. That is the wrong starting point, and it produces the same three moves every time: shorten the window, add a fee, make the form harder.
+
+ All three work, in the narrow sense that returns go down. They also make the customer less likely to buy again, which is a worse outcome that arrives later and does not show up in the same report.
+
+## A refund is a decision, not an inevitability
+
+ When a customer starts a return, they have decided this particular item is not right. They have not necessarily decided they want their money back. Those are different conclusions, and most returns portals collapse them into one by making refund the default and the fastest path.
+
+ If the first thing a shopper sees is a refund button, most of them will press it. Not because it is what they wanted, but because it is what was offered.
+
+## What changes the outcome
+
+## Show them the thing they actually wanted
+
+ The most common return reason in apparel is sizing. A shopper returning a medium usually wants a large, not their money back. If the portal shows the large, in stock, ready to ship, with no price difference to pay, a meaningful share of those refunds become exchanges instead.
+
+ This only works if it is instant and specific. "Browse our catalogue" is not an exchange offer. "Same jacket, size large, ships today" is.
+
+## Make store credit worth choosing
+
+ Store credit at face value is a worse deal than a refund and shoppers know it. Store credit at a bonus rate is a genuinely better deal, and it costs you less than the refund does once you account for the margin you keep.
+
+ The bonus does not need to be large. What matters is that the shopper can see they are being offered something, rather than being talked out of their own money.
+
+## Ship the exchange before the return arrives
+
+ The single biggest reason shoppers pick a refund over an exchange is time. They do not want to wait two weeks to receive the right size. If the replacement ships immediately, gated by whatever risk rules you are comfortable with, that objection disappears.
+
+ The risk is real but it is bounded and measurable, and for most customers it is a rounding error against the revenue retained.
+
+## The part everyone skips
+
+ Return reasons are the highest-quality product feedback you will ever receive, and almost every brand throws them away in a free-text field nobody reads.
+
+ Structured reasons at the variant level tell you which specific product runs small, which color photographs wrong, and which supplier batch has a defect. That information is worth more than the recovered freight, and it only exists if you collect it deliberately.
+
+## What good looks like
+
+ A returns policy that retains revenue is not stricter than one that does not. It is better designed. The window can stay generous. The fee can stay at zero. What changes is the order of the options, the specificity of the alternatives, and how quickly the shopper gets the thing they actually wanted.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ What shipping protection should actually cost 
+ Flat-rate protection overcharges small baskets and underprices large ones. Here is what the price should actually respond to.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-protection-pricing
+======================================================================
+
+What shipping protection should actually cost 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Checkout · October 2025 · 6 min read 
+
+## What shipping protection should actually cost
+
+ Flat-rate protection overcharges small baskets and underprices large ones. Here is what the price should actually respond to.
+
+ Most shipping protection is sold at a flat percentage of cart value, or worse, a flat fee. Both are the same mistake in different clothing: a single price applied to orders with wildly different risk.
+
+## Why one price fails at both ends
+
+ On a small order, a flat fee is proportionally enormous. A shopper spending forty dollars is being asked to add something that feels like a meaningful percentage of what they came for, to protect against a risk they have probably never personally experienced. Opt-in collapses.
+
+ On a large order, the same fee is trivially cheap relative to the exposure. Which sounds like a win until you realize it means your protected volume is concentrated in exactly the orders most expensive to replace.
+
+ You end up with poor opt-in where the risk is low, and excellent opt-in where the risk is high. That is adverse selection, and it is a structural problem no amount of copywriting fixes.
+
+## What the price should respond to
+
+- Cart value. The obvious one, and the only one most apps use. 
+
+- Destination. Loss and theft rates vary enormously by zip code. This is not a guess, it is in the carrier data. 
+
+- Carrier and service level. A signature-required service and an unsigned drop have different outcomes. 
+
+- Product category. Fragile goods fail differently from apparel. 
+
+- Customer history. A returning customer with a clean record is a different proposition from a first order to a freight forwarder. 
+
+- Season. December is not November. 
+ 
+ Each of these is knowable at the moment of checkout. Using none of them, which is the industry default, means every shopper subsidises the riskiest orders in your book.
+
+## Who should be holding the pen
+
+ There is a second question underneath the price: who sets it. Handing the merchant a rate slider looks like control and is mostly a way of transferring the risk of getting it wrong. Price the offer too high and opt-in collapses. Too low and the pool cannot fund the claims it exists to cover, which the merchant then discovers later.
+
+ The provider carrying the claims is the party with the loss data, the carrier mix and the seasonal pattern to price against. It should also be the party that eats the mistake. What belongs to the merchant is the frame: a floor, a ceiling, which categories are excluded, and where the offer appears. Those are policy decisions. The number itself is an underwriting decision wearing a policy costume.
+
+## The line you should not cross
+
+ Pre-checked boxes lift opt-in immediately and reliably. They also produce chargebacks, one-star reviews and, increasingly, regulatory attention. Any vendor who offers you a pre-checked option is optimizing a number that is not the one you care about.
+
+ An offer that a customer would be annoyed to discover after the fact is not a pricing strategy. It is a liability with good short-term metrics.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ Delivered, but not received 
+ The most common claim in ecommerce is also the hardest to prove, the easiest to abuse and the one most likely to lose you a customer. How to handle it.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-who-gets-blamed
+======================================================================
+
+The carrier lost it. You take the blame | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Customer experience · July 2026 · 6 min read 
+
+## The carrier lost it. You take the blame
+
+ Shoppers do not separate a carrier's failure from a merchant's. The parcel has your name on it, so the disappointment does too. What to do about that.
+
+ A parcel goes missing between a sorting centre and a doorstep. Nobody at your company touched it. The scan history is a matter of public record and it exonerates you completely.
+
+ The one-star review still has your name on it.
+
+## The customer never signed a contract with the carrier
+
+ Think about what a shopper actually sees. They chose your brand, paid your checkout, got an email from your address, and waited for a box with your logo on it. The carrier appears once, as a courier name on a tracking page, usually in grey text under a barcode.
+
+ You have a commercial relationship with that carrier. Your customer does not. So when the box fails to arrive, there is only one party in the story they can name, and it isn't the one that lost it.
+
+ This isn't customers being unfair. It's customers being reasonable about the only relationship they are actually in.
+
+## Why explaining whose fault it is makes things worse
+
+ The instinct is to explain. Forward the tracking, point at the scan, note that the carrier marked it delivered, suggest they check with a neighbour. Every sentence of that's true and every sentence of it reads as a company declining to help.
+
+ Worse, it puts the customer to work. They now have to contact a carrier they have no account with, quote a number they don't understand, and wait on a queue for a company that has no reason to prioritise them. You have handed a person who is already out of pocket a second job.
+
+ The fault genuinely isn't yours. Establishing that in front of the customer buys you nothing, because they weren't really asking who was at fault. They were asking whether they'd been abandoned.
+
+## Own the resolution, not the blame
+
+ The move that works is separating the two questions. Fault is a matter for you and the carrier, settled later, in a claims process the customer never sees. Resolution is a matter for you and the customer, settled now.
+
+ Practically that means the first reply is a decision rather than an investigation. Replacement dispatched, or refund issued, or the exchange they'd rather have. The carrier conversation happens afterwards, on your side of the wall, where it belongs.
+
+ Merchants resist this because it feels like paying for someone else's mistake. Sometimes it is. But the alternative is paying for it anyway, in a lost customer and a public review, without getting any credit for the payment.
+
+## What this looks like when it is set up properly
+
+ The customer reports a problem once, in your brand, on your domain. They are not asked to prove anything unreasonable, and they are certainly not asked to contact the carrier. They get an answer while the problem is still fresh rather than a case number.
+
+ Behind that, somebody is filing the carrier claim, tracking the recovery and absorbing the cost that cannot be recovered. That work is real and it's got to be done by someone. The only question is whether it lands on your support team or somewhere else.
+
+ The customer never sees any of it. That's the point. What they see is a brand that fixed a problem it did not cause, which is a considerably better story than a brand that proved the problem wasn't its fault.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ The customer you nearly lost 
+ A delivery that goes wrong is one of the few moments a brand gets a customer's full attention. Most brands spend it arguing. Here is the better use.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-recovery
+======================================================================
+
+The customer you nearly lost | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Retention · July 2026 · 6 min read 
+
+## The customer you nearly lost
+
+ A delivery that goes wrong is one of the few moments a brand gets a customer's full attention. Most brands spend it arguing. Here is the better use.
+
+ Almost every interaction a customer has with a brand is forgettable, and that is a compliment. The order went through, the box turned up, the thing inside was the thing they ordered. Nobody writes home about a delivery that worked.
+
+ Then something breaks, and for the first time they are paying complete attention.
+
+## A word of caution about the research
+
+ There is a well-known idea in service marketing called the service recovery paradox: that a customer who has a problem fixed well ends up more loyal than one who never had a problem at all. It's a seductive claim and it gets quoted confidently.
+
+ The evidence for it is genuinely mixed. Some studies find the effect, others fail to reproduce it, and the honest summary is that it seems to depend heavily on how severe the failure was and whether it was a first offence. So nobody should be relaxed about failures on the grounds that they are secretly good for business.
+
+ What's much better supported, and much less exciting, is the downside: a badly handled failure is reliably worse than the failure itself. The recovery is where the damage is decided.
+
+## Speed is doing more work than generosity
+
+ Given a choice between a generous outcome that takes nine days and a fair one that takes nine minutes, most people take the nine minutes. Waiting is its own injury. It's the part where the customer sits with the feeling that they've been forgotten, and it compounds daily.
+
+ That's why an instant resolution is worth more than its cost suggests. You're not just replacing an item. You're removing the interval in which someone decides how they feel about you.
+
+## The part that decides everything is whether they had to fight
+
+ Ask someone about a bad experience with a company and they will rarely lead with what it cost them. They lead with how many times they had to explain themselves.
+
+ Every extra step is a signal. A form that loses its contents, a reply asking for information already given, a request for a photograph of something that cannot be photographed because it never arrived. Each one tells the customer that the company's default position is doubt.
+
+ The brands that come out of this well are the ones where the first response is a resolution rather than a question. Not because they're careless, but because they have done the checking somewhere the customer cannot see.
+
+## What it is worth
+
+ We're not going to quote you a retention multiple, because the honest number depends on your category, your margin and your repeat rate, and anyone offering a universal figure is selling something.
+
+ The arithmetic you can do yourself is simpler. Take what a replacement costs you, including the freight. Then take what a customer is worth to you across the next two years, using your own repeat data. For most brands those two numbers aren't close, and the second one is much larger.
+
+ That gap is the entire argument. A delivery failure is the cheapest opportunity you will ever get to demonstrate something a marketing campaign cannot claim credibly. Most brands spend it establishing that the carrier was at fault.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ Whose brand is the apology in? 
+ When a third party fixes a delivery problem in its own name, the customer thanks the third party. The recovery happens and none of it lands on the brand.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-white-label
+======================================================================
+
+Whose brand is the apology in? | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Brand · July 2026 · 5 min read 
+
+## Whose brand is the apology in?
+
+ When a third party fixes a delivery problem in its own name, the customer thanks the third party. The recovery happens and none of it lands on the brand.
+
+ Here is a split worth noticing. When a delivery goes wrong, the failure is attributed to your brand, because your name is on the box. If the fix then arrives from a company the customer has never heard of, the recovery is attributed to that company instead.
+
+ You pay for the resolution and a vendor collects the goodwill. It's the worst possible division of the two halves.
+
+## What the customer actually notices
+
+ Customers are not studying your vendor stack, but they notice a change of voice. A different sender address, a portal that looks nothing like the site they bought from, a company name they have to look up to check it is not a phishing attempt.
+
+ That last one isn't a joke. An unexpected email about a parcel, from an unfamiliar company, asking a customer to click a link and enter order details is indistinguishable from a scam. Some of your customers will treat it as one, and they will be right to.
+
+## White label is a checklist, not a colour scheme
+
+ Most vendors will say they are white label. What they usually mean is you can upload a logo. The real test runs through every surface a customer touches:
+
+- The domain the portal sits on. Yours, or theirs with your logo at the top. 
+
+- The address the emails send from. Your sending domain, through your provider, or a vendor's. 
+
+- The voice of the person replying. Trained on your policies and your tone, or generic. 
+
+- The policy being applied. Yours, or the vendor's default that you were allowed to tint. 
+
+- The name on any refund or replacement the customer sees in their bank or their inbox. 
+ 
+ Get four of five and the fifth is the one the customer remembers, because it is the one that felt wrong.
+
+## The one place a third party has to be named
+
+ There is an exception, and it is not negotiable. Where a shopper is being sold something, such as an optional protection fee, disclosure is a legal requirement in most markets and it's also the right thing to do. Hiding the arrangement there isn't clever branding, it's the sort of thing that ends in a regulatory letter.
+
+ So the goal isn't concealment. It's that the customer's experience of being looked after belongs to the brand they chose, while the commercial arrangement behind it stays clearly disclosed where it needs to be.
+
+## A test you can run this afternoon
+
+ Have someone who does not work in your ops team file a claim as a customer would. Then ask them one question: who fixed it?
+
+ If the answer is your brand, the setup is right. If they name a vendor, or say they aren't sure, you are funding recoveries that build somebody else's reputation.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ The second inbox nobody staffs for 
+ Where-is-my-order is the loud ticket category. Claims and returns are the expensive one, because every single one of them needs a human to make a decision.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-second-inbox
+======================================================================
+
+The second inbox nobody staffs for | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Operations · July 2026 · 6 min read 
+
+## The second inbox nobody staffs for
+
+ Where-is-my-order is the loud ticket category. Claims and returns are the expensive one, because every single one of them needs a human to make a decision.
+
+ Ask a support lead what fills their queue and they will say where-is-my-order. They're right about the volume. They're usually wrong about the cost.
+
+ WISMO tickets are numerous and cheap. The answer is a lookup, an agent can close one in under a minute, and a decent tracking page removes most of them before they are ever sent. We have written about that separately .
+
+ The tickets that hurt are the other ones.
+
+## Why a claim costs more than ten WISMO tickets
+
+ A claim or a disputed return can't be answered by looking something up. Somebody has to decide.
+
+ Is this within policy. Has this customer done this before. Is the photograph convincing. Does the carrier scan support the story. Do we approve it, decline it, or ask for more and risk annoying someone who is telling the truth. That is judgement, and judgement is expensive because it needs your most experienced person, not your newest one.
+
+ Then it doesn't close. It becomes a thread. The customer replies, the carrier is chased, a replacement is arranged, finance wants to know why. One claim can generate a week of small interruptions, each one pulling somebody out of what they were doing.
+
+## The cost that never appears in a report
+
+ Ticket counts flatter this category badly. A queue of two hundred WISMO messages and fifteen claims looks like a WISMO problem. In hours consumed it frequently isn't.
+
+ And the fifteen are the ones with money attached, the ones that turn into chargebacks when they go badly, and the ones your senior people are handling instead of the work you hired them for.
+
+## Self-service that collects a form is not self-service
+
+ Plenty of tools offer a claims portal. Most of them are just a form that lands in the same inbox with better formatting. The ticket still arrives, the decision still has to be made, and the only thing that's improved is the tidiness of the queue.
+
+ The tickets you actually want are the ones that never open, because the resolution happened at the moment the customer reported the problem. That needs two things a form can't do on its own: rules good enough to decide the clear cases without a person, and somebody other than your team to work the cases that genuinely need judgement.
+
+## What is left afterwards
+
+ Nobody removes this category entirely, and you should be suspicious of anyone who says they can. Some claims are ambiguous. Some customers are lying. Some situations need a person who understands your brand to make a call.
+
+ What you can change is the mix. If the clear cases resolve themselves and the ambiguous ones are worked by people whose actual job that is, what reaches your team is the small remainder that genuinely needed you. That's a queue a support lead can manage. The one they've got now usually isn't.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ Cut where-is-my-order tickets without hiring 
+ WISMO is usually the largest single ticket category in ecommerce support. Most of it is preventable with three changes that cost nothing to make.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-delivered-not-received
+======================================================================
+
+Delivered, but not received | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Claims · June 2025 · 6 min read 
+
+## Delivered, but not received
+
+ The most common claim in ecommerce is also the hardest to prove, the easiest to abuse and the one most likely to lose you a customer. How to handle it.
+
+ The scan says delivered. The customer says nothing arrived. Somebody in that exchange is wrong, and you can't tell which one from your desk.
+
+ This is the single most common claim category in ecommerce, and it's the one that decides whether a merchant thinks protection works.
+
+## Why the scan proves less than it looks like it proves
+
+ A delivered scan means a driver pressed a button. It doesn't mean the parcel reached the right address, that it was still there an hour later, or that the driver pressed the button at the doorstep rather than three streets earlier while running behind.
+
+ Carriers mark parcels delivered when they're handed to a neighbour, left behind a bin, put in a lobby, or occasionally when they're lost and the driver would rather not have the conversation. Photo proof helps and it's far from conclusive: a photo of a box on a porch says nothing about who picked it up ninety seconds later.
+
+ So the scan is evidence. It isn't proof, and treating it as proof is how merchants end up calling honest customers liars.
+
+## The three people making this claim
+
+ They look identical in your inbox.
+
+ The first genuinely lost the parcel to theft or a misdelivery. They're the large majority, they're annoyed, and they'll forgive you quickly if you make it right.
+
+ The second has the parcel. A partner brought it in, it's behind the plant pot, a neighbour signed for it. They aren't lying, they just haven't looked properly yet. A short, non-accusatory nudge resolves a surprising number of these before they become claims at all.
+
+ The third is defrauding you, and they know exactly how this category works, which is why they chose it.
+
+ Any policy that treats all three the same is wrong twice: it insults the first group or it funds the third.
+
+## Waiting periods are doing real work
+
+ Asking a customer to wait a few days after a delivered scan before filing feels like friction, and it's the single most effective thing in the process. Parcels marked delivered turn up. They turn up in porches, with neighbours, and at addresses one digit out.
+
+ The waiting period isn't there to discourage claims. It's there so the genuine claim gets filed by someone who has already checked, which makes it faster to approve when it arrives.
+
+## What separates the third group from the first
+
+ Not the story. The story is always the same, because there's only one story to tell.
+
+ What separates them is pattern. How many times has this customer done this. Do the addresses match. Is the account new. Does the claim cluster with others on the same street or the same card. None of that is visible in a single claim, and all of it is visible across a network of merchants who share signals rather than each guessing alone.
+
+ This is why fraud scoring belongs underneath the claims process rather than beside it. A first-time customer with a genuine loss and a repeat abuser send identical emails. The difference is entirely in what you know that isn't in the email.
+
+## The decision most merchants get wrong
+
+ Faced with a claim they can't verify, most merchants either approve everything to avoid the argument, or tighten until honest customers give up.
+
+ Blanket approval is expensive and it teaches a small group exactly how to exploit you. Blanket suspicion is more expensive, because the cost lands on the customers you wanted to keep and it arrives as a review rather than a line item.
+
+ The workable answer is to be fast and generous with the clear cases, and to have something other than instinct for the rest.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ Should you just absorb it yourself? 
+ Plenty of merchants replace lost parcels out of margin and skip protection. Sometimes that's right. How to work out whether it is right for you.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-not-insurance
+======================================================================
+
+Shipping protection is not insurance | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Compliance · November 2024 · 5 min read 
+
+## Shipping protection is not insurance
+
+ The distinction sounds like a technicality until a regulator asks. What shipping protection actually is, and why merchants should know the difference.
+
+ Shipping protection gets called insurance constantly, including by people selling it. It's an easy shorthand and it's wrong in a way that matters.
+
+## What the difference actually is
+
+ Insurance is a regulated financial product. Selling it requires licensing, underwriting standards, capital requirements and conduct rules that vary by jurisdiction, and doing it without the right permissions is a serious matter rather than a paperwork slip.
+
+ Shipping protection, as most merchants encounter it, is a service commitment. The shopper pays a fee, and in return the merchant or the merchant's provider undertakes to replace or refund the order if it goes missing or arrives damaged. There's no insurer, no policy document and no claim against a regulated carrier of risk.
+
+ The outcome to the shopper can look similar. The legal structure behind it isn't, and the structure is what a regulator examines.
+
+## Why vendors blur it anyway
+
+ Because "insurance" is a word shoppers already understand. It converts. Nobody has to explain what it means, and it borrows credibility from an industry with two centuries of trust behind it.
+
+ That borrowing is the problem. Describing an unregulated service commitment as insurance creates an impression the product can't honour, and regulators in several markets have taken an increasingly direct interest in exactly this pattern. Some jurisdictions have concluded that certain protection structures are insurance, whatever the vendor calls them, and have acted accordingly.
+
+## What this means for a merchant
+
+ Three practical things.
+
+ First, check what your own site says. If your checkout, your FAQ or your support macros use the word insurance, that's your representation to your customer, not your vendor's, and it's your name on it.
+
+ Second, ask your provider directly what the structure is in each market you sell into, and ask them to put it in writing. A provider who can't answer that clearly is one you're carrying risk for.
+
+ Third, read the exclusions. A service commitment is defined by what it does and doesn't cover, and that list is usually longer than the marketing suggests. Order value caps and excluded product categories are the two that surprise merchants most often.
+
+## Saying it plainly is not a weakness
+
+ There's a nervousness about this, as though telling a shopper the truth would collapse the offer. It doesn't. A shopper at checkout is deciding whether their parcel is looked after if something goes wrong. That question is answered by what happens when they file a claim, not by which regulatory category the fee sits in.
+
+ What does damage the offer is a customer discovering the gap later, at the worst possible moment, and concluding they were sold something that didn't exist. The honest version costs nothing at checkout and saves the relationship afterwards.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ The carrier lost it. You take the blame 
+ Shoppers do not separate a carrier's failure from a merchant's. The parcel has your name on it, so the disappointment does too. What to do about that.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/blog-self-insure
+======================================================================
+
+Should you just absorb it yourself? | Guide 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Economics · February 2025 · 6 min read 
+
+## Should you just absorb it yourself?
+
+ Plenty of merchants replace lost parcels out of margin and skip protection. Sometimes that's right. How to work out whether it is right for you.
+
+ Before adding protection to a checkout, it's worth taking the alternative seriously: keep absorbing the losses and don't offer anything at all.
+
+ Plenty of good brands do this. Some should carry on doing it.
+
+## The case for absorbing it
+
+ If your loss rate is genuinely low, your average order value is small, and your customers rarely have problems, then a protection offer adds a decision to your checkout in exchange for solving a problem you don't really have. Every element at checkout costs something in attention, and attention at that moment is expensive.
+
+ There's also a clean version of the brand argument. Replacing a lost order without being asked, without a fee, and without a claims process is a good experience. If your margin supports it and your volumes are small enough that it doesn't scale into a real cost, that's a legitimate strategy rather than a naive one.
+
+## Where absorbing it quietly stops working
+
+ Three things usually break it.
+
+ The first is volume. Absorbing losses is a fixed proportion of revenue, so it grows exactly as fast as you do. Merchants tend to notice this the year after they stop noticing individual replacements.
+
+ The second is basket value. Replacing a small item is a rounding error. Replacing an expensive one is a genuine hit, and high-value carts are also the ones most attractive to claim abuse.
+
+ The third, and the one that actually forces the decision, is your team. Absorbing the cost is only half of it. Somebody still has to field the message, check the tracking, make the call, arrange the replacement and chase the carrier. That labour doesn't appear in a loss rate, and it lands on the people you can least afford to have doing it.
+
+## The arithmetic worth doing
+
+ Pull your last twelve months and find four numbers. How many orders had a delivery problem. What did replacing them cost, including freight. How many support interactions did each one generate. What is an hour of your support team worth.
+
+ Multiply the third and fourth together and add it to the second. That total is what absorbing it currently costs you, and it's reliably larger than merchants expect, because the labour is usually bigger than the goods.
+
+ Then ask a separate question: of the customers who had a problem, how many ordered again. That's the number that decides whether this is a cost problem or a retention problem.
+
+## The answer isn't always to buy something
+
+ If the arithmetic says your losses are small and your team barely notices them, keep absorbing it. Adding a protection offer to a checkout that doesn't need one is a conversion cost with no return.
+
+ If it says the labour is the real expense, the useful question isn't who pays for the replacement. It's who does the work. Those are different problems and they have different answers, and plenty of vendors will happily sell you the first solution for the second problem.
+
+ Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.
+
+ Read next 
+ Shipping protection is not insurance 
+ The distinction sounds like a technicality until a regulator asks. What shipping protection actually is, and why merchants should know the difference.
+
+## Post-purchase, handled properly.
+
+ See Guide running on your own catalogue. Thirty minutes, and an honest read on fit.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/privacy
+======================================================================
+
+Privacy policy | Guide post-purchase OS 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Legal 
+
+## Privacy policy
+
+ Guide, LLC. Last modified 4 January 2024.
+
+ Last modified: January 4, 2024
+
+## Introduction
+
+ Guide, LLC, a Utah limited liability company ("Guide" or "We") provides a shipment tracking application (the "App") that provides shipping protection for orders in transit (the "Service") to merchants who use Shopify to power their online stores. Your use of Shopify is also subject to the Shopify privacy policy .
+
+ Guide respects your privacy and is committed to protecting it through our compliance with this policy. This policy describes:
+
+- The types of information we may collect or that you may provide when you install, access, or use the App. 
+
+- Our practices for collecting, using, maintaining, protecting, and disclosing that information. 
+ 
+ This policy applies only to information we collect in this App and in email, text, and other electronic communications sent through or in connection with this App.
+
+ This policy DOES NOT apply to information that:
+
+- We collect offline or on any other Company apps or websites, including websites you may access through this App. 
+
+- You provide to or is collected by any third party. 
+ 
+ Our websites and apps, and these other third parties may have their own privacy policies, which we encourage you to read before providing information on or through them.
+
+ Please read this policy carefully to understand our policies and practices regarding your information and how we will treat it. If you do not agree with our policies and practices, do not download or use this App. By downloading, accessing, or using this App, you agree to this privacy policy. This policy may change from time to time. Your continued use of this App after we revise this policy means you accept those changes, so please check the policy periodically for updates. The App is currently only available to U.S. residents.
+
+## Children Under the Age of 16
+
+ The App is not intended for children under 16 years of age, and we do not knowingly collect personal information from children under 16. If we learn we have collected or received personal information from a child under 16 without verification of parental consent, we will delete that information. If you believe we might have any information from or about a child under 16 please contact us at info@guideprotection.com .
+
+## Information We Collect and How We Collect It
+
+ We collect information from and about users of our App:
+
+- Directly from you when you provide it to us. 
+
+- Automatically when you use the App. 
+
+## Information We Collect
+
+ When you install the App, we are automatically able to access certain types of information from your Shopify account, including:
+
+- Shopify account data: such as email address, phone number and location of your store. 
+
+- Order data: all order details including customer emails, phone numbers, physical addresses, geolocations, IP address and browser user agents. 
+
+- Fulfillment and shipping information related with each order, including fulfillment location and shipping carrier. 
+
+- Information included in the above by which you may be personally identified, such as name, postal address, email address, or telephone number ("personal information"). 
+ 
+ This information includes:
+
+- Information that you provide by filling in forms in the App. 
+
+- Records and copies of your correspondence (including email addresses and phone numbers), if you contact us. 
+
+- Details of transactions you carry out through the App and of the fulfillment of your orders. 
+
+## How We Use Your Information
+
+ We use information that we collect about you or that you provide to us, including any personal information, to:
+
+- Provide you with the App and the Service, and any other information, products or services that you request from us. 
+
+- Fulfill any other purpose for which you provide it. 
+
+- Carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection. 
+
+- Notify you when App updates are available, and of changes to any products or services we offer or provide through it. 
+ 
+ The usage information we collect helps us to improve our App and the Service and to deliver a better and more personalized experience by enabling us to:
+
+- Estimate our audience size and usage patterns. 
+
+- Store information about your preferences, allowing us to customize our App according to your individual interests. 
+
+- Speed up your searches. 
+
+- Recognize you when you use the App. 
+
+## Disclosure of Your Information
+
+ We may disclose aggregated information about our users, and information that does not identify any individual or device, without restriction.
+
+ In addition, we may disclose personal information that we collect or you provide:
+
+- To our subsidiaries and affiliates. 
+
+- To contractors, service providers, and other third parties we use to support our business. 
+
+- To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Guide's assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which personal information held by Guide about our App users is among the assets transferred. 
+
+- To fulfill the purpose for which you provide it. 
+
+- For any other purpose disclosed by us when you provide the information. 
+
+- With your consent. 
+
+- To comply with any court order, law, or legal process, including to respond to any government or regulatory request. 
+
+- If we believe disclosure is necessary or appropriate to protect the rights, property, or safety of Guide, our customers or others. 
+
+## Your Choices About Our Collection, Use, and Disclosure of Your Information
+
+ We strive to provide you with choices regarding the personal information you provide to us. This section describes mechanisms we provide for you to control certain uses and disclosures of your information.
+
+ We do not control third parties' collection or use of your information to serve interest-based advertising. However these third parties may provide you with ways to choose not to have your information collected or used in this way. You can opt out of receiving targeted ads from members of the Network Advertising Initiative ("NAI") on the NAI's website.
+
+ California residents may have additional personal information rights and choices.
+
+## Your California Privacy Rights
+
+ If you are a California resident, California law may provide you with additional rights regarding our use of your personal information. To learn more about your California privacy rights, visit oag.ca.gov/privacy/ccpa .
+
+## Data Security
+
+ We have implemented measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure.
+
+ Unfortunately, the transmission of information via the internet and mobile platforms is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your personal information transmitted through our App. Any transmission of personal information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures we provide.
+
+## Changes to Our Privacy Policy
+
+ We may update our privacy policy from time to time. If we make material changes to how we treat our users' personal information, we will post the new privacy policy on this page with a notice that the privacy policy has been updated.
+
+ The date the privacy policy was last revised is identified at the top of the page. You are responsible for ensuring we have an up-to-date active and deliverable email address for you and for periodically visiting this privacy policy to check for any changes.
+
+## Contact Information
+
+ To ask questions or comment about this privacy policy and our privacy practices, contact us at info@guideprotection.com .
+
+## Questions about your data?
+
+ Email info@guideprotection.com and a person will answer, not a ticket queue.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+
+
+======================================================================
+URL: https://guideprotection.com/terms
+======================================================================
+
+Terms of service | Guide post-purchase OS 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+ Skip to content 
+
+ ESC 
+
+ Legal 
+
+## Terms of use
+
+ Guide, LLC. Effective 8 April 2024.
+
+ Effective: 08/04/2024
+
+## 1. Acceptance of Terms of Use; Changes in Terms of Use
+
+ The purpose of this terms of use agreement ("Terms of Use") is to set forth the terms and conditions whereby Guide, LLC ("Guide", "we", "us" or "our"), make our Shopify application (the "App"), as well as any products and services made available thereon, including but not limited to our shipping protection services (the "Guide Protection") (collectively the App, the Guide Protection and other products and services made available through the App, the "Services") and the content and materials available on the Services (the "Content") available to merchants ("you" or "your") and the conditions under which such merchants may have access to and use such Services and Content. The Terms of Use, any updates to the Terms of Use are referred to as the "Agreement." These Terms of Use include the provisions in this document, as well as those in the Guide Privacy Policy .
+
+ By accessing or using the Services, clicking on a button or taking any other action to signify your acceptance of these Terms of Use, you: (1) agree to be bound by these Terms and any future amendments and additions to these Terms as published from time to time through the App; and (2) represent you are of legal age in your jurisdiction of residence to form a binding contract with Guide. YOU UNDERSTAND THAT THE COMPANY PROVIDES THE SERVICES AND DOES NOT PROVIDE INSURANCE OR INSURANCE SERVICES.
+
+ We may revise and update these Terms of Use from time to time in our sole discretion. All changes are effective immediately when we post them, and apply to all access to and use of the Services thereafter. However, any changes to the dispute resolution provisions set forth in Governing Law and Jurisdiction will not apply to any disputes for which the parties have actual notice on or prior to the date the change is posted.
+
+ Your continued use of the Services following the posting of revised Terms of Use means that you accept and agree to the changes. You are expected to check this page frequently so you are aware of any changes, as they are binding on you. See our current Privacy Policy for information and notices regarding our collection and use of personal information.
+
+## 2. Use of Services and Content
+
+## Intellectual Property Rights
+
+ The Services are made available to you by Guide and is designed to enhance your e-commerce platform. The App allows you to offer your customers the opportunity to add their shipments to the Guide Protection (as described below). The App allows your customers to file a notice of loss and track the location of their shipments.
+
+ The Services, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned by Guide, its licensors or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws.
+
+ Subject to these Terms of Use, Guide grants you a limited license to install and use the Services solely for the purpose of operating your online store. Any future release, update, or other addition to the Services and/or Content shall be subject to these Terms of Use. Guide, its suppliers, and its service providers reserve all rights not granted in Terms of Use.
+
+ The Guide name, the Guide logo and all related names, logos, product and service names, designs and slogans are trademarks of Guide or its affiliates. You must not use such marks without the prior written permission of Guide. All other names, logos, product and service names, designs and slogans on the App or through the Services are the trademarks of their respective owners.
+
+## Prohibited Uses
+
+ You may use the Services only for lawful purposes and in accordance with these Terms of Use. You agree not to use the App or the Services:
+
+- In any way that violates any applicable federal, state, local or international law or regulation (including, without limitation, any laws regarding the export of data or software to and from the US or other countries). 
+
+- For the purpose of exploiting, harming or attempting to exploit or harm minors in any way by exposing them to inappropriate content, asking for personally identifiable information or otherwise. 
+
+- To transmit, or procure the sending of, any advertising or promotional material without our prior written consent, including any "junk mail", "chain letter" or "spam" or any other similar solicitation. 
+
+- To impersonate or attempt to impersonate Guide, a Company employee, another user or any other person or entity (including, without limitation, by using e-mail addresses or screen names associated with any of the foregoing). 
+
+- To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of the Services, or which, as determined by us, may harm Guide or users of the Services or expose them to liability. 
+ 
+ Additionally, you agree not to:
+
+- Use the App or Services in any manner that could disable, overburden, damage, or impair the App or interfere with any other party's use of the App, including their ability to engage in real time activities through the App. 
+
+- Use any robot, spider or other automatic device, process or means to access the App for any purpose, including monitoring or copying any of the material on the App. 
+
+- Use any manual process to monitor or copy any of the material on the App or for any other unauthorized purpose without our prior written consent. 
+
+- Use any device, software or routine that interferes with the proper working of the App. 
+
+- Introduce any viruses, trojan horses, worms, logic bombs or other material which is malicious or technologically harmful. 
+
+- Attempt to gain unauthorized access to, interfere with, damage or disrupt any parts of the App, the server on which the App is stored, or any server, computer or database connected to the App. 
+
+- Otherwise attempt to interfere with the proper working of the Services. 
+
+## 3. Guide Protection
+
+## Generally
+
+ The Guide Protection extends coverage to shipments where the transportation is tracked through Guide. This offer is not intended to provide shipping protection to you directly, and the Guide Protection does not constitute insurance. Your election to add packages to Guide Protection is entirely optional. You have the option of obtaining protection from an alternative source or not at all.
+
+ The Guide Protection provides shipping protection for your customers' online purchases that are lost or damaged while in transit or "porch pirated" ("porch pirated" meaning the carrier reports the status as "delivered" but the parcel has been stolen from the delivery address and reasonable measures have been taken to locate it). Guide also offers custom chargeback protection to qualifying Shopify Plus merchants.
+
+ Guide will provide your customers with a summary of the Guide Protection and instructions to file a notice of loss. Upon your agreement to these Terms of Use, the App and access to the Guide Protection will be activated on your site. Guide reserves the right to change pricing at any time. If your customers opt in to the Guide Protection, this charge will appear for such customers to review and verify at checkout.
+
+ Guide reserves the right, at the mutual discretion of both the customer and Guide to issue a full refund, with such refund transaction to be executed through the Shopify platform.
+
+ Guide, in accordance with its discretion and adherence to the Guide guidelines, shall furnish customers with a replacement order including the cost of shipping, and such replacement shall be processed through the Shopify platform.
+
+## Exclusions
+
+ The Guide Protection does not cover the following without a specific written amendment (email or service agreement) from Guide: single orders for Basic Shopify, Shopify or Advanced Shopify merchants exceeding $500 USD in value, single orders for Shopify Plus merchants exceeding $5,000 in value, cash, cigarettes, and other tobacco products; computer memory modules and cards; cotton; fine art (defined as art valued in excess of $5,000 per piece); fresh foods (excepting frozen foods in refrigerated containers); live animals; negotiable papers; perishable commodities (defined as commodities which spoil or deteriorate when not carried or stored in a temperature controlled environment); pharmaceutical drugs; precious stones and metals; securities; automobiles and motorcycles; boats and yachts; ceramic, marble or granite tiles; slabs blocks; countertops; statues; glass windows, plate glass and similar goods; lumber; used household goods and personal effects; scrap metal; and steel metal and steel metal products. If you sell any of the goods that fall under the categories outlined in this section, your customers are not eligible to use the Guide Protection. By agreeing to these Terms of Use, you represent that you do not sell any such excluded goods.
+
+ All fees paid for the Services are non-refundable and non-transferable except as may be expressly provided in these Terms of Use. You may cancel the Services at any time at no charge: simply uninstall the Services you no longer want to use, and Guide will cease providing the Services to you.
+
+ Claims for packages marked "delivered" yet not received and where there is no evidence of "porch piracy" must be made 5 days after the "delivery date" but no longer than 30 to 45 days to ensure it was not mis-delivered or easily found around the premises.
+
+ Claims for packages presumed to be lost (where the status is not "delivered") must be filed after 5 days (20 for international) and within 30 to 45 days from the last checkpoint.
+
+ Customers with 3+ approved claims over the trailing 6 months will be inspected and assumed fraudulent. Guide reserves the right to investigate and deny any such claims as fraud according to our discretion and judgement.
+
+## 4. Third Party Services
+
+ Your use of the Services may contain links to third-party services ("Third-Party Services"). When you use Third-Party Services, we will not warn you that you have left the Guide Services and are subject to the terms and conditions (including privacy policies) of another website or destination. Such Third-Party Services are not under the control of Guide, and, consequently, Guide is not responsible for any Third-Party Services. Guide provides these Third-Party Services only as a convenience and does not review, approve, monitor, endorse, warrant, or make any representations with respect to Third-Party Services, or any product or service provided in connection therewith. You use all links in Third-Party Services at your own risk. When you leave the App, the Agreement and policies no longer govern. You should review applicable terms and policies, including privacy and data gathering practices, of any Third-Party Services, and make whatever investigation you feel necessary or appropriate before proceeding with any transaction with any third party.
+
+## 5. Disclaimer of Warranties
+
+ You understand that we cannot and do not guarantee or warrant that files available for downloading from the internet or the App will be free of viruses or other destructive code. You are responsible for implementing sufficient procedures and checkpoints to satisfy your particular requirements for anti-virus protection and accuracy of data input and output, and for maintaining a means external to our site for any reconstruction of any lost data. WE WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE CAUSED BY A DISTRIBUTED DENIAL-OF-SERVICE ATTACK, VIRUSES OR OTHER TECHNOLOGICALLY HARMFUL MATERIAL THAT MAY INFECT YOUR COMPUTER EQUIPMENT, COMPUTER PROGRAMS, DATA OR OTHER PROPRIETARY MATERIAL DUE TO YOUR USE OF THE SERVICES OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES OR TO YOUR DOWNLOADING OF ANY MATERIAL POSTED ON IT, OR ON ANY WEBSITE LINKED TO IT.
+
+ YOUR USE OF THE SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES IS AT YOUR OWN RISK. THE SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. NEITHER GUIDE NOR ANY PERSON ASSOCIATED WITH GUIDE MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY OR AVAILABILITY OF THE SERVICES. WITHOUT LIMITING THE FOREGOING, NEITHER GUIDE NOR ANYONE ASSOCIATED WITH GUIDE REPRESENTS OR WARRANTS THAT THE SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES WILL BE ACCURATE, RELIABLE, ERROR-FREE, OR UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT OUR SITE OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS OR THAT THE SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS.
+
+ GUIDE HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT AND FITNESS FOR PARTICULAR PURPOSE.
+
+ THE FOREGOING DOES NOT AFFECT ANY WARRANTIES WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
+
+## 6. Limitation on Liability
+
+ IN NO EVENT WILL GUIDE, ITS AFFILIATES OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE, OR INABILITY TO USE, THE SERVICES, ANY WEBSITES LINKED TO IT, ANY CONTENT ON THE SERVICES OR SUCH OTHER WEBSITES OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES OR SUCH OTHER WEBSITES, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO, PERSONAL INJURY, PAIN AND SUFFERING, EMOTIONAL DISTRESS, LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, LOSS OF DATA, AND WHETHER CAUSED BY TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT OR OTHERWISE, EVEN IF FORESEEABLE.
+
+ THE FOREGOING DOES NOT AFFECT ANY LIABILITY WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
+
+## 7. Indemnification
+
+ You agree to defend, indemnify and hold harmless Guide, its affiliates, licensors and service providers, and its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses or fees (including reasonable attorneys' fees) arising out of or relating to your violation of the Agreement or your use of the Services, including, but not limited to, any use of the Services and products other than as expressly authorized in these Terms of Use or your use of any information obtained from the Services.
+
+## 8. Governing Law and Jurisdiction
+
+ All matters relating to the Services and the Agreement and any dispute or claim arising therefrom or related thereto (in each case, including non-contractual disputes or claims), shall be governed by and construed in accordance with the internal laws of the State of Utah without giving effect to any choice or conflict of law provision or rule (whether of the State of Utah or any other jurisdiction).
+
+ Any legal suit, action or proceeding arising out of, or related to, the Agreement or the Services shall be instituted exclusively in the federal courts of the United States or the courts of the State of Utah in each case located in the City of Salt Lake City and County of Salt Lake, although we retain the right to bring any suit, action or proceeding against you for breach of the Agreement in your state or country of residence or any other relevant state or country. You waive any and all objections to the exercise of jurisdiction over you by such courts and to venue in such courts.
+
+## 9. Payment of Fees
+
+ Customer will pay Guide the then applicable fees (the "Fees"). The Consumer pays the Fees to the Merchant during the checkout process. Merchant agrees to hold and pay the Fees to Guide. Guide utilizes Shopify's Billing API service to precisely debit the total fees accumulated for Guide Shipping Protection. This debit shall transpire at intervals of 30 days, enabling the merchant to review the deposited amount in their Shopify Statement.
+
+ Customer shall be responsible for all taxes associated with Services other than U.S. taxes based on Company's net income.
+
+## 10. Termination
+
+ At its sole discretion, Guide may modify or discontinue the Services, or may modify, suspend, or terminate your access to the Services, for any reason, with or without notice to you and without liability to you or any third party. Guide will not be responsible for refunding or otherwise paying any funds, amounts or credits that may be owed to you if we have suspended or terminated your permission to use the Services. In addition to suspending or terminating your access to the Services, Guide reserves the right to take appropriate legal action, including without limitation pursuing civil, criminal or injunctive remedies. Even after your right to use the Services is terminated, this Agreement will remain enforceable against you and unpaid amounts you owe to Guide for any purchases will remain due.
+
+## 11. Arbitration
+
+ At Guide's sole discretion, it may require you to submit any disputes arising from the use of the Services or this Agreement, including disputes arising from or concerning their interpretation, violation, invalidity, non-performance, or termination, to final and binding arbitration under the Rules of Arbitration of the American Arbitration Association applying Utah law.
+
+## 12. Limitation on Time to File Claims
+
+ ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THESE TERMS OF USE OR THE SERVICES MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES, OTHERWISE, SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.
+
+## 13. Waiver and Severability
+
+ No waiver by Guide of any term or condition set forth in these Terms of Use shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of the Company to assert a right or provision under these Terms of Use shall not constitute a waiver of such right or provision.
+
+ If any provision of these Terms of Use is held by a court or other tribunal of competent jurisdiction to be invalid, illegal or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of these Terms of Use will continue in full force and effect.
+
+## 14. Entire Agreement
+
+ The Agreement and our Privacy Policy , as applicable, constitute the sole and entire agreement between you and Guide, with respect to the Services and supersede all prior and contemporaneous understandings, agreements, representations and warranties, both written and oral, with respect to the Services.
+
+## Questions about the terms?
+
+ Email info@guideprotection.com and a person will answer, not a ticket queue.
+
+ Book a Demo (opens in a new tab) 
+ Explore the platform 
+ Install on Shopify 
+
+ Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself

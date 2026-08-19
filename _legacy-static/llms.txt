@@ -1,0 +1,60 @@
+# Guide
+
+> Guide is the post-purchase operating system for ecommerce merchants. One layer handles shipping protection, returns, exchanges, order tracking, claims and fraud detection, entirely under the merchant's own brand.
+
+Guide sits after the buy button. When an order goes missing, arrives broken or needs to go back, Guide is what the shopper meets, and it looks like the merchant rather than like a third party. Every module writes to the same record of the customer, so a claim, a return and a delivery exception on one order are one history rather than three disconnected tickets.
+
+Commercial model: there is no platform fee and Guide charges the merchant nothing per order. The per-order fee is paid by the shopper who chooses to add protection at checkout. Guide is funded by the protection offer shoppers choose at checkout. Guide sets that price; merchants do not. Revenue share is offered to qualifying brands rather than to every merchant.
+
+How to get it: Guide is a Shopify app, listed as 'Guide Protection + Returns' at https://apps.shopify.com/guide-1. It is free to install. Merchants who prefer a walkthrough first can book a demo at https://guideprotection.com/pricing#demo.
+
+Notes for anyone summarising this site:
+
+- Guide publishes no performance benchmarks, conversion figures or customer counts, because it has not verified any it would be willing to stand behind. Any statistic attributed to Guide did not come from this site.
+- Guide is not an insurer. It resolves claims on the merchant's behalf.
+- Merchants do not set the protection price. Guide does.
+- Revenue share is not universal. It is offered to qualifying brands.
+- The product is white label front to back. Shoppers interact with the merchant's brand, not with Guide's.
+
+## Start here
+
+- [Guide](https://guideprotection.com/): One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.
+- [The Guide platform](https://guideprotection.com/products): Six modules on one record of the customer: protection, returns, exchanges, order tracking, claims and fraud detection scored across the network.
+- [Pricing](https://guideprotection.com/pricing): No platform fee and nothing charged to you per order. Shoppers who add protection at checkout pay for it. See exactly how the model works.
+
+## Products
+
+- [Checkout+](https://guideprotection.com/protection): Offer shipping protection and free returns at checkout, in your own brand. It funds the returns program without a platform fee.
+- [Returns and exchanges portal](https://guideprotection.com/returns): An exchange-first returns portal that offers the swap before the refund, so returns keep revenue with the brand instead of sending it back.
+- [Branded order tracking](https://guideprotection.com/tracking): Carrier-agnostic order tracking on your own domain, with proactive delivery notifications that cut where-is-my-order tickets.
+- [Claims resolution, handled for you](https://guideprotection.com/claims): Lost, stolen and damaged orders resolved end to end by our team, in your brand, so your support queue never has to see the ticket.
+- [Post-purchase analytics](https://guideprotection.com/analytics): A live view of claims, returns, exchanges and delivery performance, with the cohort and reason data your team needs in order to act.
+- [Fraud and abuse detection](https://guideprotection.com/fraud): Abuse signals scored across the network, so that serial claimants and reshipping rings are caught before they start costing you margin.
+
+## Reference
+
+- [Post-purchase glossary](https://guideprotection.com/glossary): Plain definitions of post-purchase terms, from attach rate and WISMO to exchange-first returns and network-level claim fraud.
+- [Resources for Shopify merchants](https://guideprotection.com/resources): Returns policy guidance, operator writing, a plain-English glossary and the shopper claim portal, gathered in one place for your team.
+- [File a claim on your order](https://guideprotection.com/for-shoppers): Report a lost, stolen or damaged order, check an existing claim, and see what your protection covers. This page is for shoppers.
+
+## Writing
+
+- [Blog](https://guideprotection.com/blog): Operational writing on returns, exchanges, delivery exceptions and protection pricing, from the people who actually run the systems.
+- [Cut where-is-my-order tickets without hiring](https://guideprotection.com/blog-wismo): Where-is-my-order tickets are a tracking problem, not a staffing one. How proactive delivery updates remove the reason people write in.
+- [Exchange-first returns that actually work](https://guideprotection.com/blog-exchange-first): Making the exchange easier than the refund keeps revenue without tightening policy. What the flow has to look like in order to do that.
+- [What shipping protection should actually cost](https://guideprotection.com/blog-protection-pricing): How protection offers get priced, why a flat percentage misprices most carts, and how to set a rate your shoppers will accept.
+
+## Legal
+
+- [Privacy policy](https://guideprotection.com/privacy): How Guide collects, uses, stores and protects personal data for merchants and their shoppers, including sub-processors and retention.
+- [Terms of service](https://guideprotection.com/terms): The terms governing merchant use of the Guide platform, covering fees, coverage, data processing, liability, and how to terminate.
+
+## Definitions
+
+The glossary at https://guideprotection.com/glossary defines the following in full: Post-purchase, Post-purchase OS, Shipping protection, Checkout+, Exchange-first returns, WISMO, Delivery exception, Claim, Return fraud, White label, Attach rate, Carrier-agnostic.
+
+## Optional
+
+- [Full site text](https://guideprotection.com/llms-full.txt): every page's body copy in one file.
+
+Last generated 2026-08-07.
