@@ -191,10 +191,7 @@ const journeyRows: JourneyRow[] = [
     icon: <IconCheck />,
     title: "Resolved without a ticket",
     body: "First claim, clean carrier history, low risk. Auto-approved inside your rules, replacement drafted in Shopify, your CX team never sees it.",
-    tags: [
-      { label: "Recovery" },
-      { label: "Zero tickets", neutral: true },
-    ],
+    tags: [{ label: "Recovery" }, { label: "Zero tickets", neutral: true }],
   },
   {
     when: "21 JUN",
@@ -275,14 +272,26 @@ const integrationRow3 = [
   null,
 ] as const;
 
-function KeycapRow({ row, className }: { row: readonly (readonly [string, number, number, string] | "hero" | null)[]; className?: string }) {
+function KeycapRow({
+  row,
+  className,
+}: {
+  row: readonly (readonly [string, number, number, string] | "hero" | null)[];
+  className?: string;
+}) {
   return (
     <div className={`kb-row ${className ?? ""}`.trim()}>
       {row.map((cell, i) => {
-        if (cell === null) return <span key={i} className="kb-key blank" aria-hidden="true" />;
+        if (cell === null)
+          return <span key={i} className="kb-key blank" aria-hidden="true" />;
         if (cell === "hero") {
           return (
-            <span key={i} className="kb-key hero-key" role="img" aria-label="Guide">
+            <span
+              key={i}
+              className="kb-key hero-key"
+              role="img"
+              aria-label="Guide"
+            >
               <LogoGlyph />
             </span>
           );
@@ -290,7 +299,14 @@ function KeycapRow({ row, className }: { row: readonly (readonly [string, number
         const [src, w, h, alt] = cell;
         return (
           <span key={i} className="kb-key">
-            <img src={`/assets/logos/${src}`} width={w} height={h} loading="lazy" decoding="async" alt={alt} />
+            <img
+              src={`/assets/logos/${src}`}
+              width={w}
+              height={h}
+              loading="lazy"
+              decoding="async"
+              alt={alt}
+            />
           </span>
         );
       })}
@@ -318,22 +334,32 @@ export default function HomePage() {
       <section className="hero">
         <div className="canvas" />
         <div className="wrap">
-          <div className="hero-head" style={{ maxWidth: 1000, margin: "0 auto" }}>
+          <div
+            className="hero-head"
+            style={{ maxWidth: 1000, margin: "0 auto" }}
+          >
             <span className="pill">
               <span className="dot" /> The post-purchase platform for Shopify
             </span>
             <h1 className="d1">
               Turn every post-purchase moment
               <br />
-              into <span className="accent">retained revenue</span>.
-          </h1>
+              into <span className="accent">added revenue</span>.
+            </h1>
             <p className="lead maxw-md hero-lead">
-              Protection, returns, exchanges, claims, tracking and fraud detection in one layer,
-              on your brand, so a delivery problem doesn&apos;t cost you the customer.
+              Protection, returns, exchanges, claims, tracking and fraud
+              detection in one layer, on your brand, so a delivery problem
+              doesn&apos;t cost you the customer.
             </p>
             <div className="flex gap-12 wrapf jc mt-8">
-              <a className="btn btn-dark btn-lg arw" href={demoUrl("home-hero")} target="_blank" rel="noopener">
-                Book a Demo<span className="sr-only"> (opens in a new tab)</span>
+              <a
+                className="btn btn-dark btn-lg arw"
+                href={demoUrl("home-hero")}
+                target="_blank"
+                rel="noopener"
+              >
+                Book a Demo
+                <span className="sr-only"> (opens in a new tab)</span>
               </a>
               <Link className="btn btn-ghost btn-lg" href="/products">
                 Explore the Platform
@@ -363,12 +389,19 @@ export default function HomePage() {
               <div className="stack-16">
                 <span className="kicker">Verified</span>
                 <p className="stat-xl stat-acc">21 minutes</p>
-                <h2 className="d4">From approval to resolution sent, on average.</h2>
+                <h2 className="d4">
+                  From approval to resolution sent, on average.
+                </h2>
                 <p className="tiny">
-                  Averaged across approved claims, measured from approval to the replacement or refund being
-                  issued. Not submission time, not time to a decision, and not how long a refund takes to clear
+                  Averaged across approved claims, measured from approval to the
+                  replacement or refund being issued. Not submission time, not
+                  time to a decision, and not how long a refund takes to clear
                   the shopper&apos;s bank.{" "}
-                  <Link className="tlink" href="/claims" style={{ fontSize: "inherit" }}>
+                  <Link
+                    className="tlink"
+                    href="/claims"
+                    style={{ fontSize: "inherit" }}
+                  >
                     How a claim actually moves
                   </Link>
                   .
@@ -378,8 +411,10 @@ export default function HomePage() {
                 <span className="kicker">From the Shopify App Store</span>
                 <div className="card">
                   <p className="body">
-                    &ldquo;Their team is always willing to collaborate with us to find the best possible
-                    solutions, especially when navigating complex situations such as fraudulent claims.&rdquo;
+                    &ldquo;Their team is always willing to collaborate with us
+                    to find the best possible solutions, especially when
+                    navigating complex situations such as fraudulent
+                    claims.&rdquo;
                   </p>
                   <p className="tiny mt-8">
                     <strong>NRML</strong> &middot; 2 years using Guide
@@ -387,11 +422,13 @@ export default function HomePage() {
                 </div>
                 <div className="card">
                   <p className="body">
-                    &ldquo;It offers new customers another layer of order assurance and confidence when
-                    ordering, which helps strengthen conversion rate.&rdquo;
+                    &ldquo;It offers new customers another layer of order
+                    assurance and confidence when ordering, which helps
+                    strengthen conversion rate.&rdquo;
                   </p>
                   <p className="tiny mt-8">
-                    <strong>Elva&apos;s All Naturals</strong> &middot; Over 18 months using Guide
+                    <strong>Elva&apos;s All Naturals</strong> &middot; Over 18
+                    months using Guide
                   </p>
                 </div>
                 <p className="tiny">
@@ -420,9 +457,10 @@ export default function HomePage() {
               <br className="hide-mob" /> is the moment you win them.
             </h2>
             <p className="lead">
-              A parcel that never arrived. The wrong size. A delivery that slipped a week. Every
-              one of those is a customer quietly deciding whether to order from you again. Guide
-              takes the worst moment in the journey and turns it into the reason they come back.
+              A parcel that never arrived. The wrong size. A delivery that
+              slipped a week. Every one of those is a customer quietly deciding
+              whether to order from you again. Guide takes the worst moment in
+              the journey and turns it into the reason they come back.
             </p>
           </div>
           <div className="grid g3">
@@ -432,9 +470,10 @@ export default function HomePage() {
               </span>
               <h3 className="d4 mt-16">A recovery, not an apology</h3>
               <p className="body mt-8">
-                The shopper resolves it where they already were, in your brand, without writing an
-                email or waiting on a reply. What would have been a complaint becomes the story
-                they tell about how well you handled it.
+                The shopper resolves it where they already were, in your brand,
+                without writing an email or waiting on a reply. What would have
+                been a complaint becomes the story they tell about how well you
+                handled it.
               </p>
             </div>
             <div className="card rv d-1">
@@ -443,9 +482,10 @@ export default function HomePage() {
               </span>
               <h3 className="d4 mt-16">Fewer tickets reaching your team</h3>
               <p className="body mt-8">
-                Where is my order. How do I send this back. It arrived damaged. Guide answers all
-                three before they become a conversation, so your agents spend their day on the
-                questions that genuinely need a person.
+                Where is my order. How do I send this back. It arrived damaged.
+                Guide answers all three before they become a conversation, so
+                your agents spend their day on the questions that genuinely need
+                a person.
               </p>
             </div>
             <div className="card rv d-2">
@@ -454,9 +494,10 @@ export default function HomePage() {
               </span>
               <h3 className="d4 mt-16">A bigger basket at checkout</h3>
               <p className="body mt-8">
-                Protection and return coverage remove the hesitation that quietly caps cart size. When
-                the risk of buying comes down, shoppers commit to the order they actually wanted
-                rather than the safe version of it.
+                Protection and return coverage remove the hesitation that
+                quietly caps cart size. When the risk of buying comes down,
+                shoppers commit to the order they actually wanted rather than
+                the safe version of it.
               </p>
             </div>
           </div>
@@ -476,7 +517,11 @@ export default function HomePage() {
           <div className="prod rv">
             {productGrid.map((item) => (
               <Link key={item.href} href={item.href}>
-                <span className={`ico${item.variant ? ` ${item.variant}` : ""}`}>{item.icon}</span>
+                <span
+                  className={`ico${item.variant ? ` ${item.variant}` : ""}`}
+                >
+                  {item.icon}
+                </span>
                 <strong className="d4">{item.title}</strong>
                 <span className="body">{item.body}</span>
               </Link>
@@ -494,9 +539,9 @@ export default function HomePage() {
               <br className="hide-mob" /> buys you, in one customer.
             </h2>
             <p className="lead">
-              Every vendor in this category says the modules are connected. Here is what that
-              sentence is worth. One shopper, one record, four months. Watch what March changes
-              about June.
+              Every vendor in this category says the modules are connected. Here
+              is what that sentence is worth. One shopper, one record, four
+              months. Watch what March changes about June.
             </p>
           </div>
           <div className="journey rv">
@@ -504,10 +549,19 @@ export default function HomePage() {
               <div className="journey-who">
                 <span className="journey-av">JM</span>
                 <span className="grid gap-1.5">
-                  <strong style={{ fontSize: ".96rem", fontWeight: 550, letterSpacing: "-.018em" }}>
+                  <strong
+                    style={{
+                      fontSize: ".96rem",
+                      fontWeight: 550,
+                      letterSpacing: "-.018em",
+                    }}
+                  >
                     Jamie M.
                   </strong>
-                  <span className="tiny">Customer since March &middot; 6 orders &middot; 1 claim &middot; 2 exchanges</span>
+                  <span className="tiny">
+                    Customer since March &middot; 6 orders &middot; 1 claim
+                    &middot; 2 exchanges
+                  </span>
                 </span>
               </div>
               <span className="tag">Example unified customer record</span>
@@ -522,7 +576,10 @@ export default function HomePage() {
                     <span>{row.body}</span>
                     <span className="tags">
                       {row.tags.map((tag) => (
-                        <span key={tag.label} className={`tag${tag.neutral ? " neutral" : ""}`}>
+                        <span
+                          key={tag.label}
+                          className={`tag${tag.neutral ? " neutral" : ""}`}
+                        >
                           {tag.label}
                         </span>
                       ))}
@@ -533,8 +590,9 @@ export default function HomePage() {
             </div>
             <div className="journey-foot">
               <span className="small" style={{ flex: 1, minWidth: "16ch" }}>
-                Risk travels. Generosity travels. That&apos;s the whole argument for one system, and
-                it&apos;s the only part a competitor can&apos;t copy by shipping another module.
+                Risk travels. Generosity travels. That&apos;s the whole argument
+                for one system, and it&apos;s the only part a competitor
+                can&apos;t copy by shipping another module.
               </span>
               <Link className="btn btn-ghost btn-sm arw" href="/products">
                 See the platform
@@ -542,8 +600,9 @@ export default function HomePage() {
             </div>
           </div>
           <p className="tiny mt-24">
-            An illustrative journey, built from the rules the product actually applies. It is not a real
-            customer record and no shopper data is shown.
+            An illustrative journey, built from the rules the product actually
+            applies. It is not a real customer record and no shopper data is
+            shown.
           </p>
           <div className="grid g3 mt-32 rv">
             {oneRecordCards.map((card) => (
@@ -555,7 +614,11 @@ export default function HomePage() {
             ))}
           </div>
           <p className="small center mt-32">
-            <Link className="tlink" href="/products" style={{ fontSize: ".95rem" }}>
+            <Link
+              className="tlink"
+              href="/products"
+              style={{ fontSize: ".95rem" }}
+            >
               Explore the platform
             </Link>
           </p>
@@ -564,38 +627,44 @@ export default function HomePage() {
 
       <section className="section inv">
         <div className="wrap">
-          <div className="grid gap-4 rv center" style={{ justifyItems: "center" }}>
+          <div
+            className="grid gap-4 rv center"
+            style={{ justifyItems: "center" }}
+          >
             <span className="kicker">The deal</span>
             <h2 className="d2">
               Guide carries the risk.
               <br className="hide-mob" /> You keep the customer.
             </h2>
             <p className="lead maxw-md">
-              The parcel wasn&apos;t your fault. The fix still has to look like it came from you.
+              The parcel wasn&apos;t your fault. The fix still has to look like
+              it came from you.
             </p>
           </div>
           <div className="grid g3 mt-8 rv">
             <div>
               <strong className="d4">Free to you</strong>
               <p className="small mt-2">
-                No platform fee, and nothing charged to you per order. The shopper who adds
-                protection is the one who pays for it, at checkout, on the orders they choose.
+                No platform fee, and nothing charged to you per order. The
+                shopper who adds protection is the one who pays for it, at
+                checkout, on the orders they choose.
               </p>
             </div>
             <div>
               <strong className="d4">Fewer tickets</strong>
               <p className="small mt-2">
-                Claims are worked by the Guide Team, in your brand and on your policies. Most of
-                them don&apos;t reach your inbox at all, and the ones that do have already been
-                through a person.
+                Claims are worked by the Guide Team, in your brand and on your
+                policies. Most of them don&apos;t reach your inbox at all, and
+                the ones that do have already been through a person.
               </p>
             </div>
             <div>
               <strong className="d4">A better ending</strong>
               <p className="small mt-8">
-                The decision, the replacement and the cost of it are ours. Nobody argues with a carrier
-                and nobody waits on one. What you keep is a customer who watched you fix something that was
-                never your fault.
+                The decision, the replacement and the cost of it are ours.
+                Nobody argues with a carrier and nobody waits on one. What you
+                keep is a customer who watched you fix something that was never
+                your fault.
               </p>
             </div>
           </div>
@@ -614,10 +683,18 @@ export default function HomePage() {
                 <br />
                 before they pay.
               </h2>
-              <p className="lead" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: "30em" }}>
-                A clean, on-brand checkout experience that lets customers add shipping protection and add
-                return coverage, before they commit to the order. Take the risk out of the decision and
-                shoppers stop trimming their basket to play it safe.
+              <p
+                className="lead"
+                style={{
+                  fontSize: "1.1rem",
+                  lineHeight: 1.7,
+                  maxWidth: "30em",
+                }}
+              >
+                A clean, on-brand checkout experience that lets customers add
+                shipping protection and add return coverage, before they commit
+                to the order. Take the risk out of the decision and shoppers
+                stop trimming their basket to play it safe.
               </p>
               <ul className="blist">
                 <li>One-click protection upsell</li>
@@ -627,7 +704,10 @@ export default function HomePage() {
             </div>
             <div className="flex justify-center rv d-1">
               <picture>
-                <source srcSet="/assets/mocks/checkout.fb3fdaebde.avif" type="image/avif" />
+                <source
+                  srcSet="/assets/mocks/checkout.fb3fdaebde.avif"
+                  type="image/avif"
+                />
                 <img
                   className="mock phone"
                   src="/assets/mocks/checkout.b8978ad62a.webp"
@@ -648,7 +728,10 @@ export default function HomePage() {
           <div className="split">
             <div className="flex justify-center rv d-1">
               <picture>
-                <source srcSet="/assets/mocks/returns.7659fa4062.avif" type="image/avif" />
+                <source
+                  srcSet="/assets/mocks/returns.7659fa4062.avif"
+                  type="image/avif"
+                />
                 <img
                   className="mock phone"
                   src="/assets/mocks/returns.1b2b57a656.webp"
@@ -669,16 +752,26 @@ export default function HomePage() {
                 <br />
                 they would accept.
               </h2>
-              <p className="lead" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: "30em" }}>
-                Customers start a return or exchange in seconds, and the portal offers the swap
-                before it offers the money back. Your team gets smart routing and full visibility
-                without a ticket ever being opened, on your policies and your branding.
+              <p
+                className="lead"
+                style={{
+                  fontSize: "1.1rem",
+                  lineHeight: 1.7,
+                  maxWidth: "30em",
+                }}
+              >
+                Customers start a return or exchange in seconds, and the portal
+                offers the swap before it offers the money back. Your team gets
+                smart routing and full visibility without a ticket ever being
+                opened, on your policies and your branding.
               </p>
               <ul className="blist">
                 <li>One-tap return initiation</li>
                 <li>Smart eligibility and policy checks</li>
                 <li>Instant exchange recommendations</li>
-                <li>Prepaid labels generated the moment a return is approved</li>
+                <li>
+                  Prepaid labels generated the moment a return is approved
+                </li>
                 <li>Custom resolutions: refund, exchange, or store credit</li>
               </ul>
             </div>
@@ -697,10 +790,18 @@ export default function HomePage() {
                 Nobody should have to visit
                 <br />a carrier&apos;s website.
               </h2>
-              <p className="lead" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: "30em" }}>
-                Give customers a single, beautifully branded place to track every shipment.
-                Integrate with any carrier or merchant and deliver proactive updates from dispatch
-                to doorstep, so nobody has to write in and ask.
+              <p
+                className="lead"
+                style={{
+                  fontSize: "1.1rem",
+                  lineHeight: 1.7,
+                  maxWidth: "30em",
+                }}
+              >
+                Give customers a single, beautifully branded place to track
+                every shipment. Integrate with any carrier or merchant and
+                deliver proactive updates from dispatch to doorstep, so nobody
+                has to write in and ask.
               </p>
               <ul className="blist">
                 <li>Unified tracking across all carriers</li>
@@ -710,7 +811,10 @@ export default function HomePage() {
             </div>
             <div className="flex justify-center rv d-1">
               <picture>
-                <source srcSet="/assets/mocks/tracking.b82edbc4a6.avif" type="image/avif" />
+                <source
+                  srcSet="/assets/mocks/tracking.b82edbc4a6.avif"
+                  type="image/avif"
+                />
                 <img
                   className="mock phone"
                   src="/assets/mocks/tracking.2804d676d6.webp"
@@ -731,7 +835,10 @@ export default function HomePage() {
           <div className="split">
             <div className="flex justify-center rv d-1">
               <picture>
-                <source srcSet="/assets/mocks/dashboard.91cdfd9410.avif" type="image/avif" />
+                <source
+                  srcSet="/assets/mocks/dashboard.91cdfd9410.avif"
+                  type="image/avif"
+                />
                 <img
                   className="mock dash"
                   src="/assets/mocks/dashboard.2cd94da8e6.webp"
@@ -752,9 +859,17 @@ export default function HomePage() {
                 <br />
                 or one that does not.
               </h2>
-              <p className="lead" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: "30em" }}>
-                Dashboards, updating in near real time, give your team the numbers that matter: protected
-                orders, claim rates, resolution trends and revenue recovered, all in one place.
+              <p
+                className="lead"
+                style={{
+                  fontSize: "1.1rem",
+                  lineHeight: 1.7,
+                  maxWidth: "30em",
+                }}
+              >
+                Dashboards, updating in near real time, give your team the
+                numbers that matter: protected orders, claim rates, resolution
+                trends and revenue recovered, all in one place.
               </p>
               <ul className="blist">
                 <li>Live KPIs across protection, returns and tracking</li>
@@ -773,7 +888,10 @@ export default function HomePage() {
             <div className="flex justify-center rv d-1">
               <figure className="fig">
                 <picture>
-                  <source srcSet="/assets/mocks/whitelabel.980d2d79ba.avif" type="image/avif" />
+                  <source
+                    srcSet="/assets/mocks/whitelabel.980d2d79ba.avif"
+                    type="image/avif"
+                  />
                   <img
                     className="mock wide"
                     src="/assets/mocks/whitelabel.b3b0ccef7c.webp"
@@ -785,8 +903,9 @@ export default function HomePage() {
                   />
                 </picture>
                 <figcaption>
-                  Livva Energy&apos;s claim lookup, running on their own domain. The support address
-                  at the foot of the form is a setting, not a limitation.
+                  Livva Energy&apos;s claim lookup, running on their own domain.
+                  The support address at the foot of the form is a setting, not
+                  a limitation.
                 </figcaption>
               </figure>
             </div>
@@ -799,16 +918,32 @@ export default function HomePage() {
                 <br />
                 it stays your brand.
               </h2>
-              <p className="lead" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: "30em" }}>
-                Guide is built to disappear. Every surface a shopper touches carries your logo,
-                your type, your photography and your domain. This is a live claim lookup on a
-                customer&apos;s storefront. There&apos;s nothing of ours on it.
+              <p
+                className="lead"
+                style={{
+                  fontSize: "1.1rem",
+                  lineHeight: 1.7,
+                  maxWidth: "30em",
+                }}
+              >
+                Guide is built to disappear. Every surface a shopper touches
+                carries your logo, your type, your photography and your domain.
+                This is a live claim lookup on a customer&apos;s storefront.
+                There&apos;s nothing of ours on it.
               </p>
               <ul className="blist">
                 <li>Checkout, returns and tracking, all on your domain</li>
-                <li>Email and SMS sent from your address through your own provider</li>
-                <li>Replies written in your voice, by people trained on your policies</li>
-                <li>Merchant dashboard themable for agencies and multi-brand groups</li>
+                <li>
+                  Email and SMS sent from your address through your own provider
+                </li>
+                <li>
+                  Replies written in your voice, by people trained on your
+                  policies
+                </li>
+                <li>
+                  Merchant dashboard themable for agencies and multi-brand
+                  groups
+                </li>
               </ul>
             </div>
           </div>
@@ -821,7 +956,8 @@ export default function HomePage() {
             <span className="kicker">Integrations</span>
             <h2 className="d2 center">Plays nicely with your stack.</h2>
             <p className="lead center">
-              Connect the tools you already run, without a lengthy implementation.
+              Connect the tools you already run, without a lengthy
+              implementation.
             </p>
           </div>
           <div className="kb rv">
@@ -830,9 +966,13 @@ export default function HomePage() {
             <KeycapRow row={integrationRow3} className="r3" />
           </div>
           <p className="small center mt-8">
-            Plus a public REST API, webhooks on every event, and a partner team that will build
-            the connector you need.{" "}
-            <Link className="tlink" href="/resources#integrations" style={{ fontSize: ".855rem" }}>
+            Plus a public REST API, webhooks on every event, and a partner team
+            that will build the connector you need.{" "}
+            <Link
+              className="tlink"
+              href="/resources#integrations"
+              style={{ fontSize: ".855rem" }}
+            >
               See all integrations
             </Link>
           </p>
@@ -847,18 +987,28 @@ export default function HomePage() {
           </div>
           <div className="grid g3">
             {testimonials.map((t, i) => (
-              <div key={t.name} className={`card rv${i === 1 ? " d-1" : i === 2 ? " d-2" : ""}`}>
+              <div
+                key={t.name}
+                className={`card rv${i === 1 ? " d-1" : i === 2 ? " d-2" : ""}`}
+              >
                 <div className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                 <p
                   className="d4 mt-4"
-                  style={{ fontWeight: 400, fontFamily: "var(--font-serif)", fontSize: "1.24rem", lineHeight: 1.4 }}
+                  style={{
+                    fontWeight: 400,
+                    fontFamily: "var(--font-serif)",
+                    fontSize: "1.24rem",
+                    lineHeight: 1.4,
+                  }}
                 >
                   &ldquo;{t.quote}&rdquo;
                 </p>
                 <div className="byline mt-6">
                   <span className="av">{t.initials}</span>
                   <span className="grid gap-1.5">
-                    <strong style={{ fontSize: ".88rem", fontWeight: 550 }}>{t.name}</strong>
+                    <strong style={{ fontSize: ".88rem", fontWeight: 550 }}>
+                      {t.name}
+                    </strong>
                     <span className="tiny">{t.meta}</span>
                   </span>
                 </div>
@@ -878,17 +1028,29 @@ export default function HomePage() {
             </span>
             <h2 className="d2">Every surface, on your brand.</h2>
             <p className="lead maxw-md">
-              See Guide running on your catalog in 30 minutes, with your ops lead in the room, and an honest
-              read on what it would change for your customers and your team.
+              See Guide running on your catalog in 30 minutes, with your ops
+              lead in the room, and an honest read on what it would change for
+              your customers and your team.
             </p>
             <div className="flex gap-3 flex-wrap justify-center">
-              <a className="btn btn-dark btn-lg arw" href={demoUrl("home-cta")} target="_blank" rel="noopener">
-                Book a Demo<span className="sr-only"> (opens in a new tab)</span>
+              <a
+                className="btn btn-dark btn-lg arw"
+                href={demoUrl("home-cta")}
+                target="_blank"
+                rel="noopener"
+              >
+                Book a Demo
+                <span className="sr-only"> (opens in a new tab)</span>
               </a>
               <Link className="btn btn-ghost btn-lg" href="/products">
                 Explore the platform
               </Link>
-              <a className="btn btn-app btn-lg" href={installUrl("home-cta")} target="_blank" rel="noopener">
+              <a
+                className="btn btn-app btn-lg"
+                href={installUrl("home-cta")}
+                target="_blank"
+                rel="noopener"
+              >
                 <svg
                   className="bicon"
                   width={18}
@@ -909,11 +1071,12 @@ export default function HomePage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Free to install, and our team does the build
+              Thirty minutes, on your own catalogue &middot; Free to install,
+              and our team does the build
             </p>
           </div>
         </div>
       </section>
-      </main>
+    </main>
   );
 }

@@ -1,624 +1,2170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Guide | The post-purchase platform for Shopify</title>
-<meta name="description" content="One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta property="og:title" content="Guide | The post-purchase platform for Shopify">
-<meta property="og:description" content="One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://guideprotection.com/">
-<meta name="theme-color" content="#0A0A0A">
-<meta property="og:url" content="https://guideprotection.com/">
-<meta property="og:site_name" content="Guide">
-<meta property="og:image" content="https://guideprotection.com/assets/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://guideprotection.com/assets/og.png">
-<link rel="icon" href="assets/icons/favicon.ico" sizes="48x48">
-<link rel="icon" href="assets/logo.d7a520cc92.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.8195cfc924.png">
-<link rel="manifest" href="assets/site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400&family=Inter:wght@400;450;500;550;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/guide.min.af227e7ecd.css">
-<link rel="preload" as="image" href="assets/mocks/checkout.b8978ad62a.webp" type="image/webp" fetchpriority="high">
-<script>
-(function(){try{var t=localStorage.getItem('guide-theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','light');}})();
-</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://guideprotection.com/#organization","name":"Guide","legalName":"Guide Protection","url":"https://guideprotection.com/","logo":{"@type":"ImageObject","url":"https://guideprotection.com/assets/logo.d7a520cc92.svg","width":512,"height":512},"description":"Guide is the post-purchase operating system for ecommerce merchants. One layer handles shipping protection, returns, exchanges, order tracking and fraud detection, entirely under the merchant's own brand.","email":"hello@guideprotection.com","sameAs":["https://www.linkedin.com/company/guide-1","https://apps.shopify.com/guide-1","https://apps.shopify.com/partners/guide2"],"knowsAbout":["post-purchase experience","shipping protection","package protection","ecommerce returns","exchange-first returns","order tracking","delivery exceptions","return fraud","claims resolution","Shopify apps","white-label customer experience"],"contactPoint":{"@type":"ContactPoint","contactType":"sales","email":"hello@guideprotection.com","availableLanguage":["en"]}},{"@type":"WebSite","@id":"https://guideprotection.com/#website","url":"https://guideprotection.com/","name":"Guide","publisher":{"@id":"https://guideprotection.com/#organization"},"inLanguage":"en","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://guideprotection.com/?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"SoftwareApplication","@id":"https://guideprotection.com/#software","name":"Guide","applicationCategory":"BusinessApplication","applicationSubCategory":"Post-purchase experience platform","operatingSystem":"Web, Shopify","url":"https://guideprotection.com/","downloadUrl":"https://apps.shopify.com/guide-1","installUrl":"https://apps.shopify.com/guide-1","softwareHelp":{"@type":"CreativeWork","url":"https://guideprotection.com/resources"},"description":"One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, running on the merchant's own brand.","publisher":{"@id":"https://guideprotection.com/#organization"},"featureList":["Shipping protection and return coverage offered at checkout","Self-service returns portal with exchange-first routing","Carrier-agnostic branded order tracking","End-to-end claims resolution handled by Guide","Post-purchase analytics across every module","Network-level fraud and abuse detection run by Guide"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"No platform fee and nothing charged to the merchant per order. The shopper who adds protection pays it. Guide is funded by the protection offer shoppers choose at checkout."}},{"@type":"WebPage","@id":"https://guideprotection.com/#webpage","url":"https://guideprotection.com/","name":"Guide | The post-purchase platform for Shopify","description":"One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.","isPartOf":{"@id":"https://guideprotection.com/#website"},"about":{"@id":"https://guideprotection.com/#organization"},"inLanguage":"en","dateModified":"2026-08-25","primaryImageOfPage":{"@type":"ImageObject","url":"https://guideprotection.com/assets/og.png"}}]}</script>
-</head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
-<symbol id="gl" viewBox="0 0 120 38"><path fill="currentColor" d="M9.48456 13.7558L9.48429 13.8766C9.4827 14.6696 9.4851 15.761 9.50107 16.9552C9.53333 19.3681 9.62039 22.1179 9.8279 23.704C9.88899 24.1563 10.169 24.6739 10.7186 25.2398C11.2613 25.7984 11.982 26.316 12.7387 26.7655C13.4887 27.211 14.2331 27.5657 14.7937 27.8098C14.9808 27.8913 15.1459 27.9598 15.2821 28.0147C15.4159 27.96 15.5778 27.8919 15.7611 27.811C16.3158 27.566 17.0531 27.2093 17.7976 26.7593C18.5483 26.3055 19.2666 25.7806 19.8116 25.21C20.3625 24.6332 20.6591 24.0915 20.7303 23.6009L20.7308 23.5974L20.7313 23.5938C20.8307 22.9365 20.9197 22.0689 20.9843 21.0637L15.1935 23.2857V20.6555L23.5749 17.4393L23.5233 19.2796C23.4714 21.1338 23.3356 22.7937 23.1599 23.9576C22.9871 25.14 22.3302 26.1284 21.5874 26.9061C20.8379 27.6908 19.9215 28.3449 19.0679 28.8609C18.208 29.3806 17.3714 29.7843 16.7532 30.0573C16.4427 30.1944 16.184 30.3001 16.0007 30.3722L15.2798 30.6465L14.571 30.3742C14.3864 30.3024 14.1258 30.1974 13.8132 30.0613C13.1907 29.7902 12.3485 29.3899 11.4845 28.8767C10.6273 28.3675 9.70687 27.7226 8.95714 26.9507C8.2151 26.1868 7.5516 25.2065 7.39377 24.0285L7.39353 24.0267L7.3933 24.0249C7.16406 22.2747 7.07765 19.383 7.04564 16.9881C7.02946 15.7779 7.02703 14.6734 7.02864 13.8716C7.02944 13.4706 7.03126 13.1449 7.03287 12.9192C7.03368 12.8063 7.03444 12.7184 7.035 12.6585L7.03585 12.5731L7.03583 10.1734L15.2764 13.3665L28.0843 8.32336L28.0844 3.58505L15.28 8.54682L2.46196 3.57989C2.43828 8.2088 2.44925 20.4169 3.13955 25.6606C3.3095 26.918 4.0599 28.1769 5.25678 29.402C6.44622 30.6195 7.98861 31.7127 9.55353 32.6369C11.1117 33.557 12.6506 34.2854 13.8036 34.7845C14.3788 35.0335 14.8546 35.224 15.1846 35.3515L15.2775 35.3873L15.3656 35.353C15.6919 35.2253 16.1628 35.0344 16.7325 34.7843C17.8745 34.283 19.4 33.5499 20.9479 32.6197C22.502 31.6858 24.0387 30.5771 25.2315 29.3354C26.4305 28.0873 27.2031 26.7879 27.3956 25.47L27.3961 25.4665L27.3966 25.4629C27.7162 23.3607 27.9025 19.9569 28.005 16.3284L28.0148 15.667L30.4704 14.6954L30.4603 16.3737L30.46 16.3856C30.3577 20.0127 30.1698 23.5576 29.8249 25.8285C29.5299 27.8417 28.3933 29.5888 27.0024 31.0366C25.6045 32.4918 23.8695 33.7291 22.2127 34.7246C20.5496 35.7239 18.925 36.5037 17.7196 37.0328L15.2821 38L14.2993 37.6421C13.9431 37.5044 13.4369 37.3016 12.8281 37.0381C11.6133 36.5122 9.97676 35.7387 8.30483 34.7513C6.63967 33.768 4.89733 32.5481 3.50026 31.118C2.11116 29.6962 0.973385 27.9738 0.705653 25.9868L0.705409 25.985L0.705171 25.9832C-0.0324169 20.3834 -0.0169478 7.41766 0.00843716 3.18837L0 0.0078492L15.28 5.91324L30.5398 0L30.5399 9.99559L15.2836 16.0029L9.48456 13.7558Z"/><path fill="currentColor" d="M56.0003 28.0497C50.4997 28.0497 46.7109 24.0365 46.7109 18.0587C46.7109 12.081 50.4155 8.06772 56.2529 8.06772C60.7994 8.06772 64.111 10.7619 64.7004 14.9155H61.3607C60.7713 12.4177 58.891 10.9022 56.1687 10.9022C52.4361 10.9022 50.0226 13.849 50.0226 18.0587C50.0226 22.2684 52.38 25.2152 56.1407 25.2152C59.1716 25.2152 61.6133 23.5033 61.7816 20.332V19.8549H56.3371V17.1326H64.8688V27.8813H62.371L62.0904 25.2433C61.1362 26.6465 59.1155 28.0497 56.0003 28.0497Z"/><path fill="currentColor" d="M77.443 20.6968V13.5123H80.474V27.8813H77.8079L77.4711 26.0571C76.573 27.1517 75.254 28.0497 73.0369 28.0497C69.9778 28.0497 67.3678 26.422 67.3678 21.5107V13.5123H70.3988V21.1739C70.3988 23.9804 71.5214 25.4117 73.7385 25.4117C76.0398 25.4117 77.443 23.6717 77.443 20.6968Z"/><path fill="currentColor" d="M84.4432 11.4916C83.4048 11.4916 82.5909 10.7339 82.5909 9.6674C82.5909 8.60095 83.4048 7.8432 84.4432 7.8432C85.4816 7.8432 86.2954 8.60095 86.2954 9.6674C86.2954 10.7339 85.4816 11.4916 84.4432 11.4916ZM82.8996 27.8813V13.5123H85.9306V27.8813H82.8996Z"/><path fill="currentColor" d="M99.2576 15.5048V8.23611H102.289V27.8813H99.6505L99.2856 25.7204C98.3595 26.9833 96.8721 28.0497 94.5988 28.0497C90.6979 28.0497 87.8072 25.2994 87.8072 20.6968C87.8072 16.2626 90.6979 13.3439 94.5988 13.3439C96.7879 13.3439 98.3314 14.2419 99.2576 15.5048ZM95.104 25.4959C97.6298 25.4959 99.2856 23.5313 99.2856 20.7529C99.2856 17.8903 97.6298 15.9258 95.104 15.9258C92.5782 15.9258 90.9224 17.8903 90.9224 20.6968C90.9224 23.5313 92.5782 25.4959 95.104 25.4959Z"/><path fill="currentColor" d="M111.509 28.0497C106.99 28.0497 104.156 25.131 104.156 20.7249C104.156 16.2907 106.99 13.3439 111.228 13.3439C115.382 13.3439 118.16 15.9819 118.244 20.1916C118.244 20.5565 118.216 20.9494 118.16 21.3423H107.327V21.5387C107.411 23.9804 108.955 25.58 111.34 25.58C113.193 25.58 114.54 24.6539 114.961 23.0542H117.992C117.487 25.8888 115.073 28.0497 111.509 28.0497ZM107.44 19.1252H115.101C114.849 16.9923 113.361 15.7855 111.256 15.7855C109.32 15.7855 107.664 17.0765 107.44 19.1252Z"/></symbol>
-</defs></svg>
-<header class="hdr">
-<div class="wrap hdr-in">
-<button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mnav"><i></i></button>
-<a class="logo" href="/" aria-label="Guide home">
-<span class="logo-full"><svg class="lockup" viewBox="0 0 120 38" aria-hidden="true" focusable="false"><use href="#gl"/></svg></span>
-</a>
-<nav class="nav">
-<div class="nav-item">
-<button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Products</button>
-<div class="mega">
-<a class="mega-item" href="protection">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/></svg></span>
-<span><strong>Checkout+</strong><span>Protection and return coverage, in Shopify checkout</span></span>
-</a>
-<a class="mega-item" href="returns">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h13a5 5 0 0 1 0 10h-4"/><path d="m7 6-4 4 4 4"/></svg></span>
-<span><strong>Returns &amp; Exchanges</strong><span>Self-service portal with smart routing</span></span>
-</a>
-<a class="mega-item" href="tracking">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg></span>
-<span><strong>Order Tracking</strong><span>Carrier-agnostic, on your own brand</span></span>
-</a>
-<a class="mega-item" href="claims">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
-<span><strong>Claims</strong><span>Resolution handled end to end</span></span>
-</a>
-<a class="mega-item" href="analytics">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4"/></svg></span>
-<span><strong>Analytics</strong><span>Live view of claims, returns and orders</span></span>
-</a>
-<a class="mega-item" href="fraud">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/><path d="M9.5 12.5l1.8 1.8 3.4-3.6"/></svg></span>
-<span><strong>Fraud Detection</strong><span>Run by Guide across the network</span></span>
-</a>
-<div class="mega-foot">
-<span class="small">One install. One record of the customer.</span>
-<a class="tlink" href="products">View all products</a>
-</div>
-</div>
-</div>
-<div class="nav-item">
-<button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Resources</button>
-<div class="mega one-col">
-<a class="mega-item" href="resources">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 5h7v15H4zM13 5h7v15h-7z"/></svg></span>
-<span><strong>Resource center</strong><span>Guides and playbooks</span></span>
-</a>
-<a class="mega-item" href="help">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.4a2.5 2.5 0 1 1 3.3 2.4c-.6.2-.9.8-.9 1.4v.3M12 17h.01"/></svg></span>
-<span><strong>Help centre</strong><span>Claims, billing and setup questions</span></span>
-</a>
-<a class="mega-item" href="glossary">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 5h7v15H4zM13 5h7v15h-7z"/><path d="M7 9h1M16 9h1"/></svg></span>
-<span><strong>Glossary</strong><span>Plain definitions of post-purchase terms</span></span>
-</a>
-<a class="mega-item" href="blog">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span>
-<span><strong>Blog</strong><span>Operational notes on post-purchase</span></span>
-</a>
-<a class="mega-item" href="for-shoppers">
-<span class="mi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h9l5 5v11H5z"/><path d="M14 4v5h5"/></svg></span>
-<span><strong>File a claim</strong><span>For shoppers</span></span>
-</a>
-</div>
-</div>
-<a href="pricing">Pricing</a>
-</nav>
-<div class="hdr-right">
-<button class="icon-btn search" aria-label="Search" data-search-open>
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-</button>
-<a class="btn btn-ghost" href="https://claims.guideprotection.com">File a Claim</a>
-<a class="btn btn-dark" href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-header" target="_blank" rel="noopener">Book a Demo<span class="vh"> (opens in a new tab)</span></a>
-<button class="icon-btn" data-theme-toggle aria-label="Toggle color theme" aria-pressed="false">
-<svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
-<svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
-</button>
-</div>
-</div>
-<div class="mnav" id="mnav">
-<div class="mnav-group">
-<span class="mnav-label">Products</span>
-<a href="products">Platform overview</a>
-<a href="protection">Checkout+</a>
-<a href="returns">Returns &amp; Exchanges</a>
-<a href="tracking">Order Tracking</a>
-<a href="claims">Claims</a>
-<a href="analytics">Analytics</a>
-<a href="fraud">Fraud Detection</a>
-</div>
-<div class="mnav-group">
-<span class="mnav-label">Resources</span>
-<a href="resources">Resource center</a>
-<a href="help">Help centre</a>
-<a href="blog">Blog</a>
-<a href="glossary">Glossary</a>
-<a href="for-shoppers">File a claim</a>
-</div>
-<div class="mnav-group">
-<span class="mnav-label">Pricing</span>
-<a href="pricing">No platform fee, how it works</a>
-</div>
-<div class="mnav-group">
-<span class="mnav-label">Search</span>
-<button class="mnav-search" data-search-open>
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-Search the site
-</button>
-</div>
-<div class="mcta">
-<a class="btn btn-ghost" href="https://claims.guideprotection.com">File a Claim</a>
-<a class="btn btn-dark" href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-header" target="_blank" rel="noopener">Book a Demo<span class="vh"> (opens in a new tab)</span></a>
-</div>
-</div>
-</header>
-<div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-label="Search Guide">
-<div class="search-panel">
-<div class="search-top">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-<input class="search-input" id="search-input" type="search" placeholder="Search products, pricing, help" aria-label="Search Guide" autocomplete="off">
-<span class="search-esc">ESC</span>
-</div>
-<div class="search-results" id="search-results" role="region" aria-live="polite" aria-label="Search results"></div>
-</div>
-</div>
-<main id="main">
-<section class="hero">
-<div class="canvas"></div>
-<div class="wrap">
-<div class="hero-head" style="max-width:1000px;margin:0 auto">
-<span class="pill"><span class="dot"></span> The post-purchase platform for Shopify</span>
-<h1 class="d1">Turn every post-purchase moment<br>into <span class="accent">retained revenue</span>.</h1>
-<p class="lead maxw-md hero-lead">
-Protection, returns, exchanges, claims, tracking and fraud detection in one layer,
-on your brand, so a delivery problem doesn't cost you the customer.
-</p>
-<div class="flex gap-12 wrapf jc mt-8">
-<a class="btn btn-dark btn-lg arw" href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-hero" target="_blank" rel="noopener">Book a Demo<span class="vh"> (opens in a new tab)</span></a>
-<a class="btn btn-ghost btn-lg" href="products">Explore the Platform</a>
-</div>
-<p class="small mt-8"><a class="tlink" href="https://apps.shopify.com/guide-1?utm_source=guide_site&utm_medium=cta&utm_campaign=install&utm_content=home-hero-text" target="_blank" rel="noopener" style="font-size:.95rem">Install from the Shopify App Store</a></p>
-</div>
-<div class="wheel" data-wheel role="group" aria-roledescription="carousel" aria-label="Guide product screens">
-<div class="wheel-stage">
-<div class="wheel-item" data-label="Checkout+" data-slot="0"><picture><source srcset="assets/mocks/checkout.fb3fdaebde.avif" type="image/avif"><img class="mock phone " src="assets/mocks/checkout.b8978ad62a.webp" width="887" height="1774" alt="Checkout+ cart on a Shopify store, showing shipping protection and return coverage added to the order" loading="eager" fetchpriority="high" decoding="async"></picture></div>
-<div class="wheel-item" data-label="Returns" data-slot="1"><picture><source srcset="assets/mocks/returns.7659fa4062.avif" type="image/avif"><img class="mock phone " src="assets/mocks/returns.1b2b57a656.webp" width="887" height="1774" alt="Guide returns portal, showing refund, exchange and store credit options" loading="eager" fetchpriority="low" decoding="async"></picture></div>
-<div class="wheel-item" data-label="Exchanges" data-slot="2"><picture><source srcset="assets/mocks/exchange.704dbffb2e.avif" type="image/avif"><img class="mock phone " src="assets/mocks/exchange.44c9c301ba.webp" width="887" height="1774" alt="Guide exchange flow, choosing a replacement size and color" loading="eager" fetchpriority="low" decoding="async"></picture></div>
-<div class="wheel-item" data-label="Order Tracking" data-slot="3"><picture><source srcset="assets/mocks/tracking.b82edbc4a6.avif" type="image/avif"><img class="mock phone " src="assets/mocks/tracking.2804d676d6.webp" width="887" height="1918" alt="Branded order tracking page showing delivery milestones and order items" loading="eager" fetchpriority="low" decoding="async"></picture></div>
-<div class="wheel-item" data-label="Checkout+" data-slot="0" aria-hidden="true"><picture><source srcset="assets/mocks/checkout.fb3fdaebde.avif" type="image/avif"><img class="mock phone " src="assets/mocks/checkout.b8978ad62a.webp" width="887" height="1774" alt="Checkout+ cart on a Shopify store, showing shipping protection and return coverage added to the order" loading="lazy" decoding="async"></picture></div>
-<div class="wheel-item" data-label="Returns" data-slot="1" aria-hidden="true"><picture><source srcset="assets/mocks/returns.7659fa4062.avif" type="image/avif"><img class="mock phone " src="assets/mocks/returns.1b2b57a656.webp" width="887" height="1774" alt="Guide returns portal, showing refund, exchange and store credit options" loading="lazy" decoding="async"></picture></div>
-<div class="wheel-item" data-label="Exchanges" data-slot="2" aria-hidden="true"><picture><source srcset="assets/mocks/exchange.704dbffb2e.avif" type="image/avif"><img class="mock phone " src="assets/mocks/exchange.44c9c301ba.webp" width="887" height="1774" alt="Guide exchange flow, choosing a replacement size and color" loading="lazy" decoding="async"></picture></div>
-<div class="wheel-item" data-label="Order Tracking" data-slot="3" aria-hidden="true"><picture><source srcset="assets/mocks/tracking.b82edbc4a6.avif" type="image/avif"><img class="mock phone " src="assets/mocks/tracking.2804d676d6.webp" width="887" height="1918" alt="Branded order tracking page showing delivery milestones and order items" loading="lazy" decoding="async"></picture></div>
-</div>
-</div>
-<div class="wheel-ctl">
-<p class="wheel-cap" data-wheel-cap>Checkout+</p>
-</div>
-<div class="wheel-dots" role="group" aria-label="Choose a screen">
-<button class="wheel-dot on" aria-current="true" aria-label="Slide 1 of 4: Checkout+"></button>
-<button class="wheel-dot" aria-current="false" aria-label="Slide 2 of 4: Returns"></button>
-<button class="wheel-dot" aria-current="false" aria-label="Slide 3 of 4: Exchanges"></button>
-<button class="wheel-dot" aria-current="false" aria-label="Slide 4 of 4: Order Tracking"></button>
-</div>
-<p class="wheel-hint" data-wheel-hint>
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m8 9-3 3 3 3M16 9l3 3-3 3M10.5 12h3"/></svg>
-Drag to explore
-</p>
-</div>
-</section>
-<section class="section-sm" id="proof">
-<div class="wrap">
-<div class="proof rv">
-<div class="proof-glow"></div>
-<div class="split split-t">
-<div class="stack-16">
-<span class="kicker">Verified</span>
-<p class="stat-xl stat-acc">21 minutes</p>
-<h2 class="d4">From approval to resolution sent, on average.</h2>
-<p class="tiny">Averaged across approved claims, measured from approval to the
-replacement or refund being issued. Not submission time, not time to a decision, and
-not how long a refund takes to clear the shopper's bank.
-<a class="tlink" href="claims" style="font-size:inherit">How a claim actually
-moves</a>.</p>
-</div>
-<div class="stack-16">
-<span class="kicker">From the Shopify App Store</span>
-<div class="card"><p class="body">&ldquo;Their team is always willing to collaborate
-with us to find the best possible solutions, especially when navigating complex
-situations such as fraudulent claims.&rdquo;</p>
-<p class="tiny mt-8"><strong>NRML</strong> &middot; 2 years using Guide</p></div>
-<div class="card"><p class="body">&ldquo;It offers new customers another layer of order
-assurance and confidence when ordering, which helps strengthen conversion rate.&rdquo;</p>
-<p class="tiny mt-8"><strong>Elva&#39;s All Naturals</strong> &middot; Over 18 months using Guide</p></div>
-<p class="tiny"><a class="tlink" href="https://apps.shopify.com/guide-1/reviews"
-target="_blank" rel="noopener" style="font-size:.8rem">Read every review on the Shopify App Store</a></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="wrap">
-<div class="sec-head rv">
-<span class="kicker">The whole idea</span>
-<h2 class="d2">The moment it goes wrong<br class="hide-mob"> is the moment you win them.</h2>
-<p class="lead">
-A parcel that never arrived. The wrong size. A delivery that slipped a week. Every one of
-those is a customer quietly deciding whether to order from you again. Guide takes the worst
-moment in the journey and turns it into the reason they come back.
-</p>
-</div>
-<div class="grid g3">
-<div class="card rv">
-<span class="ico v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
-<h3 class="d4 mt-16">A recovery, not an apology</h3>
-<p class="body mt-8">
-The shopper resolves it where they already were, in your brand, without writing an email
-or waiting on a reply. What would have been a complaint becomes the story they tell about
-how well you handled it.
-</p>
-</div>
-<div class="card rv d-1">
-<span class="ico blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16"/><path d="m8 4-4 4 4 4"/><path d="M20 16H4"/><path d="m16 12 4 4-4 4"/></svg></span>
-<h3 class="d4 mt-16">Fewer tickets reaching your team</h3>
-<p class="body mt-8">
-Where is my order. How do I send this back. It arrived damaged. Guide answers all three
-before they become a conversation, so your agents spend their day on the questions that
-genuinely need a person.
-</p>
-</div>
-<div class="card rv d-2">
-<span class="ico v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4"/></svg></span>
-<h3 class="d4 mt-16">A bigger basket at checkout</h3>
-<p class="body mt-8">
-Protection and return coverage remove the hesitation that quietly caps cart size. When the
-risk of buying comes down, shoppers commit to the order they actually wanted rather than
-the safe version of it.
-</p>
-</div>
-</div>
-</div>
-</section>
-<section class="section-sm">
-<div class="wrap">
-<div class="sec-head-row rv">
-<h2 class="d2" style="max-width:16ch">Choose the problem you want to solve first.</h2>
-<a class="tlink" href="products">View all products</a>
-</div>
-<div class="prod rv">
-<a href="protection">
-<span class="ico v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/></svg></span>
-<strong class="d4">Checkout+</strong>
-<span class="body">Protection and return coverage embedded directly in Shopify checkout.</span>
-</a>
-<a href="returns">
-<span class="ico blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16"/><path d="m8 4-4 4 4 4"/><path d="M20 16H4"/><path d="m16 12 4 4-4 4"/></svg></span>
-<strong class="d4">Returns &amp; Exchanges</strong>
-<span class="body">A self-service portal with smart routing, automated decisions inside your rules and policy enforcement.</span>
-</a>
-<a href="tracking">
-<span class="ico v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg></span>
-<strong class="d4">Order Tracking</strong>
-<span class="body">Carrier-agnostic tracking on your own brand, with proactive delivery updates.</span>
-</a>
-<a href="claims">
-<span class="ico blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
-<strong class="d4">Claims</strong>
-<span class="body">Lost, stolen and damaged orders resolved end to end, in your voice, at our cost.</span>
-</a>
-<a href="analytics">
-<span class="ico v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4"/></svg></span>
-<strong class="d4">Analytics</strong>
-<span class="body">Live dashboards across protection, claims, returns and tracking in one place.</span>
-</a>
-<a href="fraud">
-<span class="ico blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/><path d="M12 9v4M12 16h.01"/></svg></span>
-<strong class="d4">Fraud Detection</strong>
-<span class="body">Guide catches claim and return abuse across the network. You don't run it. You get told when it involves you.</span>
-</a>
-</div>
-</div>
-</section>
-<section class="section bg-2" id="one-record">
-<div class="wrap">
-<div class="sec-head rv">
-<span class="kicker">One record</span>
-<h2 class="d2">What "one system" actually<br class="hide-mob"> buys you, in one customer.</h2>
-<p class="lead">
-Every vendor in this category says the modules are connected. Here is what that sentence
-is worth. One shopper, one record, four months. Watch what March changes about June.
-</p>
-</div>
-<div class="journey rv">
-<div class="journey-head">
-<div class="journey-who">
-<span class="journey-av">JM</span>
-<span class="stack-6">
-<strong style="font-size:.96rem;font-weight:550;letter-spacing:-.018em">Jamie M.</strong>
-<span class="tiny">Customer since March &middot; 6 orders &middot; 1 claim &middot; 2 exchanges</span>
-</span>
-</div>
-<span class="tag">Example unified customer record</span>
-</div>
-<div class="journey-rail">
-<div class="jrow">
-<span class="when">04 MAR</span>
-<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/></svg></span>
-<span class="what">
-<strong>Adds protection at checkout</strong>
-<span>Opts in on a $248 order. Guide now has a record for this customer, not just this order.</span>
-<span class="tags"><span class="tag neutral">Checkout+</span></span>
-</span>
-</div>
-<div class="jrow">
-<span class="when">12 MAR</span>
-<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg></span>
-<span class="what">
-<strong>Parcel marked delivered. It was not.</strong>
-<span>Tracking sees the scan, the customer does not see the box. She opens a claim from the tracking page she was already looking at.</span>
-<span class="tags"><span class="tag neutral">Tracking</span><span class="tag neutral">Claims</span></span>
-</span>
-</div>
-<div class="jrow key">
-<span class="when">12 MAR</span>
-<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
-<span class="what">
-<strong>Resolved without a ticket</strong>
-<span>First claim, clean carrier history, low risk. Auto-approved inside your rules, replacement drafted in Shopify, your CX team never sees it.</span>
-<span class="tags"><span class="tag">Recovery</span><span class="tag neutral">Zero tickets</span></span>
-</span>
-</div>
-<div class="jrow">
-<span class="when">21 JUN</span>
-<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16"/><path d="m8 4-4 4 4 4"/><path d="M20 16H4"/><path d="m16 12 4 4-4 4"/></svg></span>
-<span class="what">
-<strong>Requests an exchange, wrong size</strong>
-<span>Three months later, different module, same record.</span>
-<span class="tags"><span class="tag neutral">Returns</span></span>
-</span>
-</div>
-<div class="jrow key">
-<span class="when">21 JUN</span>
-<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
-<span class="what">
-<strong>This is the part five separate apps cannot do</strong>
-<span>Guide already knows she had one genuine delivery failure that was not her fault, and no pattern of abuse. So she is offered an instant exchange that ships before the return lands, rather than being asked to post the item back first. A standalone returns app would have treated her like a stranger.</span>
-<span class="tags"><span class="tag">Context applied</span><span class="tag">Instant exchange</span></span>
-</span>
-</div>
-<div class="jrow">
-<span class="when">21 JUN</span>
-<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></svg></span>
-<span class="what">
-<strong>Registers the product, becomes a first-party contact</strong>
-<span>Six orders in. The thing that could have lost her in March is the reason she is still here.</span>
-<span class="tags"><span class="tag neutral">Confirmations</span></span>
-</span>
-</div>
-</div>
-<div class="journey-foot">
-<span class="small" style="flex:1;min-width:16ch">
-Risk travels. Generosity travels. That's the whole argument for one system, and it's
-the only part a competitor can't copy by shipping another module.
-</span>
-<a class="btn btn-ghost btn-sm arw" href="products">See the platform</a>
-</div>
-</div>
-<p class="tiny mt-24">An illustrative journey, built from the rules the product actually applies. It is not a real customer record and no shopper data is shown.</p>
-<div class="grid g3 mt-32 rv">
-<div class="card"><span class="ico v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
-<h3 class="d4 mt-16">Shared shopper history</h3><p class="small mt-8">A claim in
-March is visible when the same shopper asks for an exchange in June. Six separate apps
-can't see each other's data, so each one meets that customer for the first time.</p></div>
-<div class="card"><span class="ico blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/><path d="M12 9v4M12 16h.01"/></svg></span>
-<h3 class="d4 mt-16">Consistent risk signals</h3><p class="small mt-8">One assessment
-by our team, applied the same way at the claim and at the exchange. Separate
-tools reach separate conclusions about the same person on the same day.</p></div>
-<div class="card"><span class="ico v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
-<h3 class="d4 mt-16">Faster resolutions</h3><p class="small mt-8">Nobody has to
-look up the order in a second system before deciding, which is where most of the
-waiting in a support queue actually comes from.</p></div>
-<div class="card"><span class="ico blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/></svg></span>
-<h3 class="d4 mt-16">Better personalization</h3><p class="small mt-8">A loyal
-customer with two genuinely bad deliveries gets treated differently from a first-time
-buyer with a suspicious pattern, without an agent having to notice.</p></div>
-<div class="card"><span class="ico v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></svg></span>
-<h3 class="d4 mt-16">One operational record</h3><p class="small mt-8">Protection,
-returns, tracking and claims write to the same customer, so your team reads one history
-rather than reconciling four.</p></div>
-<div class="card"><span class="ico blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4"/></svg></span>
-<h3 class="d4 mt-16">Fewer disconnected exports</h3><p class="small mt-8">One set
-of numbers that agrees with itself, instead of four CSVs that have to be matched up
-before anyone can answer a question.</p></div>
-</div>
-<p class="small center mt-32"><a class="tlink" href="products" style="font-size:.95rem">Explore the platform</a></p>
-</div>
-</section>
-<section class="section inv">
-<div class="wrap">
-<div class="stack-16 rv center" style="justify-items:center">
-<span class="kicker">The deal</span>
-<h2 class="d2">Guide carries the risk.<br class="hide-mob"> You keep the customer.</h2>
-<p class="lead maxw-md">The parcel wasn't your fault. The fix still has to look like it came from you.</p>
-</div>
-<div class="grid g3 mt-32 rv">
-<div><strong class="d4">Free to you</strong><p class="small mt-8">No platform fee, and nothing
-charged to you per order. The shopper who adds protection is the one who pays for it, at
-checkout, on the orders they choose.</p></div>
-<div><strong class="d4">Fewer tickets</strong><p class="small mt-8">Claims are worked by the
-Guide Team, in your brand and on your policies. Most of them don't reach your inbox at all,
-and the ones that do have already been through a person.</p></div>
-<div><strong class="d4">A better ending</strong><p class="small mt-8">The decision, the
-replacement and the cost of it are ours. Nobody argues with a carrier and nobody waits on
-one. What you keep is a customer who watched you fix something that was never your fault.</p></div>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="wrap"><div class="split"><div class="stack-28 rv">
-<span class="eyepill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/></svg> At checkout</span>
-<h2 class="d2">The hesitation happens<br>before they pay.</h2>
-<p class="lead" style="font-size:1.1rem;line-height:1.7;max-width:30em">A clean, on-brand checkout experience that lets customers add shipping protection and add return coverage, before they commit to the order. Take the risk out of the decision and shoppers stop trimming their basket to play it safe.</p>
-<ul class="blist"><li>One-click protection upsell</li><li>Branded to match your store</li><li>No redirects or pop-ups</li></ul>
-</div><div class="flex jc rv d-1"><picture><source srcset="assets/mocks/checkout.fb3fdaebde.avif" type="image/avif"><img class="mock phone " src="assets/mocks/checkout.b8978ad62a.webp" width="887" height="1774" alt="Checkout+ cart on a Shopify store, showing shipping protection and return coverage added to the order" loading="lazy" decoding="async"></picture></div></div></div>
-</section>
-<section class="section bg-2">
-<div class="wrap"><div class="split"><div class="flex jc rv d-1"><picture><source srcset="assets/mocks/returns.7659fa4062.avif" type="image/avif"><img class="mock phone " src="assets/mocks/returns.1b2b57a656.webp" width="887" height="1774" alt="Guide returns portal, showing refund, exchange and store credit options" loading="lazy" decoding="async"></picture></div><div class="stack-28 rv">
-<span class="eyepill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></svg> Returns</span>
-<h2 class="d2">A refund is not the only thing<br>they would accept.</h2>
-<p class="lead" style="font-size:1.1rem;line-height:1.7;max-width:30em">Customers start a return or exchange in seconds, and the portal offers the swap before it offers the money back. Your team gets smart routing and full visibility without a ticket ever being opened, on your policies and your branding.</p>
-<ul class="blist"><li>One-tap return initiation</li><li>Smart eligibility and policy checks</li><li>Instant exchange recommendations</li><li>Prepaid labels generated the moment a return is approved</li><li>Custom resolutions: refund, exchange, or store credit</li></ul>
-</div></div></div>
-</section>
-<section class="section">
-<div class="wrap"><div class="split"><div class="stack-28 rv">
-<span class="eyepill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg> Tracking</span>
-<h2 class="d2">Nobody should have to visit<br>a carrier's website.</h2>
-<p class="lead" style="font-size:1.1rem;line-height:1.7;max-width:30em">Give customers a single, beautifully branded place to track every shipment. Integrate with any carrier or merchant and deliver proactive updates from dispatch to doorstep, so nobody has to write in and ask.</p>
-<ul class="blist"><li>Unified tracking across all carriers</li><li>Automated delivery notifications</li><li>Branded tracking page that drives repeat visits</li></ul>
-</div><div class="flex jc rv d-1"><picture><source srcset="assets/mocks/tracking.b82edbc4a6.avif" type="image/avif"><img class="mock phone " src="assets/mocks/tracking.2804d676d6.webp" width="887" height="1918" alt="Branded order tracking page showing delivery milestones and order items" loading="lazy" decoding="async"></picture></div></div></div>
-</section>
-<section class="section bg-2">
-<div class="wrap"><div class="split"><div class="flex jc rv d-1"><picture><source srcset="assets/mocks/dashboard.91cdfd9410.avif" type="image/avif"><img class="mock dash " src="assets/mocks/dashboard.2cd94da8e6.webp" width="1358" height="1159" alt="Guide claims dashboard showing protected orders, claim rate and a table of recent claims" loading="lazy" decoding="async"></picture></div><div class="stack-28 rv">
-<span class="eyepill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4"/></svg> Analytics</span>
-<h2 class="d2">Four exports that disagree,<br>or one that does not.</h2>
-<p class="lead" style="font-size:1.1rem;line-height:1.7;max-width:30em">Dashboards, updating in near real time, give your team the numbers that matter: protected orders, claim rates, resolution trends and revenue recovered, all in one place.</p>
-<ul class="blist"><li>Live KPIs across protection, returns and tracking</li><li>Filter by carrier, reason code or cohort</li><li>Compare protected vs. total order performance</li><li>Drill into every claim and customer in seconds</li></ul>
-</div></div></div>
-</section>
-<section class="section">
-<div class="wrap"><div class="split"><div class="flex jc rv d-1"><figure class="fig"><picture><source srcset="assets/mocks/whitelabel.980d2d79ba.avif" type="image/avif"><img class="mock wide " src="assets/mocks/whitelabel.b3b0ccef7c.webp" width="1200" height="683" alt="A claim lookup form running on the Livva Energy storefront, carrying the merchant's own logo, photography and typography with no Guide branding" loading="lazy" decoding="async"></picture><figcaption>Livva Energy's claim lookup, running on their own domain. The support address at the foot of the form is a setting, not a limitation.</figcaption></figure></div><div class="stack-28 rv">
-<span class="eyepill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"/></svg> White label</span>
-<h2 class="d2">Front to back,<br>it stays your brand.</h2>
-<p class="lead" style="font-size:1.1rem;line-height:1.7;max-width:30em">Guide is built to disappear. Every surface a shopper touches carries your logo, your type, your photography and your domain. This is a live claim lookup on a customer's storefront. There's nothing of ours on it.</p>
-<ul class="blist"><li>Checkout, returns and tracking, all on your domain</li><li>Email and SMS sent from your address through your own provider</li><li>Replies written in your voice, by people trained on your policies</li><li>Merchant dashboard themable for agencies and multi-brand groups</li></ul>
-</div></div></div>
-</section>
-<section class="section bg-2">
-<div class="wrap">
-<div class="sec-head center rv">
-<span class="kicker">Integrations</span>
-<h2 class="d2 center">Plays nicely with your stack.</h2>
-<p class="lead center">Connect the tools you already run, without a lengthy implementation.</p>
-</div>
-<div class="kb rv"><div class="kb-row"><span class="kb-key"><img src="assets/logos/shopify.3f62a000e3.webp" width="116" height="116" loading="lazy" decoding="async" alt="Shopify"></span><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key"><img src="assets/logos/zendesk.4d5dbc9351.webp" width="116" height="116" loading="lazy" decoding="async" alt="Zendesk"></span><span class="kb-key hero-key" role="img" aria-label="Guide"><svg viewBox="-6.010 -2.280 42.560 42.560" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="currentColor" d="M9.48456 13.7558L9.48429 13.8766C9.4827 14.6696 9.4851 15.761 9.50107 16.9552C9.53333 19.3681 9.62039 22.1179 9.8279 23.704C9.88899 24.1563 10.169 24.6739 10.7186 25.2398C11.2613 25.7984 11.982 26.316 12.7387 26.7655C13.4887 27.211 14.2331 27.5657 14.7937 27.8098C14.9808 27.8913 15.1459 27.9598 15.2821 28.0147C15.4159 27.96 15.5778 27.8919 15.7611 27.811C16.3158 27.566 17.0531 27.2093 17.7976 26.7593C18.5483 26.3055 19.2666 25.7806 19.8116 25.21C20.3625 24.6332 20.6591 24.0915 20.7303 23.6009L20.7308 23.5974L20.7313 23.5938C20.8307 22.9365 20.9197 22.0689 20.9843 21.0637L15.1935 23.2857V20.6555L23.5749 17.4393L23.5233 19.2796C23.4714 21.1338 23.3356 22.7937 23.1599 23.9576C22.9871 25.14 22.3302 26.1284 21.5874 26.9061C20.8379 27.6908 19.9215 28.3449 19.0679 28.8609C18.208 29.3806 17.3714 29.7843 16.7532 30.0573C16.4427 30.1944 16.184 30.3001 16.0007 30.3722L15.2798 30.6465L14.571 30.3742C14.3864 30.3024 14.1258 30.1974 13.8132 30.0613C13.1907 29.7902 12.3485 29.3899 11.4845 28.8767C10.6273 28.3675 9.70687 27.7226 8.95714 26.9507C8.2151 26.1868 7.5516 25.2065 7.39377 24.0285L7.39353 24.0267L7.3933 24.0249C7.16406 22.2747 7.07765 19.383 7.04564 16.9881C7.02946 15.7779 7.02703 14.6734 7.02864 13.8716C7.02944 13.4706 7.03126 13.1449 7.03287 12.9192C7.03368 12.8063 7.03444 12.7184 7.035 12.6585L7.03585 12.5731L7.03583 10.1734L15.2764 13.3665L28.0843 8.32336L28.0844 3.58505L15.28 8.54682L2.46196 3.57989C2.43828 8.2088 2.44925 20.4169 3.13955 25.6606C3.3095 26.918 4.0599 28.1769 5.25678 29.402C6.44622 30.6195 7.98861 31.7127 9.55353 32.6369C11.1117 33.557 12.6506 34.2854 13.8036 34.7845C14.3788 35.0335 14.8546 35.224 15.1846 35.3515L15.2775 35.3873L15.3656 35.353C15.6919 35.2253 16.1628 35.0344 16.7325 34.7843C17.8745 34.283 19.4 33.5499 20.9479 32.6197C22.502 31.6858 24.0387 30.5771 25.2315 29.3354C26.4305 28.0873 27.2031 26.7879 27.3956 25.47L27.3961 25.4665L27.3966 25.4629C27.7162 23.3607 27.9025 19.9569 28.005 16.3284L28.0148 15.667L30.4704 14.6954L30.4603 16.3737L30.46 16.3856C30.3577 20.0127 30.1698 23.5576 29.8249 25.8285C29.5299 27.8417 28.3933 29.5888 27.0024 31.0366C25.6045 32.4918 23.8695 33.7291 22.2127 34.7246C20.5496 35.7239 18.925 36.5037 17.7196 37.0328L15.2821 38L14.2993 37.6421C13.9431 37.5044 13.4369 37.3016 12.8281 37.0381C11.6133 36.5122 9.97676 35.7387 8.30483 34.7513C6.63967 33.768 4.89733 32.5481 3.50026 31.118C2.11116 29.6962 0.973385 27.9738 0.705653 25.9868L0.705409 25.985L0.705171 25.9832C-0.0324169 20.3834 -0.0169478 7.41766 0.00843716 3.18837L0 0.0078492L15.28 5.91324L30.5398 0L30.5399 9.99559L15.2836 16.0029L9.48456 13.7558Z"/></svg></span><span class="kb-key"><img src="assets/logos/gorgias.75e636320d.webp" width="116" height="116" loading="lazy" decoding="async" alt="Gorgias"></span><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key"><img src="assets/logos/tiktok.187609de13.webp" width="116" height="116" loading="lazy" decoding="async" alt="TikTok"></span></div><div class="kb-row r2"><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key"><img src="assets/logos/northbeam.ff7f7593a2.webp" width="116" height="116" loading="lazy" decoding="async" alt="Northbeam"></span><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key"><img src="assets/logos/skio.5d823ea2bf.webp" width="128" height="128" loading="lazy" decoding="async" alt="Skio"></span><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key"><img src="assets/logos/okendo.14e05d89fb.webp" width="92" height="92" loading="lazy" decoding="async" alt="Okendo"></span><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key"><img src="assets/logos/loop.b316fcefe1.webp" width="116" height="116" loading="lazy" decoding="async" alt="Loop"></span><span class="kb-key blank" aria-hidden="true"></span></div><div class="kb-row r3"><span class="kb-key"><img src="assets/logos/emotive.b407ff76f0.webp" width="116" height="116" loading="lazy" decoding="async" alt="Emotive"></span><span class="kb-key blank" aria-hidden="true"></span><span class="kb-key"><img src="assets/logos/recharge.37eb0e204f.webp" width="110" height="110" loading="lazy" decoding="async" alt="Recharge"></span><span class="kb-key blank" aria-hidden="true"></span></div></div>
-<p class="small center mt-32">
-Plus a public REST API, webhooks on every event, and a partner team that will build the
-connector you need. <a class="tlink" href="resources#integrations" style="font-size:.855rem">See all integrations</a>
-</p>
-</div>
-</section>
-<section class="section">
-<div class="wrap">
-<div class="sec-head center rv">
-<span class="kicker">From the Shopify App Store</span>
-<h2 class="d2 center">Why Shopify brands choose Guide.</h2>
-</div>
-<div class="grid g3">
-<div class="card rv">
-<div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-<p class="d4 mt-16" style="font-weight:400;font-family:var(--serif);font-size:1.24rem;line-height:1.4">
-&ldquo;They are always willing to collaborate with us to find the best possible solutions, especially when navigating complex situations such as fraudulent claims. Fast, fair, and effective resolutions.&rdquo;
-</p>
-<div class="byline mt-24"><span class="av">N</span><span class="stack-6"><strong style="font-size:.88rem;font-weight:550">NRML</strong><span class="tiny">2 years using Guide</span></span></div>
-</div>
-<div class="card rv d-1">
-<div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-<p class="d4 mt-16" style="font-weight:400;font-family:var(--serif);font-size:1.24rem;line-height:1.4">
-&ldquo;It offers new customers another layer of order assurance and confidence when ordering, which helps strengthen conversion rate.&rdquo;
-</p>
-<div class="byline mt-24"><span class="av">EA</span><span class="stack-6"><strong style="font-size:.88rem;font-weight:550">Elva&#39;s All Naturals</strong><span class="tiny">Over 18 months using Guide</span></span></div>
-</div>
-<div class="card rv d-2">
-<div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-<p class="d4 mt-16" style="font-weight:400;font-family:var(--serif);font-size:1.24rem;line-height:1.4">
-&ldquo;The customer support has been the best I&#39;ve worked with, bar none. This app has taken a lot of shipping-related stress off our company&#39;s shoulders.&rdquo;
-</p>
-<div class="byline mt-24"><span class="av">MM</span><span class="stack-6"><strong style="font-size:.88rem;font-weight:550">Morrocco Method International</strong><span class="tiny">Over 2 years using Guide</span></span></div>
-</div>
-</div>
-</div>
-</section>
-<section class="section cta-wrap">
-<div class="cta-glow"></div>
-<div class="canvas"></div>
-<div class="narrow center">
-<div class="stack-28 rv" style="justify-items:center">
-<span class="logo-tile"><svg viewBox="-6.010 -2.280 42.560 42.560" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="currentColor" d="M9.48456 13.7558L9.48429 13.8766C9.4827 14.6696 9.4851 15.761 9.50107 16.9552C9.53333 19.3681 9.62039 22.1179 9.8279 23.704C9.88899 24.1563 10.169 24.6739 10.7186 25.2398C11.2613 25.7984 11.982 26.316 12.7387 26.7655C13.4887 27.211 14.2331 27.5657 14.7937 27.8098C14.9808 27.8913 15.1459 27.9598 15.2821 28.0147C15.4159 27.96 15.5778 27.8919 15.7611 27.811C16.3158 27.566 17.0531 27.2093 17.7976 26.7593C18.5483 26.3055 19.2666 25.7806 19.8116 25.21C20.3625 24.6332 20.6591 24.0915 20.7303 23.6009L20.7308 23.5974L20.7313 23.5938C20.8307 22.9365 20.9197 22.0689 20.9843 21.0637L15.1935 23.2857V20.6555L23.5749 17.4393L23.5233 19.2796C23.4714 21.1338 23.3356 22.7937 23.1599 23.9576C22.9871 25.14 22.3302 26.1284 21.5874 26.9061C20.8379 27.6908 19.9215 28.3449 19.0679 28.8609C18.208 29.3806 17.3714 29.7843 16.7532 30.0573C16.4427 30.1944 16.184 30.3001 16.0007 30.3722L15.2798 30.6465L14.571 30.3742C14.3864 30.3024 14.1258 30.1974 13.8132 30.0613C13.1907 29.7902 12.3485 29.3899 11.4845 28.8767C10.6273 28.3675 9.70687 27.7226 8.95714 26.9507C8.2151 26.1868 7.5516 25.2065 7.39377 24.0285L7.39353 24.0267L7.3933 24.0249C7.16406 22.2747 7.07765 19.383 7.04564 16.9881C7.02946 15.7779 7.02703 14.6734 7.02864 13.8716C7.02944 13.4706 7.03126 13.1449 7.03287 12.9192C7.03368 12.8063 7.03444 12.7184 7.035 12.6585L7.03585 12.5731L7.03583 10.1734L15.2764 13.3665L28.0843 8.32336L28.0844 3.58505L15.28 8.54682L2.46196 3.57989C2.43828 8.2088 2.44925 20.4169 3.13955 25.6606C3.3095 26.918 4.0599 28.1769 5.25678 29.402C6.44622 30.6195 7.98861 31.7127 9.55353 32.6369C11.1117 33.557 12.6506 34.2854 13.8036 34.7845C14.3788 35.0335 14.8546 35.224 15.1846 35.3515L15.2775 35.3873L15.3656 35.353C15.6919 35.2253 16.1628 35.0344 16.7325 34.7843C17.8745 34.283 19.4 33.5499 20.9479 32.6197C22.502 31.6858 24.0387 30.5771 25.2315 29.3354C26.4305 28.0873 27.2031 26.7879 27.3956 25.47L27.3961 25.4665L27.3966 25.4629C27.7162 23.3607 27.9025 19.9569 28.005 16.3284L28.0148 15.667L30.4704 14.6954L30.4603 16.3737L30.46 16.3856C30.3577 20.0127 30.1698 23.5576 29.8249 25.8285C29.5299 27.8417 28.3933 29.5888 27.0024 31.0366C25.6045 32.4918 23.8695 33.7291 22.2127 34.7246C20.5496 35.7239 18.925 36.5037 17.7196 37.0328L15.2821 38L14.2993 37.6421C13.9431 37.5044 13.4369 37.3016 12.8281 37.0381C11.6133 36.5122 9.97676 35.7387 8.30483 34.7513C6.63967 33.768 4.89733 32.5481 3.50026 31.118C2.11116 29.6962 0.973385 27.9738 0.705653 25.9868L0.705409 25.985L0.705171 25.9832C-0.0324169 20.3834 -0.0169478 7.41766 0.00843716 3.18837L0 0.0078492L15.28 5.91324L30.5398 0L30.5399 9.99559L15.2836 16.0029L9.48456 13.7558Z"/></svg></span>
-<h2 class="d2">Every surface, on your brand.</h2>
-<p class="lead maxw-md">See Guide running on your catalog in 30 minutes, with your ops lead in the room, and an honest read on what it would change for your customers and your team.</p>
-<div class="flex gap-12 wrapf jc">
-<a class="btn btn-dark btn-lg arw" href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-cta" target="_blank" rel="noopener">Book a Demo<span class="vh"> (opens in a new tab)</span></a>
-<a class="btn btn-ghost btn-lg" href="products">Explore the platform</a>
-<a class="btn btn-app btn-lg" href="https://apps.shopify.com/guide-1?utm_source=guide_site&utm_medium=cta&utm_campaign=install&utm_content=home-cta" target="_blank" rel="noopener"><svg class="bicon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 8h16l-1.2 11.2a2 2 0 0 1-2 1.8H7.2a2 2 0 0 1-2-1.8z"/><path d="M8.5 10V6.5a3.5 3.5 0 0 1 7 0V10"/></svg>Install on Shopify</a>
-</div>
-<p class="small">Thirty minutes, on your own catalogue &middot; Free to install, and our team does the build</p>
-</div>
-</div>
-</section>
-</main>
-<footer class="ftr">
-<div class="wrap">
-<div class="ftr-grid">
-<div class="stack-16">
-<a class="logo" href="/" aria-label="Guide, home">
-<span class="logo-full"><svg class="lockup" viewBox="0 0 120 38" aria-hidden="true" focusable="false"><use href="#gl"/></svg></span>
-</a>
-<p class="small" style="max-width:32ch">
-The post-purchase platform for Shopify. One layer for protection, returns, exchanges,
-order tracking and fraud detection.
-</p>
-<div class="flex gap-8">
-<a class="icon-btn" href="https://www.linkedin.com/company/guide-1" rel="me noopener" aria-label="Guide on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9.5h4v11H3zM10 9.5h3.8v1.5h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76v5.69h-4v-5.05c0-1.2-.02-2.75-1.75-2.75-1.75 0-2.02 1.3-2.02 2.66v5.14h-4z"/></svg></a>
-</div>
-</div>
-<div>
-<h3 class="ftr-h">Products</h3>
-<ul>
-<li><a href="products">Platform overview</a></li>
-<li><a href="protection">Checkout+</a></li>
-<li><a href="returns">Returns &amp; Exchanges</a></li>
-<li><a href="tracking">Order Tracking</a></li>
-<li><a href="claims">Claims</a></li>
-<li><a href="analytics">Analytics</a></li>
-<li><a href="fraud">Fraud Detection</a></li>
-</ul>
-</div>
-<div>
-<h3 class="ftr-h">Resources</h3>
-<ul>
-<li><a href="resources">Resource center</a></li>
-<li><a href="resources#integrations">Integrations</a></li>
-<li><a href="for-shoppers">File a claim</a></li>
-</ul>
-</div>
-<div>
-<h3 class="ftr-h">Company</h3>
-<ul>
-<li><a href="https://apps.shopify.com/guide-1?utm_source=guide_site&utm_medium=cta&utm_campaign=install&utm_content=home-footer" target="_blank" rel="noopener">Shopify App Store</a></li>
-<li><a href="pricing">Pricing</a></li>
-<li><a href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-footer" target="_blank" rel="noopener">Book a demo</a></li>
-<li><a href="blog">Blog</a></li>
-<li><a href="help">Help centre</a></li>
-<li><a href="glossary">Glossary</a></li>
-<li><a href="mailto:hello@guideprotection.com">Contact</a></li>
-</ul>
-</div>
-<div>
-<h3 class="ftr-h">Legal</h3>
-<ul>
-<li><a href="privacy">Privacy policy</a></li>
-<li><a href="terms">Terms of service</a></li>
-</ul>
-</div>
-</div>
-<div class="ftr-bottom">
-<span>&copy; <span data-year>2026</span> Guide Protection. All rights reserved.</span>
-<span>hello@guideprotection.com</span>
-</div>
-</div>
-</footer>
-<script src="assets/search-index.3fe3f9691a.js" defer></script>
-<script src="assets/guide.min.383d044d30.js" defer></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Guide | The post-purchase platform for Shopify</title>
+    <meta
+      name="description"
+      content="One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand."
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta
+      property="og:title"
+      content="Guide | The post-purchase platform for Shopify"
+    />
+    <meta
+      property="og:description"
+      content="One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://guideprotection.com/" />
+    <meta name="theme-color" content="#0A0A0A" />
+    <meta property="og:url" content="https://guideprotection.com/" />
+    <meta property="og:site_name" content="Guide" />
+    <meta
+      property="og:image"
+      content="https://guideprotection.com/assets/og.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://guideprotection.com/assets/og.png"
+    />
+    <link rel="icon" href="assets/icons/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="assets/logo.d7a520cc92.svg" type="image/svg+xml" />
+    <link
+      rel="apple-touch-icon"
+      href="assets/icons/apple-touch-icon.8195cfc924.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400&family=Inter:wght@400;450;500;550;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/guide.min.af227e7ecd.css" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/mocks/checkout.b8978ad62a.webp"
+      type="image/webp"
+      fetchpriority="high"
+    />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("guide-theme");
+          if (!t) {
+            t = window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://guideprotection.com/#organization",
+            "name": "Guide",
+            "legalName": "Guide Protection",
+            "url": "https://guideprotection.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://guideprotection.com/assets/logo.d7a520cc92.svg",
+              "width": 512,
+              "height": 512
+            },
+            "description": "Guide is the post-purchase operating system for ecommerce merchants. One layer handles shipping protection, returns, exchanges, order tracking and fraud detection, entirely under the merchant's own brand.",
+            "email": "hello@guideprotection.com",
+            "sameAs": [
+              "https://www.linkedin.com/company/guide-1",
+              "https://apps.shopify.com/guide-1",
+              "https://apps.shopify.com/partners/guide2"
+            ],
+            "knowsAbout": [
+              "post-purchase experience",
+              "shipping protection",
+              "package protection",
+              "ecommerce returns",
+              "exchange-first returns",
+              "order tracking",
+              "delivery exceptions",
+              "return fraud",
+              "claims resolution",
+              "Shopify apps",
+              "white-label customer experience"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "sales",
+              "email": "hello@guideprotection.com",
+              "availableLanguage": ["en"]
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://guideprotection.com/#website",
+            "url": "https://guideprotection.com/",
+            "name": "Guide",
+            "publisher": { "@id": "https://guideprotection.com/#organization" },
+            "inLanguage": "en",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://guideprotection.com/?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://guideprotection.com/#software",
+            "name": "Guide",
+            "applicationCategory": "BusinessApplication",
+            "applicationSubCategory": "Post-purchase experience platform",
+            "operatingSystem": "Web, Shopify",
+            "url": "https://guideprotection.com/",
+            "downloadUrl": "https://apps.shopify.com/guide-1",
+            "installUrl": "https://apps.shopify.com/guide-1",
+            "softwareHelp": {
+              "@type": "CreativeWork",
+              "url": "https://guideprotection.com/resources"
+            },
+            "description": "One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, running on the merchant's own brand.",
+            "publisher": { "@id": "https://guideprotection.com/#organization" },
+            "featureList": [
+              "Shipping protection and return coverage offered at checkout",
+              "Self-service returns portal with exchange-first routing",
+              "Carrier-agnostic branded order tracking",
+              "End-to-end claims resolution handled by Guide",
+              "Post-purchase analytics across every module",
+              "Network-level fraud and abuse detection run by Guide"
+            ],
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "description": "No platform fee and nothing charged to the merchant per order. The shopper who adds protection pays it. Guide is funded by the protection offer shoppers choose at checkout."
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://guideprotection.com/#webpage",
+            "url": "https://guideprotection.com/",
+            "name": "Guide | The post-purchase platform for Shopify",
+            "description": "One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.",
+            "isPartOf": { "@id": "https://guideprotection.com/#website" },
+            "about": { "@id": "https://guideprotection.com/#organization" },
+            "inLanguage": "en",
+            "dateModified": "2026-08-25",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://guideprotection.com/assets/og.png"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <svg
+      width="0"
+      height="0"
+      style="position: absolute"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <defs>
+        <symbol id="gl" viewBox="0 0 120 38">
+          <path
+            fill="currentColor"
+            d="M9.48456 13.7558L9.48429 13.8766C9.4827 14.6696 9.4851 15.761 9.50107 16.9552C9.53333 19.3681 9.62039 22.1179 9.8279 23.704C9.88899 24.1563 10.169 24.6739 10.7186 25.2398C11.2613 25.7984 11.982 26.316 12.7387 26.7655C13.4887 27.211 14.2331 27.5657 14.7937 27.8098C14.9808 27.8913 15.1459 27.9598 15.2821 28.0147C15.4159 27.96 15.5778 27.8919 15.7611 27.811C16.3158 27.566 17.0531 27.2093 17.7976 26.7593C18.5483 26.3055 19.2666 25.7806 19.8116 25.21C20.3625 24.6332 20.6591 24.0915 20.7303 23.6009L20.7308 23.5974L20.7313 23.5938C20.8307 22.9365 20.9197 22.0689 20.9843 21.0637L15.1935 23.2857V20.6555L23.5749 17.4393L23.5233 19.2796C23.4714 21.1338 23.3356 22.7937 23.1599 23.9576C22.9871 25.14 22.3302 26.1284 21.5874 26.9061C20.8379 27.6908 19.9215 28.3449 19.0679 28.8609C18.208 29.3806 17.3714 29.7843 16.7532 30.0573C16.4427 30.1944 16.184 30.3001 16.0007 30.3722L15.2798 30.6465L14.571 30.3742C14.3864 30.3024 14.1258 30.1974 13.8132 30.0613C13.1907 29.7902 12.3485 29.3899 11.4845 28.8767C10.6273 28.3675 9.70687 27.7226 8.95714 26.9507C8.2151 26.1868 7.5516 25.2065 7.39377 24.0285L7.39353 24.0267L7.3933 24.0249C7.16406 22.2747 7.07765 19.383 7.04564 16.9881C7.02946 15.7779 7.02703 14.6734 7.02864 13.8716C7.02944 13.4706 7.03126 13.1449 7.03287 12.9192C7.03368 12.8063 7.03444 12.7184 7.035 12.6585L7.03585 12.5731L7.03583 10.1734L15.2764 13.3665L28.0843 8.32336L28.0844 3.58505L15.28 8.54682L2.46196 3.57989C2.43828 8.2088 2.44925 20.4169 3.13955 25.6606C3.3095 26.918 4.0599 28.1769 5.25678 29.402C6.44622 30.6195 7.98861 31.7127 9.55353 32.6369C11.1117 33.557 12.6506 34.2854 13.8036 34.7845C14.3788 35.0335 14.8546 35.224 15.1846 35.3515L15.2775 35.3873L15.3656 35.353C15.6919 35.2253 16.1628 35.0344 16.7325 34.7843C17.8745 34.283 19.4 33.5499 20.9479 32.6197C22.502 31.6858 24.0387 30.5771 25.2315 29.3354C26.4305 28.0873 27.2031 26.7879 27.3956 25.47L27.3961 25.4665L27.3966 25.4629C27.7162 23.3607 27.9025 19.9569 28.005 16.3284L28.0148 15.667L30.4704 14.6954L30.4603 16.3737L30.46 16.3856C30.3577 20.0127 30.1698 23.5576 29.8249 25.8285C29.5299 27.8417 28.3933 29.5888 27.0024 31.0366C25.6045 32.4918 23.8695 33.7291 22.2127 34.7246C20.5496 35.7239 18.925 36.5037 17.7196 37.0328L15.2821 38L14.2993 37.6421C13.9431 37.5044 13.4369 37.3016 12.8281 37.0381C11.6133 36.5122 9.97676 35.7387 8.30483 34.7513C6.63967 33.768 4.89733 32.5481 3.50026 31.118C2.11116 29.6962 0.973385 27.9738 0.705653 25.9868L0.705409 25.985L0.705171 25.9832C-0.0324169 20.3834 -0.0169478 7.41766 0.00843716 3.18837L0 0.0078492L15.28 5.91324L30.5398 0L30.5399 9.99559L15.2836 16.0029L9.48456 13.7558Z"
+          />
+          <path
+            fill="currentColor"
+            d="M56.0003 28.0497C50.4997 28.0497 46.7109 24.0365 46.7109 18.0587C46.7109 12.081 50.4155 8.06772 56.2529 8.06772C60.7994 8.06772 64.111 10.7619 64.7004 14.9155H61.3607C60.7713 12.4177 58.891 10.9022 56.1687 10.9022C52.4361 10.9022 50.0226 13.849 50.0226 18.0587C50.0226 22.2684 52.38 25.2152 56.1407 25.2152C59.1716 25.2152 61.6133 23.5033 61.7816 20.332V19.8549H56.3371V17.1326H64.8688V27.8813H62.371L62.0904 25.2433C61.1362 26.6465 59.1155 28.0497 56.0003 28.0497Z"
+          />
+          <path
+            fill="currentColor"
+            d="M77.443 20.6968V13.5123H80.474V27.8813H77.8079L77.4711 26.0571C76.573 27.1517 75.254 28.0497 73.0369 28.0497C69.9778 28.0497 67.3678 26.422 67.3678 21.5107V13.5123H70.3988V21.1739C70.3988 23.9804 71.5214 25.4117 73.7385 25.4117C76.0398 25.4117 77.443 23.6717 77.443 20.6968Z"
+          />
+          <path
+            fill="currentColor"
+            d="M84.4432 11.4916C83.4048 11.4916 82.5909 10.7339 82.5909 9.6674C82.5909 8.60095 83.4048 7.8432 84.4432 7.8432C85.4816 7.8432 86.2954 8.60095 86.2954 9.6674C86.2954 10.7339 85.4816 11.4916 84.4432 11.4916ZM82.8996 27.8813V13.5123H85.9306V27.8813H82.8996Z"
+          />
+          <path
+            fill="currentColor"
+            d="M99.2576 15.5048V8.23611H102.289V27.8813H99.6505L99.2856 25.7204C98.3595 26.9833 96.8721 28.0497 94.5988 28.0497C90.6979 28.0497 87.8072 25.2994 87.8072 20.6968C87.8072 16.2626 90.6979 13.3439 94.5988 13.3439C96.7879 13.3439 98.3314 14.2419 99.2576 15.5048ZM95.104 25.4959C97.6298 25.4959 99.2856 23.5313 99.2856 20.7529C99.2856 17.8903 97.6298 15.9258 95.104 15.9258C92.5782 15.9258 90.9224 17.8903 90.9224 20.6968C90.9224 23.5313 92.5782 25.4959 95.104 25.4959Z"
+          />
+          <path
+            fill="currentColor"
+            d="M111.509 28.0497C106.99 28.0497 104.156 25.131 104.156 20.7249C104.156 16.2907 106.99 13.3439 111.228 13.3439C115.382 13.3439 118.16 15.9819 118.244 20.1916C118.244 20.5565 118.216 20.9494 118.16 21.3423H107.327V21.5387C107.411 23.9804 108.955 25.58 111.34 25.58C113.193 25.58 114.54 24.6539 114.961 23.0542H117.992C117.487 25.8888 115.073 28.0497 111.509 28.0497ZM107.44 19.1252H115.101C114.849 16.9923 113.361 15.7855 111.256 15.7855C109.32 15.7855 107.664 17.0765 107.44 19.1252Z"
+          />
+        </symbol>
+      </defs>
+    </svg>
+    <header class="hdr">
+      <div class="wrap hdr-in">
+        <button
+          class="burger"
+          aria-label="Menu"
+          aria-expanded="false"
+          aria-controls="mnav"
+        >
+          <i></i>
+        </button>
+        <a class="logo" href="/" aria-label="Guide home">
+          <span class="logo-full"
+            ><svg
+              class="lockup"
+              viewBox="0 0 120 38"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <use href="#gl" /></svg
+          ></span>
+        </a>
+        <nav class="nav">
+          <div class="nav-item">
+            <button
+              class="nav-trigger"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Products
+            </button>
+            <div class="mega">
+              <a class="mega-item" href="protection">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                    /></svg
+                ></span>
+                <span
+                  ><strong>Checkout+</strong
+                  ><span
+                    >Protection and return coverage, in Shopify checkout</span
+                  ></span
+                >
+              </a>
+              <a class="mega-item" href="returns">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M3 10h13a5 5 0 0 1 0 10h-4" />
+                    <path d="m7 6-4 4 4 4" /></svg
+                ></span>
+                <span
+                  ><strong>Returns &amp; Exchanges</strong
+                  ><span>Self-service portal with smart routing</span></span
+                >
+              </a>
+              <a class="mega-item" href="tracking">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z" />
+                    <circle cx="7" cy="18" r="1.8" />
+                    <circle cx="17.5" cy="18" r="1.8" /></svg
+                ></span>
+                <span
+                  ><strong>Order Tracking</strong
+                  ><span>Carrier-agnostic, on your own brand</span></span
+                >
+              </a>
+              <a class="mega-item" href="claims">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5" /></svg
+                ></span>
+                <span
+                  ><strong>Claims</strong
+                  ><span>Resolution handled end to end</span></span
+                >
+              </a>
+              <a class="mega-item" href="analytics">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                  >
+                    <path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4" /></svg
+                ></span>
+                <span
+                  ><strong>Analytics</strong
+                  ><span>Live view of claims, returns and orders</span></span
+                >
+              </a>
+              <a class="mega-item" href="fraud">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                    />
+                    <path d="M9.5 12.5l1.8 1.8 3.4-3.6" /></svg
+                ></span>
+                <span
+                  ><strong>Fraud Detection</strong
+                  ><span>Run by Guide across the network</span></span
+                >
+              </a>
+              <div class="mega-foot">
+                <span class="small"
+                  >One install. One record of the customer.</span
+                >
+                <a class="tlink" href="products">View all products</a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <button
+              class="nav-trigger"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Resources
+            </button>
+            <div class="mega one-col">
+              <a class="mega-item" href="resources">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M4 5h7v15H4zM13 5h7v15h-7z" /></svg
+                ></span>
+                <span
+                  ><strong>Resource center</strong
+                  ><span>Guides and playbooks</span></span
+                >
+              </a>
+              <a class="mega-item" href="help">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="9" />
+                    <path
+                      d="M9.6 9.4a2.5 2.5 0 1 1 3.3 2.4c-.6.2-.9.8-.9 1.4v.3M12 17h.01"
+                    /></svg
+                ></span>
+                <span
+                  ><strong>Help centre</strong
+                  ><span>Claims, billing and setup questions</span></span
+                >
+              </a>
+              <a class="mega-item" href="glossary">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M4 5h7v15H4zM13 5h7v15h-7z" />
+                    <path d="M7 9h1M16 9h1" /></svg
+                ></span>
+                <span
+                  ><strong>Glossary</strong
+                  ><span>Plain definitions of post-purchase terms</span></span
+                >
+              </a>
+              <a class="mega-item" href="blog">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 4h14v16H5z" />
+                    <path d="M8 8h8M8 12h8M8 16h5" /></svg
+                ></span>
+                <span
+                  ><strong>Blog</strong
+                  ><span>Operational notes on post-purchase</span></span
+                >
+              </a>
+              <a class="mega-item" href="for-shoppers">
+                <span class="mi-icon"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 4h9l5 5v11H5z" />
+                    <path d="M14 4v5h5" /></svg
+                ></span>
+                <span
+                  ><strong>File a claim</strong><span>For shoppers</span></span
+                >
+              </a>
+            </div>
+          </div>
+          <a href="pricing">Pricing</a>
+        </nav>
+        <div class="hdr-right">
+          <button class="icon-btn search" aria-label="Search" data-search-open>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.9"
+              stroke-linecap="round"
+            >
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.5-3.5" />
+            </svg>
+          </button>
+          <a class="btn btn-ghost" href="https://claims.guideprotection.com"
+            >File a Claim</a
+          >
+          <a
+            class="btn btn-dark"
+            href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-header"
+            target="_blank"
+            rel="noopener"
+            >Book a Demo<span class="vh"> (opens in a new tab)</span></a
+          >
+          <button
+            class="icon-btn"
+            data-theme-toggle
+            aria-label="Toggle color theme"
+            aria-pressed="false"
+          >
+            <svg
+              class="moon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linejoin="round"
+            >
+              <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" />
+            </svg>
+            <svg
+              class="sun"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="mnav" id="mnav">
+        <div class="mnav-group">
+          <span class="mnav-label">Products</span>
+          <a href="products">Platform overview</a>
+          <a href="protection">Checkout+</a>
+          <a href="returns">Returns &amp; Exchanges</a>
+          <a href="tracking">Order Tracking</a>
+          <a href="claims">Claims</a>
+          <a href="analytics">Analytics</a>
+          <a href="fraud">Fraud Detection</a>
+        </div>
+        <div class="mnav-group">
+          <span class="mnav-label">Resources</span>
+          <a href="resources">Resource center</a>
+          <a href="help">Help centre</a>
+          <a href="blog">Blog</a>
+          <a href="glossary">Glossary</a>
+          <a href="for-shoppers">File a claim</a>
+        </div>
+        <div class="mnav-group">
+          <span class="mnav-label">Pricing</span>
+          <a href="pricing">No platform fee, how it works</a>
+        </div>
+        <div class="mnav-group">
+          <span class="mnav-label">Search</span>
+          <button class="mnav-search" data-search-open>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.9"
+              stroke-linecap="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.5-3.5" />
+            </svg>
+            Search the site
+          </button>
+        </div>
+        <div class="mcta">
+          <a class="btn btn-ghost" href="https://claims.guideprotection.com"
+            >File a Claim</a
+          >
+          <a
+            class="btn btn-dark"
+            href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-header"
+            target="_blank"
+            rel="noopener"
+            >Book a Demo<span class="vh"> (opens in a new tab)</span></a
+          >
+        </div>
+      </div>
+    </header>
+    <div
+      class="search-modal"
+      id="search-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Search Guide"
+    >
+      <div class="search-panel">
+        <div class="search-top">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.9"
+            stroke-linecap="round"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" />
+          </svg>
+          <input
+            class="search-input"
+            id="search-input"
+            type="search"
+            placeholder="Search products, pricing, help"
+            aria-label="Search Guide"
+            autocomplete="off"
+          />
+          <span class="search-esc">ESC</span>
+        </div>
+        <div
+          class="search-results"
+          id="search-results"
+          role="region"
+          aria-live="polite"
+          aria-label="Search results"
+        ></div>
+      </div>
+    </div>
+    <main id="main">
+      <section class="hero">
+        <div class="canvas"></div>
+        <div class="wrap">
+          <div class="hero-head" style="max-width: 1000px; margin: 0 auto">
+            <span class="pill"
+              ><span class="dot"></span> The post-purchase platform for
+              Shopify</span
+            >
+            <h1 class="d1">
+              Turn every post-purchase moment<br />into
+              <span class="accent">added revenue</span>.
+            </h1>
+            <p class="lead maxw-md hero-lead">
+              Protection, returns, exchanges, claims, tracking and fraud
+              detection in one layer, on your brand, so a delivery problem
+              doesn't cost you the customer.
+            </p>
+            <div class="flex gap-12 wrapf jc mt-8">
+              <a
+                class="btn btn-dark btn-lg arw"
+                href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-hero"
+                target="_blank"
+                rel="noopener"
+                >Book a Demo<span class="vh"> (opens in a new tab)</span></a
+              >
+              <a class="btn btn-ghost btn-lg" href="products"
+                >Explore the Platform</a
+              >
+            </div>
+            <p class="small mt-8">
+              <a
+                class="tlink"
+                href="https://apps.shopify.com/guide-1?utm_source=guide_site&utm_medium=cta&utm_campaign=install&utm_content=home-hero-text"
+                target="_blank"
+                rel="noopener"
+                style="font-size: 0.95rem"
+                >Install from the Shopify App Store</a
+              >
+            </p>
+          </div>
+          <div
+            class="wheel"
+            data-wheel
+            role="group"
+            aria-roledescription="carousel"
+            aria-label="Guide product screens"
+          >
+            <div class="wheel-stage">
+              <div class="wheel-item" data-label="Checkout+" data-slot="0">
+                <picture
+                  ><source
+                    srcset="assets/mocks/checkout.fb3fdaebde.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock phone"
+                    src="assets/mocks/checkout.b8978ad62a.webp"
+                    width="887"
+                    height="1774"
+                    alt="Checkout+ cart on a Shopify store, showing shipping protection and return coverage added to the order"
+                    loading="eager"
+                    fetchpriority="high"
+                    decoding="async"
+                /></picture>
+              </div>
+              <div class="wheel-item" data-label="Returns" data-slot="1">
+                <picture
+                  ><source
+                    srcset="assets/mocks/returns.7659fa4062.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock phone"
+                    src="assets/mocks/returns.1b2b57a656.webp"
+                    width="887"
+                    height="1774"
+                    alt="Guide returns portal, showing refund, exchange and store credit options"
+                    loading="eager"
+                    fetchpriority="low"
+                    decoding="async"
+                /></picture>
+              </div>
+              <div class="wheel-item" data-label="Exchanges" data-slot="2">
+                <picture
+                  ><source
+                    srcset="assets/mocks/exchange.704dbffb2e.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock phone"
+                    src="assets/mocks/exchange.44c9c301ba.webp"
+                    width="887"
+                    height="1774"
+                    alt="Guide exchange flow, choosing a replacement size and color"
+                    loading="eager"
+                    fetchpriority="low"
+                    decoding="async"
+                /></picture>
+              </div>
+              <div class="wheel-item" data-label="Order Tracking" data-slot="3">
+                <picture
+                  ><source
+                    srcset="assets/mocks/tracking.b82edbc4a6.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock phone"
+                    src="assets/mocks/tracking.2804d676d6.webp"
+                    width="887"
+                    height="1918"
+                    alt="Branded order tracking page showing delivery milestones and order items"
+                    loading="eager"
+                    fetchpriority="low"
+                    decoding="async"
+                /></picture>
+              </div>
+              <div
+                class="wheel-item"
+                data-label="Checkout+"
+                data-slot="0"
+                aria-hidden="true"
+              >
+                <picture
+                  ><source
+                    srcset="assets/mocks/checkout.fb3fdaebde.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock phone"
+                    src="assets/mocks/checkout.b8978ad62a.webp"
+                    width="887"
+                    height="1774"
+                    alt="Checkout+ cart on a Shopify store, showing shipping protection and return coverage added to the order"
+                    loading="lazy"
+                    decoding="async"
+                /></picture>
+              </div>
+              <div
+                class="wheel-item"
+                data-label="Returns"
+                data-slot="1"
+                aria-hidden="true"
+              >
+                <picture
+                  ><source
+                    srcset="assets/mocks/returns.7659fa4062.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock phone"
+                    src="assets/mocks/returns.1b2b57a656.webp"
+                    width="887"
+                    height="1774"
+                    alt="Guide returns portal, showing refund, exchange and store credit options"
+                    loading="lazy"
+                    decoding="async"
+                /></picture>
+              </div>
+              <div
+                class="wheel-item"
+                data-label="Exchanges"
+                data-slot="2"
+                aria-hidden="true"
+              >
+                <picture
+                  ><source
+                    srcset="assets/mocks/exchange.704dbffb2e.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock phone"
+                    src="assets/mocks/exchange.44c9c301ba.webp"
+                    width="887"
+                    height="1774"
+                    alt="Guide exchange flow, choosing a replacement size and color"
+                    loading="lazy"
+                    decoding="async"
+                /></picture>
+              </div>
+              <div
+                class="wheel-item"
+                data-label="Order Tracking"
+                data-slot="3"
+                aria-hidden="true"
+              >
+                <picture
+                  ><source
+                    srcset="assets/mocks/tracking.b82edbc4a6.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock phone"
+                    src="assets/mocks/tracking.2804d676d6.webp"
+                    width="887"
+                    height="1918"
+                    alt="Branded order tracking page showing delivery milestones and order items"
+                    loading="lazy"
+                    decoding="async"
+                /></picture>
+              </div>
+            </div>
+          </div>
+          <div class="wheel-ctl">
+            <p class="wheel-cap" data-wheel-cap>Checkout+</p>
+          </div>
+          <div class="wheel-dots" role="group" aria-label="Choose a screen">
+            <button
+              class="wheel-dot on"
+              aria-current="true"
+              aria-label="Slide 1 of 4: Checkout+"
+            ></button>
+            <button
+              class="wheel-dot"
+              aria-current="false"
+              aria-label="Slide 2 of 4: Returns"
+            ></button>
+            <button
+              class="wheel-dot"
+              aria-current="false"
+              aria-label="Slide 3 of 4: Exchanges"
+            ></button>
+            <button
+              class="wheel-dot"
+              aria-current="false"
+              aria-label="Slide 4 of 4: Order Tracking"
+            ></button>
+          </div>
+          <p class="wheel-hint" data-wheel-hint>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m8 9-3 3 3 3M16 9l3 3-3 3M10.5 12h3" />
+            </svg>
+            Drag to explore
+          </p>
+        </div>
+      </section>
+      <section class="section-sm" id="proof">
+        <div class="wrap">
+          <div class="proof rv">
+            <div class="proof-glow"></div>
+            <div class="split split-t">
+              <div class="stack-16">
+                <span class="kicker">Verified</span>
+                <p class="stat-xl stat-acc">21 minutes</p>
+                <h2 class="d4">
+                  From approval to resolution sent, on average.
+                </h2>
+                <p class="tiny">
+                  Averaged across approved claims, measured from approval to the
+                  replacement or refund being issued. Not submission time, not
+                  time to a decision, and not how long a refund takes to clear
+                  the shopper's bank.
+                  <a class="tlink" href="claims" style="font-size: inherit"
+                    >How a claim actually moves</a
+                  >.
+                </p>
+              </div>
+              <div class="stack-16">
+                <span class="kicker">From the Shopify App Store</span>
+                <div class="card">
+                  <p class="body">
+                    &ldquo;Their team is always willing to collaborate with us
+                    to find the best possible solutions, especially when
+                    navigating complex situations such as fraudulent
+                    claims.&rdquo;
+                  </p>
+                  <p class="tiny mt-8">
+                    <strong>NRML</strong> &middot; 2 years using Guide
+                  </p>
+                </div>
+                <div class="card">
+                  <p class="body">
+                    &ldquo;It offers new customers another layer of order
+                    assurance and confidence when ordering, which helps
+                    strengthen conversion rate.&rdquo;
+                  </p>
+                  <p class="tiny mt-8">
+                    <strong>Elva&#39;s All Naturals</strong> &middot; Over 18
+                    months using Guide
+                  </p>
+                </div>
+                <p class="tiny">
+                  <a
+                    class="tlink"
+                    href="https://apps.shopify.com/guide-1/reviews"
+                    target="_blank"
+                    rel="noopener"
+                    style="font-size: 0.8rem"
+                    >Read every review on the Shopify App Store</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="sec-head rv">
+            <span class="kicker">The whole idea</span>
+            <h2 class="d2">
+              The moment it goes wrong<br class="hide-mob" />
+              is the moment you win them.
+            </h2>
+            <p class="lead">
+              A parcel that never arrived. The wrong size. A delivery that
+              slipped a week. Every one of those is a customer quietly deciding
+              whether to order from you again. Guide takes the worst moment in
+              the journey and turns it into the reason they come back.
+            </p>
+          </div>
+          <div class="grid g3">
+            <div class="card rv">
+              <span class="ico v"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 6 9 17l-5-5" /></svg
+              ></span>
+              <h3 class="d4 mt-16">A recovery, not an apology</h3>
+              <p class="body mt-8">
+                The shopper resolves it where they already were, in your brand,
+                without writing an email or waiting on a reply. What would have
+                been a complaint becomes the story they tell about how well you
+                handled it.
+              </p>
+            </div>
+            <div class="card rv d-1">
+              <span class="ico blue"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M4 8h16" />
+                  <path d="m8 4-4 4 4 4" />
+                  <path d="M20 16H4" />
+                  <path d="m16 12 4 4-4 4" /></svg
+              ></span>
+              <h3 class="d4 mt-16">Fewer tickets reaching your team</h3>
+              <p class="body mt-8">
+                Where is my order. How do I send this back. It arrived damaged.
+                Guide answers all three before they become a conversation, so
+                your agents spend their day on the questions that genuinely need
+                a person.
+              </p>
+            </div>
+            <div class="card rv d-2">
+              <span class="ico v"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                >
+                  <path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4" /></svg
+              ></span>
+              <h3 class="d4 mt-16">A bigger basket at checkout</h3>
+              <p class="body mt-8">
+                Protection and return coverage remove the hesitation that
+                quietly caps cart size. When the risk of buying comes down,
+                shoppers commit to the order they actually wanted rather than
+                the safe version of it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-sm">
+        <div class="wrap">
+          <div class="sec-head-row rv">
+            <h2 class="d2" style="max-width: 16ch">
+              Choose the problem you want to solve first.
+            </h2>
+            <a class="tlink" href="products">View all products</a>
+          </div>
+          <div class="prod rv">
+            <a href="protection">
+              <span class="ico v"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                  /></svg
+              ></span>
+              <strong class="d4">Checkout+</strong>
+              <span class="body"
+                >Protection and return coverage embedded directly in Shopify
+                checkout.</span
+              >
+            </a>
+            <a href="returns">
+              <span class="ico blue"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M4 8h16" />
+                  <path d="m8 4-4 4 4 4" />
+                  <path d="M20 16H4" />
+                  <path d="m16 12 4 4-4 4" /></svg
+              ></span>
+              <strong class="d4">Returns &amp; Exchanges</strong>
+              <span class="body"
+                >A self-service portal with smart routing, automated decisions
+                inside your rules and policy enforcement.</span
+              >
+            </a>
+            <a href="tracking">
+              <span class="ico v"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z" />
+                  <circle cx="7" cy="18" r="1.8" />
+                  <circle cx="17.5" cy="18" r="1.8" /></svg
+              ></span>
+              <strong class="d4">Order Tracking</strong>
+              <span class="body"
+                >Carrier-agnostic tracking on your own brand, with proactive
+                delivery updates.</span
+              >
+            </a>
+            <a href="claims">
+              <span class="ico blue"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 6 9 17l-5-5" /></svg
+              ></span>
+              <strong class="d4">Claims</strong>
+              <span class="body"
+                >Lost, stolen and damaged orders resolved end to end, in your
+                voice, at our cost.</span
+              >
+            </a>
+            <a href="analytics">
+              <span class="ico v"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                >
+                  <path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4" /></svg
+              ></span>
+              <strong class="d4">Analytics</strong>
+              <span class="body"
+                >Live dashboards across protection, claims, returns and tracking
+                in one place.</span
+              >
+            </a>
+            <a href="fraud">
+              <span class="ico blue"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                  />
+                  <path d="M12 9v4M12 16h.01" /></svg
+              ></span>
+              <strong class="d4">Fraud Detection</strong>
+              <span class="body"
+                >Guide catches claim and return abuse across the network. You
+                don't run it. You get told when it involves you.</span
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section bg-2" id="one-record">
+        <div class="wrap">
+          <div class="sec-head rv">
+            <span class="kicker">One record</span>
+            <h2 class="d2">
+              What "one system" actually<br class="hide-mob" />
+              buys you, in one customer.
+            </h2>
+            <p class="lead">
+              Every vendor in this category says the modules are connected. Here
+              is what that sentence is worth. One shopper, one record, four
+              months. Watch what March changes about June.
+            </p>
+          </div>
+          <div class="journey rv">
+            <div class="journey-head">
+              <div class="journey-who">
+                <span class="journey-av">JM</span>
+                <span class="stack-6">
+                  <strong
+                    style="
+                      font-size: 0.96rem;
+                      font-weight: 550;
+                      letter-spacing: -0.018em;
+                    "
+                    >Jamie M.</strong
+                  >
+                  <span class="tiny"
+                    >Customer since March &middot; 6 orders &middot; 1 claim
+                    &middot; 2 exchanges</span
+                  >
+                </span>
+              </div>
+              <span class="tag">Example unified customer record</span>
+            </div>
+            <div class="journey-rail">
+              <div class="jrow">
+                <span class="when">04 MAR</span>
+                <span class="mark"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                    /></svg
+                ></span>
+                <span class="what">
+                  <strong>Adds protection at checkout</strong>
+                  <span
+                    >Opts in on a $248 order. Guide now has a record for this
+                    customer, not just this order.</span
+                  >
+                  <span class="tags"
+                    ><span class="tag neutral">Checkout+</span></span
+                  >
+                </span>
+              </div>
+              <div class="jrow">
+                <span class="when">12 MAR</span>
+                <span class="mark"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z" />
+                    <circle cx="7" cy="18" r="1.8" />
+                    <circle cx="17.5" cy="18" r="1.8" /></svg
+                ></span>
+                <span class="what">
+                  <strong>Parcel marked delivered. It was not.</strong>
+                  <span
+                    >Tracking sees the scan, the customer does not see the box.
+                    She opens a claim from the tracking page she was already
+                    looking at.</span
+                  >
+                  <span class="tags"
+                    ><span class="tag neutral">Tracking</span
+                    ><span class="tag neutral">Claims</span></span
+                  >
+                </span>
+              </div>
+              <div class="jrow key">
+                <span class="when">12 MAR</span>
+                <span class="mark"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5" /></svg
+                ></span>
+                <span class="what">
+                  <strong>Resolved without a ticket</strong>
+                  <span
+                    >First claim, clean carrier history, low risk. Auto-approved
+                    inside your rules, replacement drafted in Shopify, your CX
+                    team never sees it.</span
+                  >
+                  <span class="tags"
+                    ><span class="tag">Recovery</span
+                    ><span class="tag neutral">Zero tickets</span></span
+                  >
+                </span>
+              </div>
+              <div class="jrow">
+                <span class="when">21 JUN</span>
+                <span class="mark"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M4 8h16" />
+                    <path d="m8 4-4 4 4 4" />
+                    <path d="M20 16H4" />
+                    <path d="m16 12 4 4-4 4" /></svg
+                ></span>
+                <span class="what">
+                  <strong>Requests an exchange, wrong size</strong>
+                  <span
+                    >Three months later, different module, same record.</span
+                  >
+                  <span class="tags"
+                    ><span class="tag neutral">Returns</span></span
+                  >
+                </span>
+              </div>
+              <div class="jrow key">
+                <span class="when">21 JUN</span>
+                <span class="mark"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="3" y="3" width="7" height="7" rx="1.5" />
+                    <rect x="14" y="3" width="7" height="7" rx="1.5" />
+                    <rect x="3" y="14" width="7" height="7" rx="1.5" />
+                    <rect x="14" y="14" width="7" height="7" rx="1.5" /></svg
+                ></span>
+                <span class="what">
+                  <strong>This is the part five separate apps cannot do</strong>
+                  <span
+                    >Guide already knows she had one genuine delivery failure
+                    that was not her fault, and no pattern of abuse. So she is
+                    offered an instant exchange that ships before the return
+                    lands, rather than being asked to post the item back first.
+                    A standalone returns app would have treated her like a
+                    stranger.</span
+                  >
+                  <span class="tags"
+                    ><span class="tag">Context applied</span
+                    ><span class="tag">Instant exchange</span></span
+                  >
+                </span>
+              </div>
+              <div class="jrow">
+                <span class="when">21 JUN</span>
+                <span class="mark"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="2.5" />
+                    <path d="m3.5 7 8.5 6 8.5-6" /></svg
+                ></span>
+                <span class="what">
+                  <strong
+                    >Registers the product, becomes a first-party
+                    contact</strong
+                  >
+                  <span
+                    >Six orders in. The thing that could have lost her in March
+                    is the reason she is still here.</span
+                  >
+                  <span class="tags"
+                    ><span class="tag neutral">Confirmations</span></span
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="journey-foot">
+              <span class="small" style="flex: 1; min-width: 16ch">
+                Risk travels. Generosity travels. That's the whole argument for
+                one system, and it's the only part a competitor can't copy by
+                shipping another module.
+              </span>
+              <a class="btn btn-ghost btn-sm arw" href="products"
+                >See the platform</a
+              >
+            </div>
+          </div>
+          <p class="tiny mt-24">
+            An illustrative journey, built from the rules the product actually
+            applies. It is not a real customer record and no shopper data is
+            shown.
+          </p>
+          <div class="grid g3 mt-32 rv">
+            <div class="card">
+              <span class="ico v"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="3" width="7" height="7" rx="1.5" />
+                  <rect x="14" y="3" width="7" height="7" rx="1.5" />
+                  <rect x="3" y="14" width="7" height="7" rx="1.5" />
+                  <rect x="14" y="14" width="7" height="7" rx="1.5" /></svg
+              ></span>
+              <h3 class="d4 mt-16">Shared shopper history</h3>
+              <p class="small mt-8">
+                A claim in March is visible when the same shopper asks for an
+                exchange in June. Six separate apps can't see each other's data,
+                so each one meets that customer for the first time.
+              </p>
+            </div>
+            <div class="card">
+              <span class="ico blue"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                  />
+                  <path d="M12 9v4M12 16h.01" /></svg
+              ></span>
+              <h3 class="d4 mt-16">Consistent risk signals</h3>
+              <p class="small mt-8">
+                One assessment by our team, applied the same way at the claim
+                and at the exchange. Separate tools reach separate conclusions
+                about the same person on the same day.
+              </p>
+            </div>
+            <div class="card">
+              <span class="ico v"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 6 9 17l-5-5" /></svg
+              ></span>
+              <h3 class="d4 mt-16">Faster resolutions</h3>
+              <p class="small mt-8">
+                Nobody has to look up the order in a second system before
+                deciding, which is where most of the waiting in a support queue
+                actually comes from.
+              </p>
+            </div>
+            <div class="card">
+              <span class="ico blue"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                  /></svg
+              ></span>
+              <h3 class="d4 mt-16">Better personalization</h3>
+              <p class="small mt-8">
+                A loyal customer with two genuinely bad deliveries gets treated
+                differently from a first-time buyer with a suspicious pattern,
+                without an agent having to notice.
+              </p>
+            </div>
+            <div class="card">
+              <span class="ico v"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 8 12 3 3 8v8l9 5 9-5z" />
+                  <path d="m3 8 9 5 9-5M12 13v8" /></svg
+              ></span>
+              <h3 class="d4 mt-16">One operational record</h3>
+              <p class="small mt-8">
+                Protection, returns, tracking and claims write to the same
+                customer, so your team reads one history rather than reconciling
+                four.
+              </p>
+            </div>
+            <div class="card">
+              <span class="ico blue"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                >
+                  <path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4" /></svg
+              ></span>
+              <h3 class="d4 mt-16">Fewer disconnected exports</h3>
+              <p class="small mt-8">
+                One set of numbers that agrees with itself, instead of four CSVs
+                that have to be matched up before anyone can answer a question.
+              </p>
+            </div>
+          </div>
+          <p class="small center mt-32">
+            <a class="tlink" href="products" style="font-size: 0.95rem"
+              >Explore the platform</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="section inv">
+        <div class="wrap">
+          <div class="stack-16 rv center" style="justify-items: center">
+            <span class="kicker">The deal</span>
+            <h2 class="d2">
+              Guide carries the risk.<br class="hide-mob" />
+              You keep the customer.
+            </h2>
+            <p class="lead maxw-md">
+              The parcel wasn't your fault. The fix still has to look like it
+              came from you.
+            </p>
+          </div>
+          <div class="grid g3 mt-32 rv">
+            <div>
+              <strong class="d4">Free to you</strong>
+              <p class="small mt-8">
+                No platform fee, and nothing charged to you per order. The
+                shopper who adds protection is the one who pays for it, at
+                checkout, on the orders they choose.
+              </p>
+            </div>
+            <div>
+              <strong class="d4">Fewer tickets</strong>
+              <p class="small mt-8">
+                Claims are worked by the Guide Team, in your brand and on your
+                policies. Most of them don't reach your inbox at all, and the
+                ones that do have already been through a person.
+              </p>
+            </div>
+            <div>
+              <strong class="d4">A better ending</strong>
+              <p class="small mt-8">
+                The decision, the replacement and the cost of it are ours.
+                Nobody argues with a carrier and nobody waits on one. What you
+                keep is a customer who watched you fix something that was never
+                your fault.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="split">
+            <div class="stack-28 rv">
+              <span class="eyepill"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                  />
+                </svg>
+                At checkout</span
+              >
+              <h2 class="d2">The hesitation happens<br />before they pay.</h2>
+              <p
+                class="lead"
+                style="font-size: 1.1rem; line-height: 1.7; max-width: 30em"
+              >
+                A clean, on-brand checkout experience that lets customers add
+                shipping protection and add return coverage, before they commit
+                to the order. Take the risk out of the decision and shoppers
+                stop trimming their basket to play it safe.
+              </p>
+              <ul class="blist">
+                <li>One-click protection upsell</li>
+                <li>Branded to match your store</li>
+                <li>No redirects or pop-ups</li>
+              </ul>
+            </div>
+            <div class="flex jc rv d-1">
+              <picture
+                ><source
+                  srcset="assets/mocks/checkout.fb3fdaebde.avif"
+                  type="image/avif" />
+                <img
+                  class="mock phone"
+                  src="assets/mocks/checkout.b8978ad62a.webp"
+                  width="887"
+                  height="1774"
+                  alt="Checkout+ cart on a Shopify store, showing shipping protection and return coverage added to the order"
+                  loading="lazy"
+                  decoding="async"
+              /></picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section bg-2">
+        <div class="wrap">
+          <div class="split">
+            <div class="flex jc rv d-1">
+              <picture
+                ><source
+                  srcset="assets/mocks/returns.7659fa4062.avif"
+                  type="image/avif" />
+                <img
+                  class="mock phone"
+                  src="assets/mocks/returns.1b2b57a656.webp"
+                  width="887"
+                  height="1774"
+                  alt="Guide returns portal, showing refund, exchange and store credit options"
+                  loading="lazy"
+                  decoding="async"
+              /></picture>
+            </div>
+            <div class="stack-28 rv">
+              <span class="eyepill"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 8 12 3 3 8v8l9 5 9-5z" />
+                  <path d="m3 8 9 5 9-5M12 13v8" />
+                </svg>
+                Returns</span
+              >
+              <h2 class="d2">
+                A refund is not the only thing<br />they would accept.
+              </h2>
+              <p
+                class="lead"
+                style="font-size: 1.1rem; line-height: 1.7; max-width: 30em"
+              >
+                Customers start a return or exchange in seconds, and the portal
+                offers the swap before it offers the money back. Your team gets
+                smart routing and full visibility without a ticket ever being
+                opened, on your policies and your branding.
+              </p>
+              <ul class="blist">
+                <li>One-tap return initiation</li>
+                <li>Smart eligibility and policy checks</li>
+                <li>Instant exchange recommendations</li>
+                <li>
+                  Prepaid labels generated the moment a return is approved
+                </li>
+                <li>Custom resolutions: refund, exchange, or store credit</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="split">
+            <div class="stack-28 rv">
+              <span class="eyepill"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z" />
+                  <circle cx="7" cy="18" r="1.8" />
+                  <circle cx="17.5" cy="18" r="1.8" />
+                </svg>
+                Tracking</span
+              >
+              <h2 class="d2">
+                Nobody should have to visit<br />a carrier's website.
+              </h2>
+              <p
+                class="lead"
+                style="font-size: 1.1rem; line-height: 1.7; max-width: 30em"
+              >
+                Give customers a single, beautifully branded place to track
+                every shipment. Integrate with any carrier or merchant and
+                deliver proactive updates from dispatch to doorstep, so nobody
+                has to write in and ask.
+              </p>
+              <ul class="blist">
+                <li>Unified tracking across all carriers</li>
+                <li>Automated delivery notifications</li>
+                <li>Branded tracking page that drives repeat visits</li>
+              </ul>
+            </div>
+            <div class="flex jc rv d-1">
+              <picture
+                ><source
+                  srcset="assets/mocks/tracking.b82edbc4a6.avif"
+                  type="image/avif" />
+                <img
+                  class="mock phone"
+                  src="assets/mocks/tracking.2804d676d6.webp"
+                  width="887"
+                  height="1918"
+                  alt="Branded order tracking page showing delivery milestones and order items"
+                  loading="lazy"
+                  decoding="async"
+              /></picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section bg-2">
+        <div class="wrap">
+          <div class="split">
+            <div class="flex jc rv d-1">
+              <picture
+                ><source
+                  srcset="assets/mocks/dashboard.91cdfd9410.avif"
+                  type="image/avif" />
+                <img
+                  class="mock dash"
+                  src="assets/mocks/dashboard.2cd94da8e6.webp"
+                  width="1358"
+                  height="1159"
+                  alt="Guide claims dashboard showing protected orders, claim rate and a table of recent claims"
+                  loading="lazy"
+                  decoding="async"
+              /></picture>
+            </div>
+            <div class="stack-28 rv">
+              <span class="eyepill"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                >
+                  <path d="M4 19V5M4 19h16M8 16V9M12 16V6M16 16v-4" />
+                </svg>
+                Analytics</span
+              >
+              <h2 class="d2">
+                Four exports that disagree,<br />or one that does not.
+              </h2>
+              <p
+                class="lead"
+                style="font-size: 1.1rem; line-height: 1.7; max-width: 30em"
+              >
+                Dashboards, updating in near real time, give your team the
+                numbers that matter: protected orders, claim rates, resolution
+                trends and revenue recovered, all in one place.
+              </p>
+              <ul class="blist">
+                <li>Live KPIs across protection, returns and tracking</li>
+                <li>Filter by carrier, reason code or cohort</li>
+                <li>Compare protected vs. total order performance</li>
+                <li>Drill into every claim and customer in seconds</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="split">
+            <div class="flex jc rv d-1">
+              <figure class="fig">
+                <picture
+                  ><source
+                    srcset="assets/mocks/whitelabel.980d2d79ba.avif"
+                    type="image/avif" />
+                  <img
+                    class="mock wide"
+                    src="assets/mocks/whitelabel.b3b0ccef7c.webp"
+                    width="1200"
+                    height="683"
+                    alt="A claim lookup form running on the Livva Energy storefront, carrying the merchant's own logo, photography and typography with no Guide branding"
+                    loading="lazy"
+                    decoding="async"
+                /></picture>
+                <figcaption>
+                  Livva Energy's claim lookup, running on their own domain. The
+                  support address at the foot of the form is a setting, not a
+                  limitation.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="stack-28 rv">
+              <span class="eyepill"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M12 3l8 3.5v6c0 5-3.6 8.2-8 9.5-4.4-1.3-8-4.5-8-9.5v-6z"
+                  />
+                </svg>
+                White label</span
+              >
+              <h2 class="d2">Front to back,<br />it stays your brand.</h2>
+              <p
+                class="lead"
+                style="font-size: 1.1rem; line-height: 1.7; max-width: 30em"
+              >
+                Guide is built to disappear. Every surface a shopper touches
+                carries your logo, your type, your photography and your domain.
+                This is a live claim lookup on a customer's storefront. There's
+                nothing of ours on it.
+              </p>
+              <ul class="blist">
+                <li>Checkout, returns and tracking, all on your domain</li>
+                <li>
+                  Email and SMS sent from your address through your own provider
+                </li>
+                <li>
+                  Replies written in your voice, by people trained on your
+                  policies
+                </li>
+                <li>
+                  Merchant dashboard themable for agencies and multi-brand
+                  groups
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section bg-2">
+        <div class="wrap">
+          <div class="sec-head center rv">
+            <span class="kicker">Integrations</span>
+            <h2 class="d2 center">Plays nicely with your stack.</h2>
+            <p class="lead center">
+              Connect the tools you already run, without a lengthy
+              implementation.
+            </p>
+          </div>
+          <div class="kb rv">
+            <div class="kb-row">
+              <span class="kb-key"
+                ><img
+                  src="assets/logos/shopify.3f62a000e3.webp"
+                  width="116"
+                  height="116"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Shopify" /></span
+              ><span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key"
+                ><img
+                  src="assets/logos/zendesk.4d5dbc9351.webp"
+                  width="116"
+                  height="116"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Zendesk" /></span
+              ><span class="kb-key hero-key" role="img" aria-label="Guide"
+                ><svg
+                  viewBox="-6.010 -2.280 42.560 42.560"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M9.48456 13.7558L9.48429 13.8766C9.4827 14.6696 9.4851 15.761 9.50107 16.9552C9.53333 19.3681 9.62039 22.1179 9.8279 23.704C9.88899 24.1563 10.169 24.6739 10.7186 25.2398C11.2613 25.7984 11.982 26.316 12.7387 26.7655C13.4887 27.211 14.2331 27.5657 14.7937 27.8098C14.9808 27.8913 15.1459 27.9598 15.2821 28.0147C15.4159 27.96 15.5778 27.8919 15.7611 27.811C16.3158 27.566 17.0531 27.2093 17.7976 26.7593C18.5483 26.3055 19.2666 25.7806 19.8116 25.21C20.3625 24.6332 20.6591 24.0915 20.7303 23.6009L20.7308 23.5974L20.7313 23.5938C20.8307 22.9365 20.9197 22.0689 20.9843 21.0637L15.1935 23.2857V20.6555L23.5749 17.4393L23.5233 19.2796C23.4714 21.1338 23.3356 22.7937 23.1599 23.9576C22.9871 25.14 22.3302 26.1284 21.5874 26.9061C20.8379 27.6908 19.9215 28.3449 19.0679 28.8609C18.208 29.3806 17.3714 29.7843 16.7532 30.0573C16.4427 30.1944 16.184 30.3001 16.0007 30.3722L15.2798 30.6465L14.571 30.3742C14.3864 30.3024 14.1258 30.1974 13.8132 30.0613C13.1907 29.7902 12.3485 29.3899 11.4845 28.8767C10.6273 28.3675 9.70687 27.7226 8.95714 26.9507C8.2151 26.1868 7.5516 25.2065 7.39377 24.0285L7.39353 24.0267L7.3933 24.0249C7.16406 22.2747 7.07765 19.383 7.04564 16.9881C7.02946 15.7779 7.02703 14.6734 7.02864 13.8716C7.02944 13.4706 7.03126 13.1449 7.03287 12.9192C7.03368 12.8063 7.03444 12.7184 7.035 12.6585L7.03585 12.5731L7.03583 10.1734L15.2764 13.3665L28.0843 8.32336L28.0844 3.58505L15.28 8.54682L2.46196 3.57989C2.43828 8.2088 2.44925 20.4169 3.13955 25.6606C3.3095 26.918 4.0599 28.1769 5.25678 29.402C6.44622 30.6195 7.98861 31.7127 9.55353 32.6369C11.1117 33.557 12.6506 34.2854 13.8036 34.7845C14.3788 35.0335 14.8546 35.224 15.1846 35.3515L15.2775 35.3873L15.3656 35.353C15.6919 35.2253 16.1628 35.0344 16.7325 34.7843C17.8745 34.283 19.4 33.5499 20.9479 32.6197C22.502 31.6858 24.0387 30.5771 25.2315 29.3354C26.4305 28.0873 27.2031 26.7879 27.3956 25.47L27.3961 25.4665L27.3966 25.4629C27.7162 23.3607 27.9025 19.9569 28.005 16.3284L28.0148 15.667L30.4704 14.6954L30.4603 16.3737L30.46 16.3856C30.3577 20.0127 30.1698 23.5576 29.8249 25.8285C29.5299 27.8417 28.3933 29.5888 27.0024 31.0366C25.6045 32.4918 23.8695 33.7291 22.2127 34.7246C20.5496 35.7239 18.925 36.5037 17.7196 37.0328L15.2821 38L14.2993 37.6421C13.9431 37.5044 13.4369 37.3016 12.8281 37.0381C11.6133 36.5122 9.97676 35.7387 8.30483 34.7513C6.63967 33.768 4.89733 32.5481 3.50026 31.118C2.11116 29.6962 0.973385 27.9738 0.705653 25.9868L0.705409 25.985L0.705171 25.9832C-0.0324169 20.3834 -0.0169478 7.41766 0.00843716 3.18837L0 0.0078492L15.28 5.91324L30.5398 0L30.5399 9.99559L15.2836 16.0029L9.48456 13.7558Z"
+                  /></svg></span
+              ><span class="kb-key"
+                ><img
+                  src="assets/logos/gorgias.75e636320d.webp"
+                  width="116"
+                  height="116"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Gorgias" /></span
+              ><span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key"
+                ><img
+                  src="assets/logos/tiktok.187609de13.webp"
+                  width="116"
+                  height="116"
+                  loading="lazy"
+                  decoding="async"
+                  alt="TikTok"
+              /></span>
+            </div>
+            <div class="kb-row r2">
+              <span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key"
+                ><img
+                  src="assets/logos/northbeam.ff7f7593a2.webp"
+                  width="116"
+                  height="116"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Northbeam" /></span
+              ><span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key"
+                ><img
+                  src="assets/logos/skio.5d823ea2bf.webp"
+                  width="128"
+                  height="128"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Skio" /></span
+              ><span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key"
+                ><img
+                  src="assets/logos/okendo.14e05d89fb.webp"
+                  width="92"
+                  height="92"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Okendo" /></span
+              ><span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key"
+                ><img
+                  src="assets/logos/loop.b316fcefe1.webp"
+                  width="116"
+                  height="116"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Loop" /></span
+              ><span class="kb-key blank" aria-hidden="true"></span>
+            </div>
+            <div class="kb-row r3">
+              <span class="kb-key"
+                ><img
+                  src="assets/logos/emotive.b407ff76f0.webp"
+                  width="116"
+                  height="116"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Emotive" /></span
+              ><span class="kb-key blank" aria-hidden="true"></span
+              ><span class="kb-key"
+                ><img
+                  src="assets/logos/recharge.37eb0e204f.webp"
+                  width="110"
+                  height="110"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Recharge" /></span
+              ><span class="kb-key blank" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="small center mt-32">
+            Plus a public REST API, webhooks on every event, and a partner team
+            that will build the connector you need.
+            <a
+              class="tlink"
+              href="resources#integrations"
+              style="font-size: 0.855rem"
+              >See all integrations</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="sec-head center rv">
+            <span class="kicker">From the Shopify App Store</span>
+            <h2 class="d2 center">Why Shopify brands choose Guide.</h2>
+          </div>
+          <div class="grid g3">
+            <div class="card rv">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p
+                class="d4 mt-16"
+                style="
+                  font-weight: 400;
+                  font-family: var(--serif);
+                  font-size: 1.24rem;
+                  line-height: 1.4;
+                "
+              >
+                &ldquo;They are always willing to collaborate with us to find
+                the best possible solutions, especially when navigating complex
+                situations such as fraudulent claims. Fast, fair, and effective
+                resolutions.&rdquo;
+              </p>
+              <div class="byline mt-24">
+                <span class="av">N</span
+                ><span class="stack-6"
+                  ><strong style="font-size: 0.88rem; font-weight: 550"
+                    >NRML</strong
+                  ><span class="tiny">2 years using Guide</span></span
+                >
+              </div>
+            </div>
+            <div class="card rv d-1">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p
+                class="d4 mt-16"
+                style="
+                  font-weight: 400;
+                  font-family: var(--serif);
+                  font-size: 1.24rem;
+                  line-height: 1.4;
+                "
+              >
+                &ldquo;It offers new customers another layer of order assurance
+                and confidence when ordering, which helps strengthen conversion
+                rate.&rdquo;
+              </p>
+              <div class="byline mt-24">
+                <span class="av">EA</span
+                ><span class="stack-6"
+                  ><strong style="font-size: 0.88rem; font-weight: 550"
+                    >Elva&#39;s All Naturals</strong
+                  ><span class="tiny">Over 18 months using Guide</span></span
+                >
+              </div>
+            </div>
+            <div class="card rv d-2">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p
+                class="d4 mt-16"
+                style="
+                  font-weight: 400;
+                  font-family: var(--serif);
+                  font-size: 1.24rem;
+                  line-height: 1.4;
+                "
+              >
+                &ldquo;The customer support has been the best I&#39;ve worked
+                with, bar none. This app has taken a lot of shipping-related
+                stress off our company&#39;s shoulders.&rdquo;
+              </p>
+              <div class="byline mt-24">
+                <span class="av">MM</span
+                ><span class="stack-6"
+                  ><strong style="font-size: 0.88rem; font-weight: 550"
+                    >Morrocco Method International</strong
+                  ><span class="tiny">Over 2 years using Guide</span></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section cta-wrap">
+        <div class="cta-glow"></div>
+        <div class="canvas"></div>
+        <div class="narrow center">
+          <div class="stack-28 rv" style="justify-items: center">
+            <span class="logo-tile"
+              ><svg
+                viewBox="-6.010 -2.280 42.560 42.560"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  fill="currentColor"
+                  d="M9.48456 13.7558L9.48429 13.8766C9.4827 14.6696 9.4851 15.761 9.50107 16.9552C9.53333 19.3681 9.62039 22.1179 9.8279 23.704C9.88899 24.1563 10.169 24.6739 10.7186 25.2398C11.2613 25.7984 11.982 26.316 12.7387 26.7655C13.4887 27.211 14.2331 27.5657 14.7937 27.8098C14.9808 27.8913 15.1459 27.9598 15.2821 28.0147C15.4159 27.96 15.5778 27.8919 15.7611 27.811C16.3158 27.566 17.0531 27.2093 17.7976 26.7593C18.5483 26.3055 19.2666 25.7806 19.8116 25.21C20.3625 24.6332 20.6591 24.0915 20.7303 23.6009L20.7308 23.5974L20.7313 23.5938C20.8307 22.9365 20.9197 22.0689 20.9843 21.0637L15.1935 23.2857V20.6555L23.5749 17.4393L23.5233 19.2796C23.4714 21.1338 23.3356 22.7937 23.1599 23.9576C22.9871 25.14 22.3302 26.1284 21.5874 26.9061C20.8379 27.6908 19.9215 28.3449 19.0679 28.8609C18.208 29.3806 17.3714 29.7843 16.7532 30.0573C16.4427 30.1944 16.184 30.3001 16.0007 30.3722L15.2798 30.6465L14.571 30.3742C14.3864 30.3024 14.1258 30.1974 13.8132 30.0613C13.1907 29.7902 12.3485 29.3899 11.4845 28.8767C10.6273 28.3675 9.70687 27.7226 8.95714 26.9507C8.2151 26.1868 7.5516 25.2065 7.39377 24.0285L7.39353 24.0267L7.3933 24.0249C7.16406 22.2747 7.07765 19.383 7.04564 16.9881C7.02946 15.7779 7.02703 14.6734 7.02864 13.8716C7.02944 13.4706 7.03126 13.1449 7.03287 12.9192C7.03368 12.8063 7.03444 12.7184 7.035 12.6585L7.03585 12.5731L7.03583 10.1734L15.2764 13.3665L28.0843 8.32336L28.0844 3.58505L15.28 8.54682L2.46196 3.57989C2.43828 8.2088 2.44925 20.4169 3.13955 25.6606C3.3095 26.918 4.0599 28.1769 5.25678 29.402C6.44622 30.6195 7.98861 31.7127 9.55353 32.6369C11.1117 33.557 12.6506 34.2854 13.8036 34.7845C14.3788 35.0335 14.8546 35.224 15.1846 35.3515L15.2775 35.3873L15.3656 35.353C15.6919 35.2253 16.1628 35.0344 16.7325 34.7843C17.8745 34.283 19.4 33.5499 20.9479 32.6197C22.502 31.6858 24.0387 30.5771 25.2315 29.3354C26.4305 28.0873 27.2031 26.7879 27.3956 25.47L27.3961 25.4665L27.3966 25.4629C27.7162 23.3607 27.9025 19.9569 28.005 16.3284L28.0148 15.667L30.4704 14.6954L30.4603 16.3737L30.46 16.3856C30.3577 20.0127 30.1698 23.5576 29.8249 25.8285C29.5299 27.8417 28.3933 29.5888 27.0024 31.0366C25.6045 32.4918 23.8695 33.7291 22.2127 34.7246C20.5496 35.7239 18.925 36.5037 17.7196 37.0328L15.2821 38L14.2993 37.6421C13.9431 37.5044 13.4369 37.3016 12.8281 37.0381C11.6133 36.5122 9.97676 35.7387 8.30483 34.7513C6.63967 33.768 4.89733 32.5481 3.50026 31.118C2.11116 29.6962 0.973385 27.9738 0.705653 25.9868L0.705409 25.985L0.705171 25.9832C-0.0324169 20.3834 -0.0169478 7.41766 0.00843716 3.18837L0 0.0078492L15.28 5.91324L30.5398 0L30.5399 9.99559L15.2836 16.0029L9.48456 13.7558Z"
+                /></svg
+            ></span>
+            <h2 class="d2">Every surface, on your brand.</h2>
+            <p class="lead maxw-md">
+              See Guide running on your catalog in 30 minutes, with your ops
+              lead in the room, and an honest read on what it would change for
+              your customers and your team.
+            </p>
+            <div class="flex gap-12 wrapf jc">
+              <a
+                class="btn btn-dark btn-lg arw"
+                href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-cta"
+                target="_blank"
+                rel="noopener"
+                >Book a Demo<span class="vh"> (opens in a new tab)</span></a
+              >
+              <a class="btn btn-ghost btn-lg" href="products"
+                >Explore the platform</a
+              >
+              <a
+                class="btn btn-app btn-lg"
+                href="https://apps.shopify.com/guide-1?utm_source=guide_site&utm_medium=cta&utm_campaign=install&utm_content=home-cta"
+                target="_blank"
+                rel="noopener"
+                ><svg
+                  class="bicon"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.9"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M4 8h16l-1.2 11.2a2 2 0 0 1-2 1.8H7.2a2 2 0 0 1-2-1.8z"
+                  />
+                  <path d="M8.5 10V6.5a3.5 3.5 0 0 1 7 0V10" /></svg
+                >Install on Shopify</a
+              >
+            </div>
+            <p class="small">
+              Thirty minutes, on your own catalogue &middot; Free to install,
+              and our team does the build
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="ftr">
+      <div class="wrap">
+        <div class="ftr-grid">
+          <div class="stack-16">
+            <a class="logo" href="/" aria-label="Guide, home">
+              <span class="logo-full"
+                ><svg
+                  class="lockup"
+                  viewBox="0 0 120 38"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <use href="#gl" /></svg
+              ></span>
+            </a>
+            <p class="small" style="max-width: 32ch">
+              The post-purchase platform for Shopify. One layer for protection,
+              returns, exchanges, order tracking and fraud detection.
+            </p>
+            <div class="flex gap-8">
+              <a
+                class="icon-btn"
+                href="https://www.linkedin.com/company/guide-1"
+                rel="me noopener"
+                aria-label="Guide on LinkedIn"
+                ><svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9.5h4v11H3zM10 9.5h3.8v1.5h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76v5.69h-4v-5.05c0-1.2-.02-2.75-1.75-2.75-1.75 0-2.02 1.3-2.02 2.66v5.14h-4z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="ftr-h">Products</h3>
+            <ul>
+              <li><a href="products">Platform overview</a></li>
+              <li><a href="protection">Checkout+</a></li>
+              <li><a href="returns">Returns &amp; Exchanges</a></li>
+              <li><a href="tracking">Order Tracking</a></li>
+              <li><a href="claims">Claims</a></li>
+              <li><a href="analytics">Analytics</a></li>
+              <li><a href="fraud">Fraud Detection</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="ftr-h">Resources</h3>
+            <ul>
+              <li><a href="resources">Resource center</a></li>
+              <li><a href="resources#integrations">Integrations</a></li>
+              <li><a href="for-shoppers">File a claim</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="ftr-h">Company</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://apps.shopify.com/guide-1?utm_source=guide_site&utm_medium=cta&utm_campaign=install&utm_content=home-footer"
+                  target="_blank"
+                  rel="noopener"
+                  >Shopify App Store</a
+                >
+              </li>
+              <li><a href="pricing">Pricing</a></li>
+              <li>
+                <a
+                  href="https://scheduler.zoom.us/guidepro/guide-demo?utm_source=guide_site&utm_medium=cta&utm_campaign=demo&utm_content=home-footer"
+                  target="_blank"
+                  rel="noopener"
+                  >Book a demo</a
+                >
+              </li>
+              <li><a href="blog">Blog</a></li>
+              <li><a href="help">Help centre</a></li>
+              <li><a href="glossary">Glossary</a></li>
+              <li><a href="mailto:hello@guideprotection.com">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="ftr-h">Legal</h3>
+            <ul>
+              <li><a href="privacy">Privacy policy</a></li>
+              <li><a href="terms">Terms of service</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="ftr-bottom">
+          <span
+            >&copy; <span data-year>2026</span> Guide Protection. All rights
+            reserved.</span
+          >
+          <span>hello@guideprotection.com</span>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/search-index.3fe3f9691a.js" defer></script>
+    <script src="assets/guide.min.383d044d30.js" defer></script>
+  </body>
 </html>
