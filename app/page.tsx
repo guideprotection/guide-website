@@ -244,11 +244,9 @@ const testimonials = [
 const integrationLogos = [
   ["shopify.3f62a000e3.webp", 116, 116, "Shopify"],
   null,
-  null,
   ["zendesk.4d5dbc9351.webp", 116, 116, "Zendesk"],
   "hero",
   ["gorgias.75e636320d.webp", 116, 116, "Gorgias"],
-  null,
   null,
   ["tiktok.187609de13.webp", 116, 116, "TikTok"],
 ] as const;
@@ -261,12 +259,9 @@ const integrationRow2 = [
   null,
   ["okendo.14e05d89fb.webp", 92, 92, "Okendo"],
   null,
-  ["loop.b316fcefe1.webp", 116, 116, "Loop"],
-  null,
 ] as const;
 
 const integrationRow3 = [
-  ["emotive.b407ff76f0.webp", 116, 116, "Emotive"],
   null,
   ["recharge.37eb0e204f.webp", 110, 110, "Recharge"],
   null,
