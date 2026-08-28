@@ -326,7 +326,7 @@ export default function HomePage() {
               Turn every post-purchase moment
               <br />
               into <span className="accent">retained revenue</span>.
-            </h1>
+          </h1>
             <p className="lead maxw-md hero-lead">
               Protection, returns, exchanges, claims, tracking and fraud detection in one layer,
               on your brand, so a delivery problem doesn&apos;t cost you the customer.
@@ -914,6 +914,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-    </main>
+      </main>
   );
 }

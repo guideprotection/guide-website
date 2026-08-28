@@ -71,7 +71,7 @@ export async function BlogPostPage({ slug }: { slug: string }) {
             {content}
             <hr className="rule" style={{ margin: "48px 0" }} />
             <p className="small">Written by the Guide Team. We publish what we learn running this for merchants, not what ranks.</p>
-            <div className="card mt-8" style={{ background: "var(--bg-2)", borderColor: "transparent" }}>
+            <div className="card mt-8" style={{ background: "var(--color-bg-2)", borderColor: "transparent" }}>
               <span className="kicker">Read next</span>
               <Link className="d4" style={{ display: "block", marginTop: 12 }} href={`/${frontmatter.readNextSlug}`}>
                 {frontmatter.readNextTitle}
