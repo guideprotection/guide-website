@@ -50,7 +50,7 @@ export type NavLink = {
 
 export const NAV_PRODUCTS: NavLink[] = [
   {
-    label: "Protection + Returns+",
+    label: "Checkout+",
     href: "/protection",
     description: "Protection and return coverage, in Shopify checkout",
     icon: "shield",
