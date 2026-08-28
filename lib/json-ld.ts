@@ -1,6 +1,6 @@
 import { SITE_URL } from "./site";
 
-const LAST_MODIFIED = "2026-08-07";
+const LAST_MODIFIED = "2026-08-25";
 
 const organizationNode = {
   "@type": "Organization",
@@ -19,7 +19,6 @@ const organizationNode = {
   email: "hello@guideprotection.com",
   sameAs: [
     "https://www.linkedin.com/company/guide-1",
-    "https://x.com/guideprotection",
     "https://apps.shopify.com/guide-1",
     "https://apps.shopify.com/partners/guide2",
   ],
@@ -73,12 +72,12 @@ const softwareApplicationNode = {
     "One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, running on the merchant's own brand.",
   publisher: { "@id": `${SITE_URL}/#organization` },
   featureList: [
-    "Shipping protection and free returns offered at checkout",
+    "Shipping protection and return coverage offered at checkout",
     "Self-service returns portal with exchange-first routing",
     "Carrier-agnostic branded order tracking",
     "End-to-end claims resolution handled by Guide",
     "Post-purchase analytics across every module",
-    "Network-level fraud and abuse detection",
+    "Network-level fraud and abuse detection run by Guide",
   ],
   offers: {
     "@type": "Offer",
@@ -178,10 +177,12 @@ export function blogPostingJsonLd({
   path,
   headline,
   description,
+  datePublished,
 }: {
   path: string;
   headline: string;
   description: string;
+  datePublished: string;
 }) {
   const url = `${SITE_URL}${path}`;
   return {
@@ -198,6 +199,20 @@ export function blogPostingJsonLd({
       logo: `${SITE_URL}/assets/logo.svg`,
     },
     isPartOf: { "@type": "Blog", name: "Guide blog", url: `${SITE_URL}/blog` },
+    datePublished,
+    dateModified: datePublished,
+  };
+}
+
+export function faqPageJsonLd(entries: { question: string; answer: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: entries.map(({ question, answer }) => ({
+      "@type": "Question",
+      name: question,
+      acceptedAnswer: { "@type": "Answer", text: answer },
+    })),
   };
 }
 

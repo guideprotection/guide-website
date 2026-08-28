@@ -3,7 +3,7 @@ import Link from "next/link";
 import { IconBoxes, IconCheck, IconShopifyBag } from "@/components/icons";
 import { LogoGlyph } from "@/components/logo";
 import { breadcrumbNode, jsonLdScript, webPageNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 const TITLE = "Pricing | No platform fee | Guide";
 const DESCRIPTION =
@@ -367,7 +367,7 @@ export default function PricingPage() {
                 Install on Shopify
               </a>
             </div>
-            <p className="small">Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself</p>
+            <p className="small">{CTA_FOOTER}</p>
           </div>
         </div>
       </section>

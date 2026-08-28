@@ -10,7 +10,7 @@ import {
 } from "@/components/icons";
 import { LogoGlyph } from "@/components/logo";
 import { breadcrumbNode, jsonLdScript, webPageNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Resources for Shopify merchants | Guide",
@@ -168,7 +168,7 @@ export default function ResourcesPage() {
               </span>
             </Link>
             <Link href="/blog">
-              <span className="ico">
+              <span className="ico v">
                 <IconBars />
               </span>
               <strong className="d4">Operator writing</strong>
@@ -180,8 +180,21 @@ export default function ResourcesPage() {
                 Read the blog
               </span>
             </Link>
-            <Link href="/glossary">
+            <Link href="/help">
               <span className="ico v">
+                <IconCheck />
+              </span>
+              <strong className="d4">Help centre</strong>
+              <span className="body">
+                Claims, setup and billing, including why a Guide charge appears on your Shopify
+                statement.
+              </span>
+              <span className="tlink" style={{ fontSize: ".85rem" }}>
+                Read the answers
+              </span>
+            </Link>
+            <Link href="/glossary">
+              <span className="ico blue">
                 <IconBoxes />
               </span>
               <strong className="d4">Glossary</strong>
@@ -215,7 +228,7 @@ export default function ResourcesPage() {
           <div className="sec-head center rv">
             <span className="kicker">Integrations</span>
             <h2 className="d2 center">Plays nicely with your stack.</h2>
-            <p className="lead center">Connect the tools you already use. One keystroke and you&apos;re live.</p>
+            <p className="lead center">Connect the tools you already run, without a lengthy implementation.</p>
           </div>
           <div className="kb rv">
             <KeycapRow row={integrationRow1} />
@@ -259,7 +272,7 @@ export default function ResourcesPage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              {CTA_FOOTER}
             </p>
           </div>
         </div>

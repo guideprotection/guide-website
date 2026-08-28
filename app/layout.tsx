@@ -14,7 +14,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Guide | The post-purchase OS for Shopify",
+  title: "Guide | The post-purchase platform for Shopify",
   description:
     "One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.",
   manifest: "/site.webmanifest",

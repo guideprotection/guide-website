@@ -3,8 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { demoUrl } from "@/lib/site";
-import { NAV_PRODUCTS, NAV_RESOURCES } from "@/lib/site";
+import { demoUrl, NAV_PRODUCTS, NAV_RESOURCES } from "@/lib/site";
 import { LogoLockup } from "./logo";
 import { NavIcon, IconSearch } from "./icons";
 import { ThemeToggle } from "./theme-toggle";
@@ -29,6 +28,16 @@ function MegaNavItem({
   const [open, setOpen] = useState(false);
   const itemRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    function onDocClick(e: MouseEvent) {
+      if (!itemRef.current?.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("click", onDocClick);
+    return () => document.removeEventListener("click", onDocClick);
+  }, []);
 
   return (
     <div
@@ -97,6 +106,11 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  function openSearchFromMobile() {
+    setMobileOpen(false);
+    openSearch();
+  }
+
   return (
     <header className="hdr" ref={headerRef}>
       <div className="wrap hdr-in">
@@ -156,6 +170,7 @@ export function Header() {
         <div className="mnav-group">
           <span className="mnav-label">Resources</span>
           <Link href="/resources">Resource center</Link>
+          <Link href="/help">Help centre</Link>
           <Link href="/blog">Blog</Link>
           <Link href="/glossary">Glossary</Link>
           <Link href="/for-shoppers">File a claim</Link>
@@ -163,6 +178,13 @@ export function Header() {
         <div className="mnav-group">
           <span className="mnav-label">Pricing</span>
           <Link href="/pricing">No platform fee, how it works</Link>
+        </div>
+        <div className="mnav-group">
+          <span className="mnav-label">Search</span>
+          <button className="mnav-search" type="button" onClick={openSearchFromMobile}>
+            <IconSearch />
+            Search the site
+          </button>
         </div>
         <div className="mcta">
           <a className="btn btn-ghost" href="https://claims.guideprotection.com">

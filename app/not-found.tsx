@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LogoGlyph } from "@/components/logo";
 import { breadcrumbNode, webPageNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
-const TITLE = "Page not found | Guide post-purchase OS";
+const TITLE = "Page not found | Guide post-purchase platform";
 const DESCRIPTION =
   "That page could not be found. Head back to the homepage, open the platform overview, or search the site for whatever you were after.";
 
@@ -115,7 +115,7 @@ export default function NotFound() {
                 Install on Shopify
               </a>
             </div>
-            <p className="small">Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself</p>
+            <p className="small">{CTA_FOOTER}</p>
           </div>
         </div>
       </section>

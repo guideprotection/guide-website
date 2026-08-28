@@ -3,7 +3,7 @@ import Link from "next/link";
 import { LogoGlyph } from "@/components/logo";
 import { getAllPosts } from "@/lib/blog";
 import { blogNode, breadcrumbNode, webPageNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 const TITLE = "Blog | Notes on post-purchase operations";
 const DESCRIPTION =
@@ -128,7 +128,7 @@ export default function BlogIndexPage() {
                 Install on Shopify
               </a>
             </div>
-            <p className="small">Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself</p>
+            <p className="small">{CTA_FOOTER}</p>
           </div>
         </div>
       </section>

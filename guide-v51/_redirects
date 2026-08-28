@@ -1,0 +1,33 @@
+/index.html                 /                       301!
+# The Shopify App Store listing points at /privacy-policy/, and the old Webflow
+# site used /terms-of-service. Both would 404 here. A live listing linking to a
+# dead privacy policy is a compliance problem, not a broken link.
+/privacy-policy             /privacy                301
+/privacy-policy/            /privacy                301
+/terms-of-service           /terms                  301
+/terms-of-use               /terms                  301
+# From the Webflow site being replaced. Its complete URL set is six paths; the
+# full reasoning is in redirect-map.md.
+/for-merchants              /products               301
+/getting-started            /for-shoppers           301
+# Confirmations was published and then withdrawn. Anything already linking to it
+# lands on the platform overview rather than a 404.
+/confirmations              /products               301
+/confirmations.html         /products               301
+/platform                   /products               301
+/platform.html              /products               301
+/compare                    /                       301
+/compare.html               /                       301
+/customers                  /products               301
+/customers.html             /products               301
+/case-studies               /products               301
+/case-studies.html          /products               301
+/writing                    /blog                   301
+/writing.html               /blog                   301
+/shipping-protection        /protection             301
+/package-protection         /protection             301
+/demo                       /pricing#demo           301
+/security                   /terms                  301
+/accessibility              /terms                  301
+/careers                    /                       301
+/status                     /                       301

@@ -1,0 +1,14 @@
+{
+  "name": "Guide",
+  "short_name": "Guide",
+  "description": "The post-purchase OS.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    { "src": "/assets/icons/icon-192.0d2f11d489.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icons/icon-512.8a48168456.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/icons/maskable-512.62299dcf65.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

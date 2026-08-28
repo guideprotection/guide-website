@@ -18,12 +18,12 @@ import { jsonLdScript, webPageNode } from "@/lib/json-ld";
 import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Guide | The post-purchase OS for Shopify",
+  title: "Guide | The post-purchase platform for Shopify",
   description:
     "One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Guide | The post-purchase OS for Shopify",
+    title: "Guide | The post-purchase platform for Shopify",
     description:
       "One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.",
     url: "/",
@@ -38,7 +38,7 @@ const wheelItems: CarouselItem[] = [
     webp: "/assets/mocks/checkout.b8978ad62a.webp",
     width: 887,
     height: 1774,
-    alt: "Checkout+ cart on a Shopify store, showing shipping protection and free returns added to the order",
+    alt: "Checkout+ cart on a Shopify store, showing shipping protection and return coverage added to the order",
   },
   {
     label: "Returns",
@@ -80,37 +80,81 @@ const productGrid: ProductGridItem[] = [
     icon: <IconShield />,
     variant: "v",
     title: "Checkout+",
-    body: "Shipping protection and free returns, offered cleanly at the moment shoppers decide.",
+    body: "Protection and return coverage embedded directly in Shopify checkout.",
   },
   {
     href: "/returns",
     icon: <IconSwapDouble />,
+    variant: "blue",
     title: "Returns & Exchanges",
-    body: "A self-service portal with smart routing, instant resolutions and policy enforcement.",
+    body: "A self-service portal with smart routing, automated decisions inside your rules and policy enforcement.",
   },
   {
     href: "/tracking",
     icon: <IconTruck />,
+    variant: "v",
     title: "Order Tracking",
     body: "Carrier-agnostic tracking on your own brand, with proactive delivery updates.",
   },
   {
     href: "/claims",
     icon: <IconCheck />,
+    variant: "blue",
     title: "Claims",
     body: "Lost, stolen and damaged orders resolved end to end, in your voice, at our cost.",
   },
   {
     href: "/analytics",
     icon: <IconBars />,
+    variant: "v",
     title: "Analytics",
     body: "Live dashboards across protection, claims, returns and tracking in one place.",
   },
   {
     href: "/fraud",
     icon: <IconShieldAlert />,
+    variant: "blue",
     title: "Fraud Detection",
-    body: "Abuse signals scored across the network, applied before a claim or exchange is approved.",
+    body: "Guide catches claim and return abuse across the network. You don't run it. You get told when it involves you.",
+  },
+];
+
+const oneRecordCards = [
+  {
+    variant: "v" as const,
+    icon: <IconBoxes />,
+    title: "Shared shopper history",
+    body: "A claim in March is visible when the same shopper asks for an exchange in June. Six separate apps can't see each other's data, so each one meets that customer for the first time.",
+  },
+  {
+    variant: "blue" as const,
+    icon: <IconShieldAlert />,
+    title: "Consistent risk signals",
+    body: "One assessment by our team, applied the same way at the claim and at the exchange. Separate tools reach separate conclusions about the same person on the same day.",
+  },
+  {
+    variant: "v" as const,
+    icon: <IconCheck />,
+    title: "Faster resolutions",
+    body: "Nobody has to look up the order in a second system before deciding, which is where most of the waiting in a support queue actually comes from.",
+  },
+  {
+    variant: "blue" as const,
+    icon: <IconShield />,
+    title: "Better personalization",
+    body: "A loyal customer with two genuinely bad deliveries gets treated differently from a first-time buyer with a suspicious pattern, without an agent having to notice.",
+  },
+  {
+    variant: "v" as const,
+    icon: <IconPackage />,
+    title: "One operational record",
+    body: "Protection, returns, tracking and claims write to the same customer, so your team reads one history rather than reconciling four.",
+  },
+  {
+    variant: "blue" as const,
+    icon: <IconBars />,
+    title: "Fewer disconnected exports",
+    body: "One set of numbers that agrees with itself, instead of four CSVs that have to be matched up before anyone can answer a question.",
   },
 ];
 
@@ -263,7 +307,7 @@ export default function HomePage() {
           __html: jsonLdScript([
             webPageNode({
               path: "/",
-              name: "Guide | The post-purchase OS for Shopify",
+              name: "Guide | The post-purchase platform for Shopify",
               description:
                 "One operating layer for shipping protection, returns, exchanges, order tracking and fraud detection, all on your own brand.",
             }),
@@ -276,46 +320,94 @@ export default function HomePage() {
         <div className="wrap">
           <div className="hero-head" style={{ maxWidth: 1000, margin: "0 auto" }}>
             <span className="pill">
-              <span className="dot" /> The post-purchase OS
+              <span className="dot" /> The post-purchase platform for Shopify
             </span>
             <h1 className="d1">
-              Every surface your
+              Turn every post-purchase moment
               <br />
-              shopper <span className="text-accent">touches</span>.
+              into <span className="accent">retained revenue</span>.
             </h1>
-            <p className="lead maxw-md" style={{ fontSize: "1.16rem" }}>
-              One operating layer for protection, returns, exchanges, order tracking and fraud
-              detection. Engineered for serious commerce.
+            <p className="lead maxw-md hero-lead">
+              Protection, returns, exchanges, claims, tracking and fraud detection in one layer,
+              on your brand, so a delivery problem doesn&apos;t cost you the customer.
             </p>
-            <div className="flex gap-3 flex-wrap justify-center mt-2">
-              <a className="btn btn-dark btn-lg arw" href={demoUrl("home-cta")} target="_blank" rel="noopener">
+            <div className="flex gap-12 wrapf jc mt-8">
+              <a className="btn btn-dark btn-lg arw" href={demoUrl("home-hero")} target="_blank" rel="noopener">
                 Book a Demo<span className="sr-only"> (opens in a new tab)</span>
               </a>
               <Link className="btn btn-ghost btn-lg" href="/products">
-                Explore the platform
+                Explore the Platform
               </Link>
-              <a className="btn btn-app btn-lg" href={installUrl("home-cta")} target="_blank" rel="noopener">
-                <svg
-                  className="bicon"
-                  width={18}
-                  height={18}
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={1.9}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  aria-hidden="true"
-                  focusable="false"
-                >
-                  <path d="M4 8h16l-1.2 11.2a2 2 0 0 1-2 1.8H7.2a2 2 0 0 1-2-1.8z" />
-                  <path d="M8.5 10V6.5a3.5 3.5 0 0 1 7 0V10" />
-                </svg>
-                Install on Shopify
-              </a>
             </div>
+            <p className="small mt-8">
+              <a
+                className="tlink"
+                href={installUrl("home-hero-text")}
+                target="_blank"
+                rel="noopener"
+                style={{ fontSize: ".95rem" }}
+              >
+                Install from the Shopify App Store
+              </a>
+            </p>
           </div>
           <HeroCarousel items={wheelItems} />
+        </div>
+      </section>
+
+      <section className="section-sm" id="proof">
+        <div className="wrap">
+          <div className="proof rv">
+            <div className="proof-glow" />
+            <div className="split split-t">
+              <div className="stack-16">
+                <span className="kicker">Verified</span>
+                <p className="stat-xl stat-acc">21 minutes</p>
+                <h2 className="d4">From approval to resolution sent, on average.</h2>
+                <p className="tiny">
+                  Averaged across approved claims, measured from approval to the replacement or refund being
+                  issued. Not submission time, not time to a decision, and not how long a refund takes to clear
+                  the shopper&apos;s bank.{" "}
+                  <Link className="tlink" href="/claims" style={{ fontSize: "inherit" }}>
+                    How a claim actually moves
+                  </Link>
+                  .
+                </p>
+              </div>
+              <div className="stack-16">
+                <span className="kicker">From the Shopify App Store</span>
+                <div className="card">
+                  <p className="body">
+                    &ldquo;Their team is always willing to collaborate with us to find the best possible
+                    solutions, especially when navigating complex situations such as fraudulent claims.&rdquo;
+                  </p>
+                  <p className="tiny mt-8">
+                    <strong>NRML</strong> &middot; 2 years using Guide
+                  </p>
+                </div>
+                <div className="card">
+                  <p className="body">
+                    &ldquo;It offers new customers another layer of order assurance and confidence when
+                    ordering, which helps strengthen conversion rate.&rdquo;
+                  </p>
+                  <p className="tiny mt-8">
+                    <strong>Elva&apos;s All Naturals</strong> &middot; Over 18 months using Guide
+                  </p>
+                </div>
+                <p className="tiny">
+                  <a
+                    className="tlink"
+                    href="https://apps.shopify.com/guide-1/reviews"
+                    target="_blank"
+                    rel="noopener"
+                    style={{ fontSize: ".8rem" }}
+                  >
+                    Read every review on the Shopify App Store
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -338,31 +430,31 @@ export default function HomePage() {
               <span className="ico v">
                 <IconCheck />
               </span>
-              <h3 className="d4 mt-4">A recovery, not an apology</h3>
-              <p className="body mt-2">
+              <h3 className="d4 mt-16">A recovery, not an apology</h3>
+              <p className="body mt-8">
                 The shopper resolves it where they already were, in your brand, without writing an
                 email or waiting on a reply. What would have been a complaint becomes the story
                 they tell about how well you handled it.
               </p>
             </div>
             <div className="card rv d-1">
-              <span className="ico">
+              <span className="ico blue">
                 <IconSwapDouble />
               </span>
-              <h3 className="d4 mt-4">Fewer tickets reaching your team</h3>
-              <p className="body mt-2">
+              <h3 className="d4 mt-16">Fewer tickets reaching your team</h3>
+              <p className="body mt-8">
                 Where is my order. How do I send this back. It arrived damaged. Guide answers all
                 three before they become a conversation, so your agents spend their day on the
                 questions that genuinely need a person.
               </p>
             </div>
             <div className="card rv d-2">
-              <span className="ico">
+              <span className="ico v">
                 <IconBars />
               </span>
-              <h3 className="d4 mt-4">A bigger basket at checkout</h3>
-              <p className="body mt-2">
-                Free returns and protection remove the hesitation that quietly caps cart size. When
+              <h3 className="d4 mt-16">A bigger basket at checkout</h3>
+              <p className="body mt-8">
+                Protection and return coverage remove the hesitation that quietly caps cart size. When
                 the risk of buying comes down, shoppers commit to the order they actually wanted
                 rather than the safe version of it.
               </p>
@@ -375,7 +467,7 @@ export default function HomePage() {
         <div className="wrap">
           <div className="sec-head-row rv">
             <h2 className="d2" style={{ maxWidth: "16ch" }}>
-              Where to start, depending on what hurts.
+              Choose the problem you want to solve first.
             </h2>
             <Link className="tlink" href="/products">
               View all products
@@ -418,7 +510,7 @@ export default function HomePage() {
                   <span className="tiny">Customer since March &middot; 6 orders &middot; 1 claim &middot; 2 exchanges</span>
                 </span>
               </div>
-              <span className="tag">Live customer record</span>
+              <span className="tag">Example unified customer record</span>
             </div>
             <div className="journey-rail">
               {journeyRows.map((row, i) => (
@@ -449,9 +541,23 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <p className="tiny mt-6">
-            Illustrative journey built from the product&apos;s actual rule behavior. Not a customer
-            record.
+          <p className="tiny mt-24">
+            An illustrative journey, built from the rules the product actually applies. It is not a real
+            customer record and no shopper data is shown.
+          </p>
+          <div className="grid g3 mt-32 rv">
+            {oneRecordCards.map((card) => (
+              <div key={card.title} className="card">
+                <span className={`ico ${card.variant}`}>{card.icon}</span>
+                <h3 className="d4 mt-16">{card.title}</h3>
+                <p className="small mt-8">{card.body}</p>
+              </div>
+            ))}
+          </div>
+          <p className="small center mt-32">
+            <Link className="tlink" href="/products" style={{ fontSize: ".95rem" }}>
+              Explore the platform
+            </Link>
           </p>
         </div>
       </section>
@@ -486,9 +592,10 @@ export default function HomePage() {
             </div>
             <div>
               <strong className="d4">A better ending</strong>
-              <p className="small mt-2">
-                The replacement, the freight and the argument with the carrier are ours. What you
-                keep is a customer who watched you fix something that was never your fault.
+              <p className="small mt-8">
+                The decision, the replacement and the cost of it are ours. Nobody argues with a carrier
+                and nobody waits on one. What you keep is a customer who watched you fix something that was
+                never your fault.
               </p>
             </div>
           </div>
@@ -508,9 +615,9 @@ export default function HomePage() {
                 before they pay.
               </h2>
               <p className="lead" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: "30em" }}>
-                A clean, on-brand checkout experience that lets customers add shipping protection
-                and get free returns thrown in, before they commit to the order. Take the risk out
-                of the decision and shoppers stop trimming their basket to play it safe.
+                A clean, on-brand checkout experience that lets customers add shipping protection and add
+                return coverage, before they commit to the order. Take the risk out of the decision and
+                shoppers stop trimming their basket to play it safe.
               </p>
               <ul className="blist">
                 <li>One-click protection upsell</li>
@@ -526,7 +633,7 @@ export default function HomePage() {
                   src="/assets/mocks/checkout.b8978ad62a.webp"
                   width={887}
                   height={1774}
-                  alt="Checkout+ cart on a Shopify store, showing shipping protection and free returns added to the order"
+                  alt="Checkout+ cart on a Shopify store, showing shipping protection and return coverage added to the order"
                   loading="lazy"
                   decoding="async"
                 />
@@ -646,8 +753,8 @@ export default function HomePage() {
                 or one that does not.
               </h2>
               <p className="lead" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: "30em" }}>
-                Real-time dashboards give your team the numbers that matter: protected orders,
-                claim rates, resolution trends and revenue recovered, all in one place.
+                Dashboards, updating in near real time, give your team the numbers that matter: protected
+                orders, claim rates, resolution trends and revenue recovered, all in one place.
               </p>
               <ul className="blist">
                 <li>Live KPIs across protection, returns and tracking</li>
@@ -713,7 +820,9 @@ export default function HomePage() {
           <div className="sec-head center rv">
             <span className="kicker">Integrations</span>
             <h2 className="d2 center">Plays nicely with your stack.</h2>
-            <p className="lead center">Connect the tools you already use. One keystroke and you&apos;re live.</p>
+            <p className="lead center">
+              Connect the tools you already run, without a lengthy implementation.
+            </p>
           </div>
           <div className="kb rv">
             <KeycapRow row={integrationLogos} />
@@ -734,7 +843,7 @@ export default function HomePage() {
         <div className="wrap">
           <div className="sec-head center rv">
             <span className="kicker">From the Shopify App Store</span>
-            <h2 className="d2 center">Merchants, in their own words.</h2>
+            <h2 className="d2 center">Why Shopify brands choose Guide.</h2>
           </div>
           <div className="grid g3">
             {testimonials.map((t, i) => (
@@ -769,8 +878,8 @@ export default function HomePage() {
             </span>
             <h2 className="d2">Every surface, on your brand.</h2>
             <p className="lead maxw-md">
-              See Guide running on your own catalogue. Thirty minutes, your ops lead in the room,
-              and an honest read on what it would change for your customers and your team.
+              See Guide running on your catalog in 30 minutes, with your ops lead in the room, and an honest
+              read on what it would change for your customers and your team.
             </p>
             <div className="flex gap-3 flex-wrap justify-center">
               <a className="btn btn-dark btn-lg arw" href={demoUrl("home-cta")} target="_blank" rel="noopener">
@@ -800,7 +909,7 @@ export default function HomePage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              Thirty minutes, on your own catalogue &middot; Free to install, and our team does the build
             </p>
           </div>
         </div>

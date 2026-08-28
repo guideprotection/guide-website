@@ -3,7 +3,7 @@ import Link from "next/link";
 import { LogoGlyph } from "@/components/logo";
 import { GLOSSARY_TERMS } from "@/lib/glossary";
 import { breadcrumbNode, definedTermSetJsonLd, webPageNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 const TITLE = "Post-purchase glossary | Guide";
 const DESCRIPTION =
@@ -160,7 +160,7 @@ export default function GlossaryPage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              {CTA_FOOTER}
             </p>
           </div>
         </div>

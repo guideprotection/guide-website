@@ -7,7 +7,7 @@ import { demoUrl, installUrl, OG_IMAGES, SITE_URL } from "@/lib/site";
 
 const TITLE = "Fraud and abuse detection | Guide";
 const DESCRIPTION =
-  "Abuse signals scored across the network, so that serial claimants and reshipping rings are caught before they start costing you margin.";
+  "Guide catches claim and return abuse across its merchant network while resolving claims. Nothing for you to configure. If it hits your store, we tell you.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -26,7 +26,8 @@ const serviceNode = {
   "@type": "Service",
   "@id": `${SITE_URL}/fraud#service`,
   name: "Fraud and abuse detection",
-  description: "Claim abuse signals scored across the Guide network to catch serial claimants and reshipping rings.",
+  description:
+    "Claim and return abuse assessed by Guide across its merchant network to catch serial claimants and reshipping rings, with the merchant notified rather than asked to operate it.",
   serviceType: "Post-purchase ecommerce software",
   provider: { "@id": `${SITE_URL}/#organization` },
   isRelatedTo: { "@id": `${SITE_URL}/#software` },
@@ -71,16 +72,16 @@ export default function FraudPage() {
               <span className="dot" /> Fraud Detection
             </span>
             <h1 className="d1">
-              Catch the pattern
+              The abuse problem
               <br />
-              before it becomes
+              you don&apos;t have
               <br />
-              a <span className="text-accent">policy</span>.
+              to <span className="text-accent">staff</span>.
             </h1>
             <p className="lead maxw-md" style={{ fontSize: "1.12rem" }}>
-              Most claim and return abuse isn&apos;t clever. It&apos;s repetitive. Guide scores behavior
-              across the whole merchant network so the pattern is visible on the first claim rather
-              than the fifth.
+              Guide resolves claims and carries the cost of the approved ones, so catching abuse is
+              our job rather than yours. It runs inside our claims process, across every merchant on
+              the network. When a pattern turns up on your store, we tell you what we found.
             </p>
             <div className="flex gap-3 flex-wrap justify-center mt-2">
               <a className="btn btn-dark btn-lg arw" href={demoUrl("fraud-hero")} target="_blank" rel="noopener">
@@ -99,11 +100,13 @@ export default function FraudPage() {
           <div className="answer rv">
             <span className="kicker">How fraud detection works</span>
             <p className="lead mt-4">
-              Guide scores claim and return abuse across the whole network rather than within one
-              merchant&apos;s data. A serial claimant filing across several stores, or a reshipping
-              ring using the same address pattern, is visible at network level long before any single
-              merchant would have enough history to spot it. Signals are advisory: the merchant sets
-              the thresholds.
+              Fraud detection is a tool Guide runs internally, not a dashboard the merchant operates.
+              Because Guide resolves claims and carries the cost of approved ones, it assesses claim
+              and return abuse across the whole network rather than within one merchant&apos;s data. A
+              serial claimant filing across several stores, or a reshipping ring reusing an address
+              pattern, is visible at network level long before any single merchant would have the
+              history to spot it. Merchants don&apos;t see scores or set thresholds. When abuse
+              involves their store, Guide notifies them.
             </p>
           </div>
         </div>
@@ -112,46 +115,48 @@ export default function FraudPage() {
       <section className="section">
         <div className="wrap">
           <div className="sec-head rv">
-            <span className="kicker">How it works</span>
+            <span className="kicker">Why we run it</span>
             <h2 className="d2">
-              Three layers, none of them
-              <br className="hide-mob" /> aimed at your honest customers.
+              It&apos;s our loss to absorb,
+              <br className="hide-mob" /> so it&apos;s our work to do.
             </h2>
             <p className="lead">
-              Each layer runs before a specialist spends time on a case, and each one is explainable
-              after the fact.
+              This isn&apos;t a tool we hand you. It&apos;s part of how Guide assesses a claim, and
+              the incentive to get it right sits with the party paying for the outcome.
             </p>
           </div>
           <div className="grid g3">
             <div className="card rv">
               <span className="ico v">
-                <IconShieldAlert />
+                <IconBoxes />
               </span>
-              <h3 className="d4 mt-4">Network-level signals</h3>
+              <h3 className="d4 mt-4">Nothing to configure</h3>
               <p className="body mt-2">
-                Addresses, devices and payment fingerprints associated with abuse at one merchant are
-                known at every other. Behavior that migrates arrives already flagged, which is the
-                whole advantage of a network.
+                There&apos;s no fraud dashboard to learn, no score to interpret and no thresholds to
+                keep tuned. It runs whether or not anyone on your team ever thinks about it, which is
+                the difference between a service and a tool.
               </p>
             </div>
             <div className="card rv d-1">
-              <span className="ico">
-                <IconCheck />
+              <span className="ico blue">
+                <IconShieldAlert />
               </span>
-              <h3 className="d4 mt-4">Evidence validation</h3>
+              <h3 className="d4 mt-4">A view you can&apos;t get on your own</h3>
               <p className="body mt-2">
-                Submitted photos are checked for reuse, manipulation and whether they actually show
-                the product claimed, before a person spends time on them.
+                A shopper filing their first claim with you might be filing their ninth this quarter.
+                Your own order history can&apos;t show you that, and no amount of staffing would find
+                it. The network sees it on the first claim.
               </p>
             </div>
             <div className="card rv d-2">
-              <span className="ico">
-                <IconBoxes />
+              <span className="ico v">
+                <IconCheck />
               </span>
-              <h3 className="d4 mt-4">Rules you control</h3>
+              <h3 className="d4 mt-4">You hear about it when it matters</h3>
               <p className="body mt-2">
-                You decide what a high score does: extra evidence, a manual queue, or a decline.
-                Guide surfaces the signal, the policy stays yours.
+                We don&apos;t send you a queue to work through. If abuse shows up against your brand,
+                our team tells you what we saw and what we did, so you can decide what happens on
+                your side of it.
               </p>
             </div>
           </div>
@@ -161,11 +166,14 @@ export default function FraudPage() {
       <section className="section bg-bg-2">
         <div className="wrap">
           <div className="sec-head rv">
-            <span className="kicker">What happens to a suspicious claim</span>
-            <h2 className="d2">Scored, not judged.</h2>
+            <span className="kicker">What actually happens</span>
+            <h2 className="d2">
+              Checked by us,
+              <br />
+              not by you.
+            </h2>
             <p className="lead">
-              A score is an input to your policy, not a verdict. Nothing declines on its own unless
-              you configure it to.
+              Every step here is ours. The merchant-facing part of this product is the last one.
             </p>
           </div>
           <div className="flow rv">
@@ -174,39 +182,46 @@ export default function FraudPage() {
               <div className="c">
                 <h3 className="d4">The claim arrives</h3>
                 <p className="body">
-                  Same portal, same four fields. Nothing about the shopper experience changes based
-                  on their score, because telling someone they look suspicious is how you lose an
-                  honest customer.
+                  Same portal, same four fields. Nothing about the shopper&apos;s experience changes
+                  because of what we already know, because telling someone they look suspicious is
+                  how you lose an honest customer.
                 </p>
               </div>
             </div>
             <div className="flow-item">
               <span className="n" />
               <div className="c">
-                <h3 className="d4">Signals are matched</h3>
+                <h3 className="d4">Signals are matched across the network</h3>
                 <p className="body">
-                  Address, device and payment fingerprints checked against network history. Claim
-                  frequency, order history and the specific pattern of what is being claimed.
+                  Addresses, devices and payment fingerprints checked against history from every
+                  merchant on Guide, alongside claim frequency, order history and the specific pattern
+                  of what&apos;s being claimed.
                 </p>
               </div>
             </div>
             <div className="flow-item">
               <span className="n" />
               <div className="c">
-                <h3 className="d4">A score is produced, with reasons</h3>
+                <h3 className="d4">Our specialists make the call</h3>
                 <p className="body">
-                  Not a black box. The dashboard shows which signals contributed, so a decision can be
-                  defended to the customer or to a chargeback provider.
+                  A pattern is an input to a decision a person makes, not a verdict a machine reaches
+                  on its own. Guide approves, asks for more evidence, or denies, under the standard
+                  set out in our{" "}
+                  <Link className="tlink" href="/terms">
+                    terms of service
+                  </Link>
+                  .
                 </p>
               </div>
             </div>
             <div className="flow-item">
               <span className="n" />
               <div className="c">
-                <h3 className="d4">Your rule fires</h3>
+                <h3 className="d4">You&apos;re notified if it concerns your store</h3>
                 <p className="body">
-                  Auto-approve, request evidence, route to your queue, or decline. You set the
-                  thresholds and you can override any outcome in either direction.
+                  Repeat abuse against your brand reaches you with what we found and what we did
+                  about it. It arrives as information rather than as a task, and your support queue
+                  stays empty either way.
                 </p>
               </div>
             </div>
@@ -229,14 +244,14 @@ export default function FraudPage() {
                 are telling the truth.
               </h2>
               <p className="lead" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: "30em" }}>
-                Fraud tooling that treats every claim as suspect costs more in lost customers than it
-                saves in prevented payouts. Guide is built to clear the honest majority instantly and
-                spend its scrutiny on the small number of cases that warrant it.
+                A claims process that treats everyone as a suspect costs more in lost customers than
+                it saves in refused payouts. Guide clears the honest majority quickly and spends its
+                scrutiny on the small number of cases that earn it.
               </p>
               <ul className="blist">
-                <li>Genuine customers are not asked for paperwork</li>
-                <li>Scores are explainable, so a decision can be defended</li>
-                <li>You can always override, in either direction</li>
+                <li>Honest customers aren&apos;t asked for paperwork to prove it</li>
+                <li>Every denial has stated reasons behind it</li>
+                <li>Your team never has to arbitrate any of this</li>
               </ul>
             </div>
             <div className="flex justify-center rv d-1">
@@ -276,60 +291,67 @@ export default function FraudPage() {
             </div>
             <div className="grid gap-7 rv">
               <div className="sec-head">
-                <span className="kicker">Your rules</span>
+                <span className="kicker">What reaches you</span>
                 <h2 className="d2">
-                  Where the line sits
+                  A notification,
                   <br />
-                  is your decision.
+                  not a workload.
                 </h2>
                 <p className="lead">
-                  Two merchants in the same category will draw this differently, and both can be
-                  right. Guide doesn&apos;t have an opinion about your risk appetite.
+                  You don&apos;t administer any of this, so what arrives on your side is deliberately
+                  narrow. It&apos;s the short list of things a merchant would actually want to know.
                 </p>
               </div>
               <div className="card card-lg" style={{ padding: "8px 26px" }}>
                 <div className="feat-row">
                   <span className="n" />
                   <span>
-                    <strong>Score thresholds</strong>
-                    <span>What counts as high, and what happens at each level.</span>
-                  </span>
-                </div>
-                <div className="feat-row">
-                  <span className="n" />
-                  <span>
-                    <strong>Actions</strong>
+                    <strong>Repeat claimants on your store</strong>
                     <span>
-                      Request evidence, route to a manual queue, decline, or approve anyway and absorb
-                      it.
+                      When the same shopper files against you more often than the pattern supports,
+                      you hear about it, and you can decide what they&apos;re allowed to buy next.
                     </span>
                   </span>
                 </div>
                 <div className="feat-row">
                   <span className="n" />
                   <span>
-                    <strong>Customer exemptions</strong>
+                    <strong>Attempts we stopped</strong>
                     <span>
-                      Lifetime value or tier can override a score, so your best customers are never
-                      treated as suspects.
+                      Reshipping rings and address clusters that filed against your brand and were
+                      denied, so you know the attempt happened at all.
                     </span>
                   </span>
                 </div>
                 <div className="feat-row">
                   <span className="n" />
                   <span>
-                    <strong>Category rules</strong>
+                    <strong>The reasons behind a denial</strong>
                     <span>
-                      Higher scrutiny on the products that actually attract abuse, rather than across
-                      the board.
+                      In plain language, so you can answer the customer if they come to you rather
+                      than to us.
                     </span>
                   </span>
                 </div>
                 <div className="feat-row">
                   <span className="n" />
                   <span>
-                    <strong>Review and appeal</strong>
-                    <span>Every decision is reopenable, and the reasons behind the score stay visible.</span>
+                    <strong>Clusters that aren&apos;t fraud</strong>
+                    <span>
+                      Damage claims concentrated on one product or one warehouse are usually a
+                      packaging or picking problem. We tell you either way, because that one is
+                      yours to fix.
+                    </span>
+                  </span>
+                </div>
+                <div className="feat-row">
+                  <span className="n" />
+                  <span>
+                    <strong>Nothing beyond that</strong>
+                    <span>
+                      No score to review, no queue to clear, no thresholds to keep tuned. If we
+                      haven&apos;t told you about it, there&apos;s nothing waiting for you.
+                    </span>
                   </span>
                 </div>
               </div>
@@ -344,8 +366,8 @@ export default function FraudPage() {
             <span className="kicker">The honest part</span>
             <h2 className="d2">What this doesn&apos;t do.</h2>
             <p className="lead">
-              Every fraud product oversells itself, so here is the boundary. Knowing where the tool
-              stops is what lets you staff the rest properly.
+              Every fraud product oversells itself, so here is the boundary. Knowing where it stops
+              is what lets you plan around the rest.
             </p>
           </div>
           <div className="grid g3">
@@ -358,10 +380,11 @@ export default function FraudPage() {
               </p>
             </div>
             <div className="card rv d-1">
-              <h3 className="d4">It&apos;s not a substitute for a policy</h3>
+              <h3 className="d4">It isn&apos;t payment fraud tooling</h3>
               <p className="body mt-2">
-                A score tells you how unusual something is. Only you can decide what you&apos;re
-                willing to absorb to keep a customer, and that decision is a commercial one.
+                This covers what happens after the order: claims and returns. Stolen cards and
+                chargebacks at the point of payment are a different problem, and you should keep
+                whatever you already use for them.
               </p>
             </div>
             <div className="card rv d-2">
@@ -388,7 +411,9 @@ export default function FraudPage() {
           <div className="grid g3">
             <Link className="card card-hover rv" href="/protection">
               <strong className="d4">Checkout+</strong>
-              <span className="body mt-2">Protection and free returns, offered where shoppers decide.</span>
+              <span className="body mt-2">
+                Protection and return coverage embedded directly in Shopify checkout.
+              </span>
               <span className="tlink" style={{ fontSize: ".85rem" }}>
                 Learn more
               </span>
@@ -433,10 +458,10 @@ export default function FraudPage() {
             <span className="logo-tile">
               <LogoGlyph />
             </span>
-            <h2 className="d2">See what the network already knows.</h2>
+            <h2 className="d2">Ask us how a claim actually gets assessed.</h2>
             <p className="lead maxw-md">
-              We&apos;ll run a look-back against a sample of your historical claims and show you the
-              patterns in them.
+              Book a demo and we&apos;ll walk the process end to end, including what makes us look
+              twice.
             </p>
             <div className="flex gap-3 flex-wrap justify-center">
               <a className="btn btn-dark btn-lg arw" href={demoUrl("fraud-cta")} target="_blank" rel="noopener">
@@ -450,7 +475,9 @@ export default function FraudPage() {
                 Install on Shopify
               </a>
             </div>
-            <p className="small">Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself</p>
+            <p className="small">
+              Thirty minutes, on your own catalogue &middot; Free to install, and our team does the build
+            </p>
           </div>
         </div>
       </section>

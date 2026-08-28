@@ -1,0 +1,42 @@
+/*
+  # ---------------------------------------------------------------------------
+  # The staging X-Robots-Tag: noindex, nofollow was removed here, deliberately,
+  # on Cam's instruction. The site is now indexable the moment it is deployed.
+  #
+  # If you put this build on a preview URL before DNS moves, that preview can be
+  # indexed and compete with the live site for its own brand terms. Either point
+  # DNS at the same time, or password-protect the preview in Netlify, which is
+  # the safer of the two because it needs no file change to undo.
+  # ---------------------------------------------------------------------------
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests
+  Cross-Origin-Opener-Policy: same-origin
+  X-Permitted-Cross-Domain-Policies: none
+
+# Safe only because build_dist.py puts the content hash in every filename under
+# here. immutable tells the browser not to revalidate for a year, so on an
+# unhashed name it guarantees that returning visitors get new HTML against an
+# old stylesheet. If the fingerprinting is ever removed, this must go with it.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The three exceptions keep fixed names, so they cannot make the same promise.
+# A day is long enough to be cheap and short enough to correct a mistake.
+/assets/og.png
+  Cache-Control: public, max-age=86400
+
+/assets/site.webmanifest
+  Cache-Control: public, max-age=86400
+
+/assets/icons/favicon.ico
+  Cache-Control: public, max-age=86400
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8

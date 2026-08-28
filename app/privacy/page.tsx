@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import { jsonLdScript, webPageNode } from "@/lib/json-ld";
 import { LogoGlyph } from "@/components/logo";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy policy | Guide post-purchase OS",
+  title: "Privacy policy | Guide post-purchase platform",
   description:
     "How Guide collects, uses, stores and protects personal data for merchants and their shoppers, including sub-processors and retention.",
   alternates: { canonical: "/privacy" },
   openGraph: {
-    title: "Privacy policy | Guide post-purchase OS",
+    title: "Privacy policy | Guide post-purchase platform",
     description:
       "How Guide collects, uses, stores and protects personal data for merchants and their shoppers, including sub-processors and retention.",
     url: "/privacy",
@@ -27,7 +27,7 @@ export default function PrivacyPage() {
           __html: jsonLdScript([
             webPageNode({
               path: "/privacy",
-              name: "Privacy policy | Guide post-purchase OS",
+              name: "Privacy policy | Guide post-purchase platform",
               description:
                 "How Guide collects, uses, stores and protects personal data for merchants and their shoppers, including sub-processors and retention.",
             }),
@@ -313,7 +313,7 @@ export default function PrivacyPage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              {CTA_FOOTER}
             </p>
           </div>
         </div>

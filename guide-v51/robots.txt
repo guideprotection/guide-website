@@ -1,0 +1,81 @@
+# guideprotection.com
+
+# ---------------------------------------------------------------- search
+User-agent: *
+Allow: /
+
+# ------------------------------------------------------------ AI crawlers
+# Explicitly allowed. Guide wants to be described accurately when someone asks
+# an assistant how post-purchase software works, and most of these crawlers are
+# governed by opt-out rather than opt-in, so naming them makes the position
+# unambiguous instead of merely unstated.
+#
+# Retrieval and training are different things. OAI-SearchBot, ClaudeBot and
+# PerplexityBot fetch pages to answer a question that has been asked. GPTBot and
+# CCBot also collect for training. Both are permitted here. If that decision
+# changes, this file is the only place that needs editing.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+# ---------------------------------------------------------------- pointers
+Sitemap: https://guideprotection.com/sitemap.xml
+
+# A curated map of this site written for language models rather than crawlers.
+# LLM-Content is not a registered robots.txt directive, and leaving it live
+# makes the file parse as malformed. /llms.txt at the root is the convention.
+# LLM-Content: https://guideprotection.com/llms.txt

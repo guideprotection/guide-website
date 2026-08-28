@@ -5,20 +5,18 @@ export type SearchEntry = {
   k: string;
 };
 
-// Ported from the static build's assets/search-index.*.js. The "Confirmations"
-// entry pointed at a page that was published and withdrawn (it now redirects
-// to /products); it is intentionally dropped here rather than carried forward.
 export const SEARCH_INDEX: SearchEntry[] = [
-  { t: "Checkout+", d: "Protection and free returns offered at checkout, in your brand.", u: "/protection", k: "protection upsell cart aov attach" },
+  { t: "Checkout+", d: "Protection and return coverage offered at checkout, in your brand.", u: "/protection", k: "protection upsell cart aov attach" },
   { t: "Returns & Exchanges", d: "Self-service portal with smart routing and instant exchanges.", u: "/returns", k: "returns exchange refund store credit portal" },
   { t: "Order Tracking", d: "Carrier-agnostic tracking on your own brand, with proactive updates.", u: "/tracking", k: "tracking wismo carrier delivery notifications" },
   { t: "Claims", d: "Lost, stolen and damaged orders resolved end to end.", u: "/claims", k: "claims lost stolen damaged resolution" },
   { t: "Analytics", d: "Live dashboards across protection, claims, returns and tracking.", u: "/analytics", k: "analytics dashboard reporting kpi data" },
-  { t: "Fraud Detection", d: "Abuse signals scored across the merchant network.", u: "/fraud", k: "fraud abuse returns claims network risk" },
+  { t: "Fraud Detection", d: "Abuse caught by Guide across the merchant network, with the merchant notified.", u: "/fraud", k: "fraud abuse returns claims network risk notify" },
   { t: "Platform overview", d: "How the six modules share one record of the customer.", u: "/products", k: "platform overview modules integration" },
   { t: "Pricing", d: "No platform fee and no contract. How the model works and who qualifies for revenue share.", u: "/pricing", k: "pricing cost fee revenue share contract free qualify" },
   { t: "Book a demo", d: "Thirty minutes on your own catalogue.", u: "/pricing#demo", k: "demo contact sales book call" },
   { t: "Resources", d: "Returns policy guidance, operator writing, the glossary and integrations.", u: "/resources", k: "resources help docs api integrations" },
+  { t: "Help centre", d: "Why Guide charges appear on your Shopify statement, how claims are filed, and what protection covers.", u: "/help", k: "help faq support billing usage charge shopify statement claim setup theme white label cost" },
   { t: "Blog", d: "Operational notes on post-purchase.", u: "/blog", k: "blog articles writing guides notes" },
   { t: "Cut WISMO tickets", d: "How to reduce where-is-my-order volume without hiring.", u: "/blog-wismo", k: "wismo tickets support volume tracking" },
   { t: "Exchange-first returns", d: "The returns policy changes that actually retain revenue.", u: "/blog-exchange-first", k: "returns policy exchange refund credit" },

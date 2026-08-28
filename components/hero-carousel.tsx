@@ -44,11 +44,11 @@ export function HeroCarousel({ items }: { items: CarouselItem[] }) {
     const DELAY = DWELL + SLIDE;
     const PX_PER_STEP = 260;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const X = [0, 58, 100, 124, 124];
-    const Z = [0, -170, -360, -520, -520];
-    const R = [0, 25, 33, 38, 38];
-    const S = [1, 0.88, 0.76, 0.7, 0.7];
-    const O = [1, 0.9, 0.42, 0, 0];
+    const X = [0, 56, 96, 126, 150];
+    const Z = [0, -170, -340, -500, -660];
+    const R = [0, 24, 32, 38, 43];
+    const S = [1, 0.88, 0.77, 0.68, 0.6];
+    const O = [1, 0.92, 0.62, 0.26, 0];
 
     function sample(t: number[], abs: number) {
       const m = t.length - 1;
@@ -74,7 +74,7 @@ export function HeroCarousel({ items }: { items: CarouselItem[] }) {
         const d = offset(i);
         const abs = Math.abs(d);
         const sgn = d < 0 ? -1 : 1;
-        const hidden = abs > 2.6;
+        const hidden = abs > 3.6;
         el.style.transition = hidden || wheel.classList.contains("dragging") ? "none" : "";
         el.style.transform =
           `translateX(${(sgn * sample(X, abs)).toFixed(2)}%) ` +

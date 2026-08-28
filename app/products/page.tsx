@@ -10,17 +10,17 @@ import {
 } from "@/components/icons";
 import { LogoGlyph } from "@/components/logo";
 import { jsonLdScript, webPageNode, breadcrumbNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "The Guide platform | One post-purchase layer",
   description:
-    "Six modules on one record of the customer: protection, returns, exchanges, order tracking, claims and fraud detection scored across the network.",
+    "Six modules on one record of the customer: protection, returns, exchanges, order tracking, claims and fraud detection run by Guide.",
   alternates: { canonical: "/products" },
   openGraph: {
     title: "The Guide platform | One post-purchase layer",
     description:
-      "Six modules on one record of the customer: protection, returns, exchanges, order tracking, claims and fraud detection scored across the network.",
+      "Six modules on one record of the customer: protection, returns, exchanges, order tracking, claims and fraud detection run by Guide.",
     url: "/products",
     images: OG_IMAGES,
   },
@@ -91,7 +91,7 @@ export default function ProductsPage() {
               path: "/products",
               name: "The Guide platform | One post-purchase layer",
               description:
-                "Six modules on one record of the customer: protection, returns, exchanges, order tracking, claims and fraud detection scored across the network.",
+                "Six modules on one record of the customer: protection, returns, exchanges, order tracking, claims and fraud detection run by Guide.",
             }),
           ]),
         }}
@@ -156,7 +156,7 @@ export default function ProductsPage() {
               </span>
               <strong className="d4">Checkout+</strong>
               <span className="body">
-                Protection and free returns offered at the moment shoppers decide, in your brand,
+                Protection and return coverage offered at the moment shoppers decide, in your brand,
                 with no dark patterns.
               </span>
               <span className="tlink" style={{ fontSize: ".85rem" }}>
@@ -221,7 +221,7 @@ export default function ProductsPage() {
               </span>
               <strong className="d4">Fraud Detection</strong>
               <span className="body">
-                Abuse signals scored across the network, applied before a claim or an exchange is
+                Run by Guide across the network, applied before a claim or an exchange is
                 approved.
               </span>
             </Link>
@@ -407,6 +407,100 @@ export default function ProductsPage() {
         </div>
       </section>
 
+      <section className="section" id="fit">
+        <div className="wrap">
+          <div className="sec-head rv">
+            <span className="kicker">Fit</span>
+            <h2 className="d2">
+              Who Guide is for,
+              <br className="hide-mob" /> and who it is not.
+            </h2>
+            <p className="lead">
+              Most of this category will tell you it suits everyone. It does not, and finding out
+              after an install is expensive for both of us. Here is the honest version, so you can
+              rule us out in a minute rather than a month.
+            </p>
+          </div>
+          <div className="split split-t rv">
+            <div className="card card-lg">
+              <span className="ico v">
+                <IconCheck />
+              </span>
+              <h3 className="d4 mt-16">Guide fits if</h3>
+              <ul className="checks mt-16">
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  You sell physical goods on Shopify. Guide is a Shopify app and works nowhere else.
+                </li>
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  Delivery problems, returns and exchanges are enough work that somebody on your team
+                  feels them.
+                </li>
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  You want the whole post-purchase experience to stay on your brand rather than a
+                  vendor&apos;s.
+                </li>
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  You would rather claims were resolved for you than be given tooling to resolve them
+                  yourself.
+                </li>
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  You want protection funded by the shopper who opts in, with no platform fee and no
+                  per-order cost to you.
+                </li>
+              </ul>
+            </div>
+            <div className="card card-lg">
+              <span className="ico blue">
+                <IconShieldAlert />
+              </span>
+              <h3 className="d4 mt-16">Guide does not fit if</h3>
+              <ul className="checks mt-16">
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  You are not on Shopify, or you sell digital goods and services with nothing to ship.
+                </li>
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  You want to make the approval and denial calls yourself. Guide carries the cost of
+                  approved claims, so Guide makes them.
+                </li>
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  You want to set the protection price. Guide sets it, priced to the cart rather than
+                  a flat rate.
+                </li>
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  You are shopping for insurance. Guide is not an insurer and does not underwrite
+                  policies.
+                </li>
+                <li>
+                  <IconCheck aria-hidden="true" />
+                  Your order volume is low enough that a delivery problem is still a personal email
+                  rather than a process.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p className="small center mt-8">
+            Still not sure? The{" "}
+            <Link className="tlink" href="/help" style={{ fontSize: "inherit" }}>
+              help centre
+            </Link>{" "}
+            answers the questions merchants ask after install, and the{" "}
+            <Link className="tlink" href="/pricing" style={{ fontSize: "inherit" }}>
+              pricing page
+            </Link>{" "}
+            sets out the commercial model in full.
+          </p>
+        </div>
+      </section>
+
       <section className="section cta-wrap">
         <div className="cta-glow" />
         <div className="canvas" />
@@ -448,7 +542,7 @@ export default function ProductsPage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              {CTA_FOOTER}
             </p>
           </div>
         </div>

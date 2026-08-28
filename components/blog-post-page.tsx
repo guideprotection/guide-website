@@ -3,7 +3,7 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { LogoGlyph } from "./logo";
 import { getPostSource, type BlogFrontmatter } from "@/lib/blog";
 import { blogPostingJsonLd, breadcrumbNode, webPageNode } from "@/lib/json-ld";
-import { demoUrl, installUrl } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl } from "@/lib/site";
 
 export async function BlogPostPage({ slug }: { slug: string }) {
   const source = getPostSource(slug);
@@ -38,7 +38,12 @@ export async function BlogPostPage({ slug }: { slug: string }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
-            blogPostingJsonLd({ path: `/${slug}`, headline: frontmatter.title, description: frontmatter.description })
+            blogPostingJsonLd({
+              path: `/${slug}`,
+              headline: frontmatter.title,
+              description: frontmatter.description,
+              datePublished: frontmatter.published,
+            })
           ),
         }}
       />
@@ -114,7 +119,7 @@ export async function BlogPostPage({ slug }: { slug: string }) {
                 Install on Shopify
               </a>
             </div>
-            <p className="small">Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself</p>
+            <p className="small">{CTA_FOOTER}</p>
           </div>
         </div>
       </section>

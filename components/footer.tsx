@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { demoUrl, installUrl, FOOTER_PRODUCTS, FOOTER_RESOURCES, FOOTER_LEGAL } from "@/lib/site";
+import { demoUrl, installUrl, FOOTER_PRODUCTS, FOOTER_RESOURCES, FOOTER_COMPANY, FOOTER_LEGAL, SITE_TAGLINE } from "@/lib/site";
 import { LogoLockup } from "./logo";
-import { IconLinkedIn, IconX } from "./icons";
+import { IconLinkedIn } from "./icons";
 
 function pageSlug(pathname: string) {
   if (pathname === "/") return "home";
@@ -33,15 +33,11 @@ export function Footer() {
               </span>
             </Link>
             <p className="small" style={{ maxWidth: "32ch" }}>
-              The post-purchase OS. One operating layer for protection, returns, exchanges, order
-              tracking and fraud detection.
+              {SITE_TAGLINE}
             </p>
             <div className="flex gap-2">
               <a className="icon-btn" href="https://www.linkedin.com/company/guide-1" rel="me noopener" aria-label="Guide on LinkedIn">
                 <IconLinkedIn />
-              </a>
-              <a className="icon-btn" href="https://x.com/guideprotection" rel="me noopener" aria-label="Guide on X">
-                <IconX />
               </a>
             </div>
           </div>
@@ -68,28 +64,23 @@ export function Footer() {
           <div>
             <h3 className="ftr-h">Company</h3>
             <ul>
-              <li>
-                <a href={installUrl(`${slug}-footer`)} target="_blank" rel="noopener">
-                  Shopify App Store
-                </a>
-              </li>
-              <li>
-                <Link href="/pricing">Pricing</Link>
-              </li>
-              <li>
-                <a href={demoUrl(`${slug}-footer`)} target="_blank" rel="noopener">
-                  Book a demo
-                </a>
-              </li>
-              <li>
-                <Link href="/blog">Blog</Link>
-              </li>
-              <li>
-                <Link href="/glossary">Glossary</Link>
-              </li>
-              <li>
-                <a href="mailto:hello@guideprotection.com">Contact</a>
-              </li>
+              {FOOTER_COMPANY.map((item) => (
+                <li key={item.label}>
+                  {item.href === "install" ? (
+                    <a href={installUrl(`${slug}-footer`)} target="_blank" rel="noopener">
+                      {item.label}
+                    </a>
+                  ) : item.href === "demo" ? (
+                    <a href={demoUrl(`${slug}-footer`)} target="_blank" rel="noopener">
+                      {item.label}
+                    </a>
+                  ) : item.external ? (
+                    <a href={item.href}>{item.label}</a>
+                  ) : (
+                    <Link href={item.href}>{item.label}</Link>
+                  )}
+                </li>
+              ))}
             </ul>
           </div>
           <div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { IconBars, IconBoxes, IconShieldAlert, IconShopifyBag } from "@/components/icons";
 import { LogoGlyph } from "@/components/logo";
 import { breadcrumbNode, jsonLdScript, webPageNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Post-purchase analytics | Guide",
@@ -23,7 +23,7 @@ const worksWith = [
   {
     href: "/protection",
     title: "Checkout+",
-    body: "Protection and free returns, offered where shoppers decide.",
+    body: "Protection and return coverage, in Shopify checkout.",
   },
   {
     href: "/returns",
@@ -43,7 +43,7 @@ const worksWith = [
   {
     href: "/fraud",
     title: "Fraud Detection",
-    body: "Abuse signals scored across the network.",
+    body: "Run by Guide across the network.",
   },
 ];
 
@@ -424,7 +424,7 @@ export default function AnalyticsPage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              {CTA_FOOTER}
             </p>
           </div>
         </div>

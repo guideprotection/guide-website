@@ -3,7 +3,7 @@ import Link from "next/link";
 import { IconBoxes, IconShield, IconSwapDouble } from "@/components/icons";
 import { LogoGlyph } from "@/components/logo";
 import { jsonLdScript, webPageNode, breadcrumbNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Checkout+ | Shipping protection and free returns",
@@ -406,7 +406,7 @@ export default function ProtectionPage() {
             </Link>
             <Link className="card card-hover rv" href="/fraud">
               <strong className="d4">Fraud Detection</strong>
-              <span className="body mt-2">Abuse signals scored across the network.</span>
+              <span className="body mt-2">Run by Guide across the network.</span>
               <span className="tlink" style={{ fontSize: ".85rem" }}>
                 Learn more
               </span>
@@ -456,7 +456,7 @@ export default function ProtectionPage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              {CTA_FOOTER}
             </p>
           </div>
         </div>

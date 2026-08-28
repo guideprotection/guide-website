@@ -10,6 +10,7 @@ export type BlogFrontmatter = {
   lead: string;
   category: string;
   date: string;
+  published: string;
   readTime: string;
   readNextSlug: string;
   readNextTitle: string;

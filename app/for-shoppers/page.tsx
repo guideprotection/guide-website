@@ -3,7 +3,7 @@ import Link from "next/link";
 import { IconShopifyBag } from "@/components/icons";
 import { LogoGlyph } from "@/components/logo";
 import { breadcrumbNode, jsonLdScript, webPageNode } from "@/lib/json-ld";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "File a claim on your order | Guide",
@@ -184,7 +184,7 @@ export default function ForShoppersPage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              {CTA_FOOTER}
             </p>
           </div>
         </div>

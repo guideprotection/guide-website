@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import { jsonLdScript, webPageNode } from "@/lib/json-ld";
 import { LogoGlyph } from "@/components/logo";
-import { demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
+import { CTA_FOOTER, demoUrl, installUrl, OG_IMAGES } from "@/lib/site";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of service | Guide post-purchase OS",
+  title: "Terms of service | Guide post-purchase platform",
   description:
     "The terms governing merchant use of the Guide platform, covering fees, coverage, data processing, liability, and how to terminate.",
   alternates: { canonical: "/terms" },
   openGraph: {
-    title: "Terms of service | Guide post-purchase OS",
+    title: "Terms of service | Guide post-purchase platform",
     description:
       "The terms governing merchant use of the Guide platform, covering fees, coverage, data processing, liability, and how to terminate.",
     url: "/terms",
@@ -27,7 +27,7 @@ export default function TermsPage() {
           __html: jsonLdScript([
             webPageNode({
               path: "/terms",
-              name: "Terms of service | Guide post-purchase OS",
+              name: "Terms of service | Guide post-purchase platform",
               description:
                 "The terms governing merchant use of the Guide platform, covering fees, coverage, data processing, liability, and how to terminate.",
             }),
@@ -460,7 +460,7 @@ export default function TermsPage() {
               </a>
             </div>
             <p className="small">
-              Thirty minutes, on your own catalogue &middot; Or install free and set it up yourself
+              {CTA_FOOTER}
             </p>
           </div>
         </div>

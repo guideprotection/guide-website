@@ -1,9 +1,4 @@
 /*
-  # ---------------------------------------------------------------------------
-  # STAGING ONLY. Remove the next line at DNS cutover, or the production site
-  # will be invisible to search. It is item 1 on CUTOVER.md for that reason.
-  X-Robots-Tag: noindex, nofollow
-  # ---------------------------------------------------------------------------
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
