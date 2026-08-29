@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { AnalyticsInit } from "@/components/analytics-init";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
@@ -65,6 +66,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </SearchProvider>
         <ScrollReveal />
         <AnalyticsInit />
+        <Script
+          id="crisp-chat"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="6e1cb6b0-3ae0-4863-920f-7d4b9360b9a5";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`,
+          }}
+        />
+        <Script
+          id="warmly-script-loader"
+          src="https://opps-widget.getwarmly.com/warmly.js?clientId=398eeab5bd882f8f1501b36c68c6c7b7"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
